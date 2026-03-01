@@ -1,0 +1,101 @@
+{
+  "version": "1.0.0",
+  "createdAt": "2026-02-27T13:43:00Z",
+  "description": "Solana钱包配置 - NeedleBot AI交易系统",
+  
+  "wallets": {
+    "primary": {
+      "name": "primary",
+      "description": "主交易钱包",
+      "address": "2LhAWAWRzt5cGv7qWq1md4S2mvoxTmKSVxTEEuuq9ei5",
+      "type": "solana",
+      "network": "mainnet-beta",
+      "encrypted": false,
+      "source": ".env文件",
+      "balanceSOL": 0.0078366,
+      "lastChecked": "2026-02-27T13:42:30Z",
+      "status": "active",
+      "usage": "trading",
+      "securityLevel": "medium",
+      "notes": "⚠️ 警告：此私钥已在聊天记录中暴露，仅用于测试"
+    }
+  },
+  
+  "security": {
+    "encryptionEnabled": false,
+    "encryptionMethod": "aes-256-gcm",
+    "keyDerivation": "pbkdf2",
+    "iterations": 100000,
+    "requirePassword": false,
+    "autoLockMinutes": 30,
+    "maxFailedAttempts": 5
+  },
+  
+  "backup": {
+    "enabled": true,
+    "backupDir": "./wallets/backup",
+    "autoBackupHours": 24,
+    "keepBackups": 7,
+    "encryptBackups": true
+  },
+  
+  "transactionSettings": {
+    "defaultSlippageBps": 100,
+    "maxSlippageBps": 500,
+    "minTransactionAmountSOL": 0.001,
+    "maxTransactionAmountSOL": 0.1,
+    "gasPriority": "medium",
+    "autoConfirm": false,
+    "requireConfirmation": true,
+    "confirmationTimeoutSeconds": 60
+  },
+  
+  "monitoring": {
+    "balanceCheckIntervalMinutes": 5,
+    "alertLowBalanceSOL": 0.01,
+    "alertHighActivity": true,
+    "activityThresholdPerHour": 10,
+    "logAllTransactions": true,
+    "saveTransactionHistory": true
+  },
+  
+  "integration": {
+    "jupiterApi": {
+      "enabled": true,
+      "apiKey": "ddc333e0-5736-43c0-b0fb-5ba6c8823e5e",
+      "baseUrl": "https://api.jup.ag",
+      "defaultVersion": "v1"
+    },
+    "solanaRpc": {
+      "primary": "https://purple-wiser-tab.solana-mainnet.quiknode.pro/5e15144ae8962f5d2dae5d8d9f4bb722fd65156a",
+      "fallback": "https://api.mainnet-beta.solana.com",
+      "timeoutMs": 30000,
+      "retryAttempts": 3
+    },
+    "needlebotSystem": {
+      "enabled": true,
+      "autoStart": true,
+      "tradeExecution": true,
+      "riskManagement": true,
+      "monitoringIntegration": true
+    }
+  },
+  
+  "testing": {
+    "testMode": true,
+    "paperTrading": false,
+    "testAmountSOL": 0.001,
+    "maxTestTransactions": 3,
+    "requireManualApproval": true,
+    "simulateOnly": false
+  },
+  
+  "notifications": {
+    "enabled": true,
+    "onTransaction": true,
+    "onBalanceChange": true,
+    "onError": true,
+    "onSecurityEvent": true,
+    "channels": ["log", "console"]
+  }
+}

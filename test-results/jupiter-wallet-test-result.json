@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "walletAddress": "2LhAWAWRzt5cGv7qWq1md4S2mvoxTmKSVxTEEuuq9ei5",
+  "walletBalance": 7836600,
+  "walletBalanceSOL": 0.0078366,
+  "quoteReceived": true,
+  "testMode": true,
+  "canTrade": false,
+  "timestamp": "2026-02-27T13:52:08.912Z"
+}

@@ -1,0 +1,100 @@
+# NeedleBot AI 记忆系统配置
+
+# Redis 配置 (短期记忆)
+redis:
+  enabled: false  # 设置为 true 以启用 Redis
+  host: localhost
+  port: 6379
+  db: 0
+
+# Mem0 配置 (用户画像)
+mem0:
+  api_key: ${MEM0_API_KEY}  # 从环境变量读取
+  endpoint: https://api.mem0.ai
+
+# ChromaDB 配置 (文档记忆)
+chroma:
+  path: ./chroma_db  # 本地向量数据库路径
+  collection_prefix: needlebot_
+
+# 记忆参数
+memory:
+  # 短期记忆 (实时数据)
+  short_term:
+    ttl_minutes: 5      # 5分钟过期
+    max_entries: 100    # 最大条目数
+  
+  # 中期记忆 (用户和文档)
+  mid_term:
+    collection_name: needlebot_history
+    max_results: 5      # 最大返回结果
+  
+  # 滚动摘要
+  rolling_summary:
+    max_messages: 10    # 超过10条消息时创建摘要
+    summary_length: 200 # 摘要长度(字符)
+
+# 项目配置
+projects:
+  needlebot:
+    name: "NeedleBot AI Trading System"
+    categories:
+      - market_data    # 市场数据
+      - signals        # 交易信号
+      - trades         # 交易记录
+      - analysis       # 分析报告
+      - strategies     # 策略配置
+  
+  myaistory:
+    name: "MyAIStory Creative Agent"
+    categories:
+      - stories        # 故事内容
+      - characters     # 角色设定
+      - plots          # 情节设计
+      - feedback       # 用户反馈
+
+# 路径配置
+memory_dir: ./memory  # 长期记忆存储目录
+
+# 功能开关
+features:
+  enable_short_term: true
+  enable_user_profiles: true
+  enable_document_memory: true
+  enable_rolling_summary: true
+  enable_export_dumps: true
+
+# 监控配置
+monitoring:
+  stats_interval_minutes: 5
+  export_interval_hours: 24
+  max_dump_files: 10
+
+# 示例用户配置
+example_users:
+  - id: "trader_john"
+    preferences:
+      preferred_chain: "Solana"
+      risk_tolerance: "medium"
+      trading_style: "swing"
+      favorite_tokens: ["BONK", "WIF", "POPCAT"]
+  
+  - id: "developer_sam"
+    preferences:
+      preferred_model: "qwen-portal/coder-model"
+      coding_style: "modular"
+      documentation: "detailed"
+
+# 默认策略
+default_strategies:
+  needle_detection:
+    min_drop_percent: 20
+    min_recovery_percent: 50
+    confidence_threshold: 80
+    max_position_size: 0.1  # 10%
+    stop_loss: 0.05         # 5%
+  
+  risk_management:
+    daily_loss_limit: 0.1   # 10%
+    max_trades_per_day: 20
+    cooldown_minutes: 5

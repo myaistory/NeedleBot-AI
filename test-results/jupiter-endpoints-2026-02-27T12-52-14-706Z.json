@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Quote",
+    "method": "GET",
+    "url": "https://api.jup.ag/swap/v1/swap/v1/quote",
+    "status": "error",
+    "statusCode": 404,
+    "duration": 348,
+    "error": "Request failed with status code 404",
+    "responseData": ""
+  },
+  {
+    "name": "Search Tokens",
+    "method": "GET",
+    "url": "https://api.jup.ag/tokens/v2/search",
+    "status": "success",
+    "statusCode": 200,
+    "duration": 698,
+    "data": "数据接收成功"
+  },
+  {
+    "name": "Get Price",
+    "method": "GET",
+    "url": "https://api.jup.ag/price/v3",
+    "status": "success",
+    "statusCode": 200,
+    "duration": 145,
+    "data": "数据接收成功"
+  },
+  {
+    "name": "Ultra Search",
+    "method": "GET",
+    "url": "https://api.jup.ag/ultra/v1/ultra/v1/search",
+    "status": "error",
+    "statusCode": 404,
+    "duration": 135,
+    "error": "Request failed with status code 404",
+    "responseData": "404 Not Found"
+  }
+]

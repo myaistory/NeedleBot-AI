@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-02-27T07:08:10.193Z",
+  "config": {
+    "apiKeyConfigured": true,
+    "baseUrl": "https://quote-api.jup.ag",
+    "version": "v6",
+    "endpoints": [
+      "quote",
+      "swap",
+      "tokens",
+      "price",
+      "portfolio"
+    ]
+  },
+  "summary": "Jupiter API快速修复测试完成"
+}

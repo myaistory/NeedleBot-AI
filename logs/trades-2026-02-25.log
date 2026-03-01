@@ -1,0 +1,931 @@
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.330"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.346"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.350"}
+{"level":"info","message":"🧠 初始化记忆系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.354"}
+{"level":"warn","message":"记忆系统未配置，跳过初始化","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.356"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.371"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.372"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.445"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.448"}
+{"level":"info","message":"系统已启动，扫描间隔: 10000ms","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.451"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.479"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:48:26.481"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:48:31.543"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:48:31.544"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:48:36.479"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:48:36.480"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:48:36.585"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:48:36.587"}
+{"level":"info","message":"正在停止系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:48:36.590"}
+{"config":{"initialBalanceSOL":1,"maxPositionSizeSOL":0.1,"minDropPercent":20,"minRecoveryPercent":50,"scanIntervalMs":10000,"tradingEnabled":true},"level":"info","message":"最终报告:","service":"needlebot-ai","system":{"endTime":"2026-02-25T01:48:36.589Z","runtime":"10s","scans":5,"signals":0,"startTime":"2026-02-25T01:48:26.230Z","trades":0},"timestamp":"2026-02-25 01:48:36.590","trading":{"balance":{"sol":1,"tokens":{},"usd":0},"openPositions":[],"recentTrades":[],"stats":{"avgProfit":"0.0000","losingTrades":0,"maxDrawdownSOL":0,"maxDrawdownUSD":0,"openPositions":0,"profitFactor":0,"sharpeRatio":0,"totalPositions":0,"totalProfitSOL":0,"totalProfitUSD":0,"totalTrades":0,"winRate":"0.00","winningTrades":0},"timestamp":1771984116589}}
+{"level":"info","message":"系统已停止","service":"needlebot-ai","timestamp":"2026-02-25 01:48:36.591"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.919"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.929"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.932"}
+{"level":"info","message":"🧠 初始化记忆系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.937"}
+{"level":"warn","message":"记忆系统未配置，跳过初始化","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.940"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.969"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:50:06.971"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:50:07.044"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:50:07.047"}
+{"level":"info","message":"系统已启动，扫描间隔: 10000ms","service":"needlebot-ai","timestamp":"2026-02-25 01:50:07.051"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:50:07.079"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:50:07.080"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:50:12.205"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:50:12.206"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:50:17.081"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:50:17.083"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:50:17.234"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:50:17.236"}
+{"level":"info","message":"正在停止系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:50:17.239"}
+{"config":{"initialBalanceSOL":1,"maxPositionSizeSOL":0.1,"minDropPercent":20,"minRecoveryPercent":50,"scanIntervalMs":10000,"tradingEnabled":true},"level":"info","message":"最终报告:","service":"needlebot-ai","system":{"endTime":"2026-02-25T01:50:17.238Z","runtime":"10s","scans":5,"signals":0,"startTime":"2026-02-25T01:50:06.830Z","trades":0},"timestamp":"2026-02-25 01:50:17.239","trading":{"balance":{"sol":1,"tokens":{},"usd":0},"openPositions":[],"recentTrades":[],"stats":{"avgProfit":"0.0000","losingTrades":0,"maxDrawdownSOL":0,"maxDrawdownUSD":0,"openPositions":0,"profitFactor":0,"sharpeRatio":0,"totalPositions":0,"totalProfitSOL":0,"totalProfitUSD":0,"totalTrades":0,"winRate":"0.00","winningTrades":0},"timestamp":1771984217238}}
+{"level":"info","message":"系统已停止","service":"needlebot-ai","timestamp":"2026-02-25 01:50:17.242"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:53:08.786"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:53:08.803"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:53:08.821"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:53:08.822"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:53:36.833"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:53:36.844"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:53:36.856"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:53:36.858"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:54:04.587"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:54:04.599"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:54:04.611"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:54:04.613"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.346"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.357"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.360"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.364"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.380"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.382"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.383"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:54:43.383"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.024"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.036"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.039"}
+{"level":"info","message":"🧠 初始化记忆系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.043"}
+{"level":"warn","message":"记忆系统未配置，跳过初始化","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.046"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.069"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.071"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.156"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.159"}
+{"level":"info","message":"系统已启动，扫描间隔: 10000ms","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.163"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.196"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:55:05.198"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:55:10.242"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:55:10.242"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.811"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.821"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.824"}
+{"level":"info","message":"🧠 初始化记忆系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.828"}
+{"0":"n","1":"u","10":"i","11":"n","12":"e","13":"d","2":"l","3":"l","4":"/","5":"u","6":"n","7":"d","8":"e","9":"f","level":"info","message":"  检查 memorySystem:","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.831"}
+{"0":"o","1":"b","2":"j","3":"e","4":"c","5":"t","level":"info","message":"  检查 memorySystem 类型:","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.837"}
+{"level":"warn","message":"记忆系统未配置，跳过初始化","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.841"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.880"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.885"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.930"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.932"}
+{"level":"info","message":"系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 01:56:23.934"}
+{"level":"info","message":"正在停止系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:56:26.941"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.558"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.570"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.573"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.597"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.599"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.723"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.725"}
+{"level":"info","message":"系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 01:57:09.730"}
+{"level":"info","message":"正在停止系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:57:12.738"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.242"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.252"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.255"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.311"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.312"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.337"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.339"}
+{"level":"info","message":"系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 01:57:57.341"}
+{"level":"info","message":"正在停止系统...","service":"needlebot-ai","timestamp":"2026-02-25 01:58:00.349"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.891"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.900"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.903"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.922"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.923"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.995"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.997"}
+{"level":"info","message":"系统已启动，扫描间隔: 10000ms","service":"needlebot-ai","timestamp":"2026-02-25 02:03:41.999"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 02:03:42.025"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 02:03:42.025"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 02:03:47.087"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 02:03:47.088"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 02:03:52.039"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 02:03:52.040"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 02:03:52.129"}
+{"level":"warn","message":"未获取到代币列表","service":"needlebot-ai","timestamp":"2026-02-25 02:03:52.130"}
+{"level":"info","message":"正在停止系统...","service":"needlebot-ai","timestamp":"2026-02-25 02:03:52.134"}
+{"config":{"initialBalanceSOL":1,"maxPositionSizeSOL":0.1,"minDropPercent":20,"minRecoveryPercent":50,"scanIntervalMs":10000,"tradingEnabled":true},"level":"info","message":"最终报告:","service":"needlebot-ai","system":{"endTime":"2026-02-25T02:03:52.133Z","runtime":"10s","scans":5,"signals":0,"startTime":"2026-02-25T02:03:41.803Z","trades":0},"timestamp":"2026-02-25 02:03:52.134","trading":{"balance":{"sol":1,"tokens":{},"usd":0},"openPositions":[],"recentTrades":[],"stats":{"avgProfit":"0.0000","losingTrades":0,"maxDrawdownSOL":0,"maxDrawdownUSD":0,"openPositions":0,"profitFactor":0,"sharpeRatio":0,"totalPositions":0,"totalProfitSOL":0,"totalProfitUSD":0,"totalTrades":0,"winRate":"0.00","winningTrades":0},"timestamp":1771985032133}}
+{"level":"info","message":"系统已停止","service":"needlebot-ai","timestamp":"2026-02-25 02:03:52.135"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 02:04:12.787"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 02:04:12.796"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 02:04:12.807"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 02:04:12.808"}
+{"level":"info","message":"获取到 0 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 02:53:44.894"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 03:34:12.660"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 03:34:12.671"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:34:12.742"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:34:42.764"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:35:12.789"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:35:42.819"}
+{"level":"warn","message":"[告警] 内存使用率过高: 80.2%","service":"needlebot-ai","timestamp":"2026-02-25 03:35:42.824"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:36:12.828"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.8%","service":"needlebot-ai","timestamp":"2026-02-25 03:36:12.833"}
+{"error":"API call failed","level":"error","message":"API错误 [test-api-fail]:","operation":"test-api-fail","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.001Z"}
+{"error":"API call failed","level":"error","message":"API错误 [circuit-test]:","operation":"circuit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.028Z"}
+{"error":"API call failed","level":"error","message":"API错误 [circuit-test]:","operation":"circuit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.039Z"}
+{"error":"API call failed","level":"error","message":"API错误 [circuit-test]:","operation":"circuit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.053Z"}
+{"error":"API call failed","level":"error","message":"API错误 [circuit-test]:","operation":"circuit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.067Z"}
+{"level":"warn","message":"断路器打开，连续失败 5 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.069"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [circuit-test]:","operation":"circuit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.070Z"}
+{"level":"warn","message":"断路器打开，连续失败 6 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.072"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [circuit-test]:","operation":"circuit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.073Z"}
+{"level":"warn","message":"断路器打开，连续失败 7 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.074"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.077Z"}
+{"level":"warn","message":"断路器打开，连续失败 8 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.079"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.079Z"}
+{"level":"warn","message":"断路器打开，连续失败 9 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.081"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.082Z"}
+{"level":"warn","message":"断路器打开，连续失败 10 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.083"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.083Z"}
+{"level":"warn","message":"断路器打开，连续失败 11 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.084"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.085Z"}
+{"level":"warn","message":"断路器打开，连续失败 12 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.086"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.087Z"}
+{"level":"warn","message":"断路器打开，连续失败 13 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.088"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.088Z"}
+{"level":"warn","message":"断路器打开，连续失败 14 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.089"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.090Z"}
+{"level":"warn","message":"断路器打开，连续失败 15 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.092"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.093Z"}
+{"level":"warn","message":"断路器打开，连续失败 16 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.093"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.094Z"}
+{"level":"warn","message":"断路器打开，连续失败 17 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.095"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.095Z"}
+{"level":"warn","message":"断路器打开，连续失败 18 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.096"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.096Z"}
+{"level":"warn","message":"断路器打开，连续失败 19 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.098"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.099Z"}
+{"level":"warn","message":"断路器打开，连续失败 20 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.100"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.100Z"}
+{"level":"warn","message":"断路器打开，连续失败 21 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.101"}
+{"error":"断路器打开，请等待 60 秒","level":"error","message":"API错误 [rate-limit-test]:","operation":"rate-limit-test","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:14.102Z"}
+{"level":"warn","message":"断路器打开，连续失败 22 次","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.103"}
+{"level":"info","message":"断路器已重置","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.107"}
+{"level":"info","message":"API错误处理器已重置","service":"needlebot-ai","timestamp":"2026-02-25 03:36:14.107"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 03:36:41.149"}
+{"error":"未找到代币 INVALID_TOKEN_XYZ123 的价格数据","level":"error","message":"API错误 [getTokenPrice_INVALID_TOKEN_XYZ123]:","operation":"getTokenPrice_INVALID_TOKEN_XYZ123","retryCount":0,"service":"needlebot-ai","timestamp":"2026-02-25T03:36:41.798Z"}
+{"0":"未","1":"找","10":"L","11":"I","12":"D","13":"_","14":"T","15":"O","16":"K","17":"E","18":"N","19":"_","2":"到","20":"X","21":"Y","22":"Z","23":"1","24":"2","25":"3","26":" ","27":"的","28":"价","29":"格","3":"代","30":"数","31":"据","4":"币","5":" ","6":"I","7":"N","8":"V","9":"A","level":"error","message":"获取代币 INVALID_TOKEN_XYZ123 价格失败，所有重试尝试都失败了:","service":"needlebot-ai","timestamp":"2026-02-25 03:36:41.801"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:36:42.845"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:36:42.849"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:37:12.852"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:37:12.856"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:37:42.882"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:37:42.886"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:38:12.913"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:38:42.916"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 03:39:07.013"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 03:39:07.029"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:39:12.946"}
+{"level":"warn","message":"[告警] 内存使用率过高: 81.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:39:37.113"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:39:42.976"}
+{"level":"warn","message":"[告警] 内存使用率过高: 83.1%","service":"needlebot-ai","timestamp":"2026-02-25 03:40:07.134"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:40:12.980"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.1%","service":"needlebot-ai","timestamp":"2026-02-25 03:40:37.165"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:40:43.010"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:41:07.196"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:41:13.041"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:41:37.219"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:41:43.070"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:42:07.249"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:42:13.096"}
+{"level":"warn","message":"[告警] 内存使用率过高: 81.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:42:13.101"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:42:37.270"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:42:43.126"}
+{"level":"warn","message":"[告警] 内存使用率过高: 83.3%","service":"needlebot-ai","timestamp":"2026-02-25 03:42:43.130"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:43:07.285"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:43:13.157"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:43:13.161"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:43:43.187"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.2%","service":"needlebot-ai","timestamp":"2026-02-25 03:43:43.191"}
+{"level":"info","message":"回测报告已保存: /root/.openclaw/workspace/needlebot-improved/reports/backtest_1771991037949.json","service":"needlebot-ai","timestamp":"2026-02-25 03:43:57.968"}
+{"level":"info","message":"回测引擎已重置","service":"needlebot-ai","timestamp":"2026-02-25 03:43:57.979"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1000 SOL","service":"needlebot-ai","timestamp":"2026-02-25 03:43:57.986"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 03:43:57.990"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 03:43:57.998"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1000 SOL","service":"needlebot-ai","timestamp":"2026-02-25 03:43:58.000"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:44:13.217"}
+{"level":"warn","message":"[告警] 内存使用率过高: 80.8%","service":"needlebot-ai","timestamp":"2026-02-25 03:44:13.222"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:44:43.248"}
+{"level":"warn","message":"[告警] 内存使用率过高: 83.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:44:43.252"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:45:13.279"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:45:13.283"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:45:43.285"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:45:43.291"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:46:13.316"}
+{"level":"warn","message":"[告警] 内存使用率过高: 81.3%","service":"needlebot-ai","timestamp":"2026-02-25 03:46:13.319"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:46:43.347"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.3%","service":"needlebot-ai","timestamp":"2026-02-25 03:46:43.351"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:47:13.354"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.2%","service":"needlebot-ai","timestamp":"2026-02-25 03:47:13.357"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:47:43.384"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.2%","service":"needlebot-ai","timestamp":"2026-02-25 03:47:43.388"}
+{"level":"warn","message":"[告警] 内存使用率过高: 80.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:48:07.488"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:48:13.414"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:48:13.418"}
+{"level":"warn","message":"[告警] 内存使用率过高: 81.3%","service":"needlebot-ai","timestamp":"2026-02-25 03:48:37.503"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:48:43.445"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:48:43.449"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:49:07.533"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:49:13.475"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.9%","service":"needlebot-ai","timestamp":"2026-02-25 03:49:13.480"}
+{"level":"warn","message":"[告警] 内存使用率过高: 83.9%","service":"needlebot-ai","timestamp":"2026-02-25 03:49:37.564"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:49:43.505"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:49:43.509"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.1%","service":"needlebot-ai","timestamp":"2026-02-25 03:50:07.586"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:50:13.530"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.1%","service":"needlebot-ai","timestamp":"2026-02-25 03:50:13.533"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:50:37.602"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:50:43.546"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:50:43.551"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:51:07.610"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:51:13.562"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.8%","service":"needlebot-ai","timestamp":"2026-02-25 03:51:13.565"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:51:37.641"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:51:43.587"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:51:43.590"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:52:07.666"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:52:13.617"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:52:13.621"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.9%","service":"needlebot-ai","timestamp":"2026-02-25 03:52:37.696"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:52:43.647"}
+{"level":"warn","message":"[告警] 内存使用率过高: 83.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:52:43.651"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:53:07.727"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:53:13.679"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:53:13.683"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:53:37.730"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:53:43.699"}
+{"level":"warn","message":"[告警] 内存使用率过高: 81.9%","service":"needlebot-ai","timestamp":"2026-02-25 03:53:43.703"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:54:07.760"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:54:13.714"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.0%","service":"needlebot-ai","timestamp":"2026-02-25 03:54:13.719"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.9%","service":"needlebot-ai","timestamp":"2026-02-25 03:54:37.791"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:54:43.745"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.1%","service":"needlebot-ai","timestamp":"2026-02-25 03:54:43.751"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:55:07.795"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:55:13.777"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:55:13.781"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.2%","service":"needlebot-ai","timestamp":"2026-02-25 03:55:37.824"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:55:43.778"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:55:43.781"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:56:07.854"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:56:13.786"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.3%","service":"needlebot-ai","timestamp":"2026-02-25 03:56:13.790"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.3%","service":"needlebot-ai","timestamp":"2026-02-25 03:56:37.858"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:56:43.816"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:56:43.820"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.2%","service":"needlebot-ai","timestamp":"2026-02-25 03:57:07.869"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:57:13.842"}
+{"level":"warn","message":"[告警] 内存使用率过高: 81.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:57:13.846"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.9%","service":"needlebot-ai","timestamp":"2026-02-25 03:57:37.901"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:57:43.866"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:57:43.869"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.8%","service":"needlebot-ai","timestamp":"2026-02-25 03:58:07.922"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:58:13.896"}
+{"level":"warn","message":"[告警] 内存使用率过高: 80.7%","service":"needlebot-ai","timestamp":"2026-02-25 03:58:13.901"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.5%","service":"needlebot-ai","timestamp":"2026-02-25 03:58:37.954"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:58:43.907"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:58:43.913"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:59:07.986"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:59:13.913"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.8%","service":"needlebot-ai","timestamp":"2026-02-25 03:59:13.918"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.4%","service":"needlebot-ai","timestamp":"2026-02-25 03:59:37.985"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 03:59:43.933"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.8%","service":"needlebot-ai","timestamp":"2026-02-25 03:59:43.937"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:00:08.010"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:00:13.964"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.9%","service":"needlebot-ai","timestamp":"2026-02-25 04:00:13.968"}
+{"level":"warn","message":"[告警] 内存使用率过高: 91.7%","service":"needlebot-ai","timestamp":"2026-02-25 04:00:38.040"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:00:43.995"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.9%","service":"needlebot-ai","timestamp":"2026-02-25 04:00:43.999"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.5%","service":"needlebot-ai","timestamp":"2026-02-25 04:01:08.067"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:01:14.026"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.1%","service":"needlebot-ai","timestamp":"2026-02-25 04:01:14.030"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:01:38.093"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:01:44.034"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.2%","service":"needlebot-ai","timestamp":"2026-02-25 04:01:44.037"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.7%","service":"needlebot-ai","timestamp":"2026-02-25 04:02:08.123"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:02:14.064"}
+{"level":"warn","message":"[告警] 内存使用率过高: 80.3%","service":"needlebot-ai","timestamp":"2026-02-25 04:02:14.069"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.1%","service":"needlebot-ai","timestamp":"2026-02-25 04:02:38.155"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:02:44.094"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.0%","service":"needlebot-ai","timestamp":"2026-02-25 04:02:44.100"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.0%","service":"needlebot-ai","timestamp":"2026-02-25 04:03:08.186"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:03:14.122"}
+{"level":"warn","message":"[告警] 内存使用率过高: 82.1%","service":"needlebot-ai","timestamp":"2026-02-25 04:03:14.126"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.0%","service":"needlebot-ai","timestamp":"2026-02-25 04:03:38.203"}
+{"level":"warn","message":"[告警] API错误率过高: 84.6%","service":"needlebot-ai","timestamp":"2026-02-25 04:03:44.151"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.9%","service":"needlebot-ai","timestamp":"2026-02-25 04:03:44.155"}
+{"level":"warn","message":"[告警] 内存使用率过高: 84.2%","service":"needlebot-ai","timestamp":"2026-02-25 04:04:08.233"}
+{"level":"warn","message":"[告警] 内存使用率过高: 86.3%","service":"needlebot-ai","timestamp":"2026-02-25 04:04:38.262"}
+{"level":"warn","message":"[告警] 内存使用率过高: 88.3%","service":"needlebot-ai","timestamp":"2026-02-25 04:05:08.290"}
+{"level":"warn","message":"[告警] 内存使用率过高: 90.3%","service":"needlebot-ai","timestamp":"2026-02-25 04:05:38.320"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.8%","service":"needlebot-ai","timestamp":"2026-02-25 04:06:08.350"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.8%","service":"needlebot-ai","timestamp":"2026-02-25 04:06:38.369"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.9%","service":"needlebot-ai","timestamp":"2026-02-25 04:07:08.378"}
+{"level":"warn","message":"[告警] 内存使用率过高: 85.2%","service":"needlebot-ai","timestamp":"2026-02-25 04:07:38.408"}
+{"level":"warn","message":"[告警] 内存使用率过高: 87.3%","service":"needlebot-ai","timestamp":"2026-02-25 04:08:08.418"}
+{"level":"warn","message":"[告警] 内存使用率过高: 89.4%","service":"needlebot-ai","timestamp":"2026-02-25 04:08:38.449"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 09:05:02.534"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:05:02.604"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 286ms，当前 slot: 402593731","service":"needlebot-ai","timestamp":"2026-02-25 09:05:02.652"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 331ms，当前 slot: 402593732","service":"needlebot-ai","timestamp":"2026-02-25 09:05:02.777"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:05:13.001"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 09:05:13.003"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 09:05:13.004"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 09:05:13.005"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 09:05:13.150"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 09:40:47.746"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:40:47.807"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 189ms，当前 slot: 402599188","service":"needlebot-ai","timestamp":"2026-02-25 09:40:47.823"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 240ms，当前 slot: 402599190","service":"needlebot-ai","timestamp":"2026-02-25 09:40:47.927"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:40:58.223"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 09:40:58.226"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 09:40:58.227"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 09:40:58.227"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 09:40:58.396"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 09:46:54.021"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:46:54.093"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 215ms，当前 slot: 402600120","service":"needlebot-ai","timestamp":"2026-02-25 09:46:54.114"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 237ms，当前 slot: 402600121","service":"needlebot-ai","timestamp":"2026-02-25 09:46:54.195"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:47:04.495"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 09:47:04.498"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 09:47:04.499"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: triton-public","service":"needlebot-ai","timestamp":"2026-02-25 09:47:04.500"}
+{"level":"error","message":"节点 triton-public 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 09:47:04.756"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 09:48:19.565"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:48:19.627"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 192ms，当前 slot: 402600336","service":"needlebot-ai","timestamp":"2026-02-25 09:48:19.642"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 210ms，当前 slot: 402600337","service":"needlebot-ai","timestamp":"2026-02-25 09:48:19.716"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:48:30.045"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 09:48:30.049"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 09:48:30.050"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: triton-public","service":"needlebot-ai","timestamp":"2026-02-25 09:48:30.050"}
+{"level":"error","message":"节点 triton-public 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 09:48:30.300"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 09:48:30.401"}
+{"level":"info","message":"加载 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 09:59:21.214"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:59:21.279"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 225ms","service":"needlebot-ai","timestamp":"2026-02-25 09:59:21.296"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 243ms","service":"needlebot-ai","timestamp":"2026-02-25 09:59:21.375"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 09:59:31.674"}
+{"level":"info","message":"节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 09:59:31.677"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 09:59:31.678"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 09:59:31.678"}
+{"level":"info","message":"切换到备用节点: quicknode-premium → triton-public","service":"needlebot-ai","timestamp":"2026-02-25 09:59:31.802"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 12:42:07.413"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:42:07.473"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 183ms，当前 slot: 402626701","service":"needlebot-ai","timestamp":"2026-02-25 12:42:07.486"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 203ms，当前 slot: 402626702","service":"needlebot-ai","timestamp":"2026-02-25 12:42:07.558"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:42:17.894"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 12:42:17.897"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 12:42:17.898"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 12:42:17.899"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 12:42:18.046"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 12:42:18.148"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 12:42:59.549"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:42:59.614"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 207ms，当前 slot: 402626832","service":"needlebot-ai","timestamp":"2026-02-25 12:42:59.626"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 224ms，当前 slot: 402626833","service":"needlebot-ai","timestamp":"2026-02-25 12:42:59.702"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:43:10.018"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 12:43:10.021"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 12:43:10.022"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 12:43:10.023"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 12:43:10.175"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 12:43:10.276"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 12:43:48.639"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:43:48.700"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 189ms，当前 slot: 402626957","service":"needlebot-ai","timestamp":"2026-02-25 12:43:48.712"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 216ms，当前 slot: 402626958","service":"needlebot-ai","timestamp":"2026-02-25 12:43:48.794"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 12:44:11.121"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:44:11.194"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 204ms，当前 slot: 402627011","service":"needlebot-ai","timestamp":"2026-02-25 12:44:11.212"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 252ms，当前 slot: 402627012","service":"needlebot-ai","timestamp":"2026-02-25 12:44:11.314"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 12:44:21.602"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 12:44:21.605"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 12:44:21.606"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: triton-public","service":"needlebot-ai","timestamp":"2026-02-25 12:44:21.606"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 12:44:21.904"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:02:54.857"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:02:54.919"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 194ms，当前 slot: 402629835","service":"needlebot-ai","timestamp":"2026-02-25 13:02:54.933"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 244ms，当前 slot: 402629837","service":"needlebot-ai","timestamp":"2026-02-25 13:02:55.039"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:03:05.334"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:03:05.337"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:03:05.338"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:03:05.338"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:03:05.495"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:03:05.597"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:05:02.779"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:05:02.878"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 348ms，当前 slot: 402630156","service":"needlebot-ai","timestamp":"2026-02-25 13:05:02.902"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 291ms，当前 slot: 402630156","service":"needlebot-ai","timestamp":"2026-02-25 13:05:02.944"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:05:13.218"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:05:13.220"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:05:13.221"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:05:13.221"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:05:13.372"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:05:13.873"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:05:54.536"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:05:54.590"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 179ms，当前 slot: 402630281","service":"needlebot-ai","timestamp":"2026-02-25 13:05:54.605"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 204ms，当前 slot: 402630283","service":"needlebot-ai","timestamp":"2026-02-25 13:05:54.682"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:06:05.014"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:06:05.018"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:06:05.019"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:06:05.019"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:06:05.171"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:06:05.773"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:06:34.886"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:06:34.940"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 189ms，当前 slot: 402630384","service":"needlebot-ai","timestamp":"2026-02-25 13:06:34.953"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 222ms，当前 slot: 402630385","service":"needlebot-ai","timestamp":"2026-02-25 13:06:35.053"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:06:45.367"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:06:45.370"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:06:45.371"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:06:45.372"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:06:45.537"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:06:46.141"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:07:32.278"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:07:32.370"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 237ms，当前 slot: 402630528","service":"needlebot-ai","timestamp":"2026-02-25 13:07:32.384"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 249ms，当前 slot: 402630529","service":"needlebot-ai","timestamp":"2026-02-25 13:07:32.457"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:07:42.751"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:07:42.754"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:07:42.755"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:07:42.756"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:08:20.589"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 239ms，当前 slot: 402630651","service":"needlebot-ai","timestamp":"2026-02-25 13:08:20.710"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:08:20.718"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 260ms，当前 slot: 402630651","service":"needlebot-ai","timestamp":"2026-02-25 13:08:20.781"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:08:31.066"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:08:31.069"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:08:31.070"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:08:31.071"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:08:33.579"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:08:49.929"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:08:49.990"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 182ms，当前 slot: 402630723","service":"needlebot-ai","timestamp":"2026-02-25 13:08:50.006"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 218ms，当前 slot: 402630724","service":"needlebot-ai","timestamp":"2026-02-25 13:08:50.094"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:09:00.411"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:09:00.414"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:09:00.416"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:09:00.416"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:09:00.576"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:09:02.082"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:09:30.551"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:09:30.606"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 189ms，当前 slot: 402630826","service":"needlebot-ai","timestamp":"2026-02-25 13:09:30.629"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 215ms，当前 slot: 402630827","service":"needlebot-ai","timestamp":"2026-02-25 13:09:30.704"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:09:41.028"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:09:41.031"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:09:41.032"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: triton-public","service":"needlebot-ai","timestamp":"2026-02-25 13:09:41.033"}
+{"level":"error","message":"节点 triton-public 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:09:41.290"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:09:43.797"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:10:26.115"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:10:26.175"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 184ms，当前 slot: 402630970","service":"needlebot-ai","timestamp":"2026-02-25 13:10:26.188"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 238ms，当前 slot: 402630971","service":"needlebot-ai","timestamp":"2026-02-25 13:10:26.297"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:10:36.598"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:10:36.603"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:10:36.604"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: triton-public","service":"needlebot-ai","timestamp":"2026-02-25 13:10:36.605"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:10:37.611"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:10:57.129"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:10:57.182"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 189ms，当前 slot: 402631047","service":"needlebot-ai","timestamp":"2026-02-25 13:10:57.196"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 235ms，当前 slot: 402631048","service":"needlebot-ai","timestamp":"2026-02-25 13:10:57.307"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:11:07.610"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:11:07.612"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:11:07.613"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: quicknode-premium","service":"needlebot-ai","timestamp":"2026-02-25 13:11:07.613"}
+{"level":"error","message":"节点 quicknode-premium 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:11:07.768"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:11:08.269"}
+{"level":"info","message":"加载了 4 个 RPC 节点配置","service":"needlebot-ai","timestamp":"2026-02-25 13:11:31.189"}
+{"level":"info","message":"节点 quicknode-premium 验证成功，延迟: 183ms，当前 slot: 402631131","service":"needlebot-ai","timestamp":"2026-02-25 13:11:31.262"}
+{"0":"4","1":"0","10":"o","11":"r","12":"i","13":"z","14":"e","15":"d","16":":","17":" ","18":"{","19":"\"","2":"1","20":"j","21":"s","22":"o","23":"n","24":"r","25":"p","26":"c","27":"\"","28":":","29":"\"","3":" ","30":"2","31":".","32":"0","33":"\"","34":",","35":"\"","36":"e","37":"r","38":"r","39":"o","4":"U","40":"r","41":"\"","42":":","43":"{","44":"\"","45":"c","46":"o","47":"d","48":"e","49":"\"","5":"n","50":":","51":"-","52":"3","53":"2","54":"4","55":"0","56":"1","57":",","58":"\"","59":"m","6":"a","60":"e","61":"s","62":"s","63":"a","64":"g","65":"e","66":"\"","67":":","68":"\"","69":"i","7":"u","70":"n","71":"v","72":"a","73":"l","74":"i","75":"d","76":" ","77":"a","78":"p","79":"i","8":"t","80":" ","81":"k","82":"e","83":"y","84":" ","85":"p","86":"r","87":"o","88":"v","89":"i","9":"h","90":"d","91":"e","92":"d","93":"\"","94":"}","95":"}","level":"error","message":"节点 helius-premium 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:11:31.270"}
+{"level":"info","message":"节点 triton-public 验证成功，延迟: 217ms，当前 slot: 402631132","service":"needlebot-ai","timestamp":"2026-02-25 13:11:31.348"}
+{"0":"f","1":"e","10":"e","11":"d","2":"t","3":"c","4":"h","5":" ","6":"f","7":"a","8":"i","9":"l","level":"error","message":"节点 solana-public 验证失败:","service":"needlebot-ai","timestamp":"2026-02-25 13:11:41.666"}
+{"level":"info","message":"RPC 节点验证完成，2/4 个节点健康","service":"needlebot-ai","timestamp":"2026-02-25 13:11:41.668"}
+{"level":"info","message":"启动 RPC 节点健康监控，间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:11:41.669"}
+{"level":"info","message":"RPC 管理器初始化完成，当前节点: triton-public","service":"needlebot-ai","timestamp":"2026-02-25 13:11:41.670"}
+{"level":"error","message":"节点 triton-public 标记为不健康，连续失败: 3 次","service":"needlebot-ai","timestamp":"2026-02-25 13:11:41.922"}
+{"level":"info","message":"RPC 管理器已停止","service":"needlebot-ai","timestamp":"2026-02-25 13:11:42.924"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.038"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.048"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.052"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.056"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.059"}
+{"level":"info","message":"📊 监控系统已启动","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.062"}
+{"level":"warn","message":"[告警] CPU使用率过高: 103.4%","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.080"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.092"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.094"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.248"}
+{"level":"info","message":"✅ 系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:52:51.450"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:52:56.522"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:01.490"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:06.489"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:11.499"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:16.534"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:21.504"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.079"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.088"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.092"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.096"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.098"}
+{"level":"info","message":"📊 监控系统已启动","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.101"}
+{"level":"warn","message":"[告警] CPU使用率过高: 105.8%","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.122"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.131"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.132"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.219"}
+{"level":"info","message":"✅ 系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 13:53:28.384"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:33.426"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:38.444"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:43.430"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:48.440"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:53.425"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:53:58.440"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:03.574"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:08.443"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:13.461"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:18.463"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 13:54:18.760"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 13:54:18.770"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 13:54:18.782"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 13:54:18.784"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:23.455"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:28.461"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:33.469"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:38.557"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:43.475"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:48.494"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:53.523"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:54:58.492"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:03.534"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:08.507"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:13.614"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:18.502"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:23.512"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:28.510"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:33.517"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:38.511"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:43.562"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:48.693"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:53.540"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:55:58.527"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:03.544"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:08.546"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:13.559"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:18.546"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:23.674"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:28.555"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:33.554"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:38.589"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:43.596"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:48.585"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:53.581"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:56:58.701"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:03.586"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:08.587"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:13.607"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:18.633"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:23.633"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:28.610"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:33.824"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:38.726"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:43.627"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:48.660"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:53.639"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:57:58.646"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 13:58:03.654"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.212"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.239"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.255"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.269"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.279"}
+{"level":"info","message":"📊 监控系统已启动","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.285"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.356"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.358"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.667"}
+{"level":"info","message":"✅ 系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 14:00:12.944"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:00:18.012"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:00:22.993"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:00:28.010"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:00:33.022"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:00:38.028"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.723"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.734"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.739"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.742"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.745"}
+{"level":"info","message":"📊 监控系统已启动","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.748"}
+{"level":"warn","message":"[告警] CPU使用率过高: 99.2%","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.764"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.776"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.778"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:05:55.928"}
+{"level":"info","message":"✅ 系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 14:05:56.120"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:01.252"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:06.174"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:11.166"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:16.159"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:21.168"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:26.287"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:31.180"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:36.224"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:41.188"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:46.199"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:51.188"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:06:56.211"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:01.368"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:06.213"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:11.223"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:16.215"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:21.225"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:26.266"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:31.239"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:36.401"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:41.236"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:46.234"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:51.243"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:07:56.276"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:01.254"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:06.255"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:11.375"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:16.265"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:21.270"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:26.269"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:31.291"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:36.321"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:41.286"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:46.528"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:51.302"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:08:56.394"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:01.304"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:06.320"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:11.308"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:16.343"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:21.411"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:26.319"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:31.330"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:36.339"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:41.340"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:46.340"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:51.383"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:09:56.475"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:01.357"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:06.361"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:11.371"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:16.370"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:21.398"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:26.398"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:31.553"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:36.384"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:41.408"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:46.401"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:51.404"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:10:56.406"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:01.465"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:06.550"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:11.434"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:16.481"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:21.437"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:26.447"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:31.458"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:36.459"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:41.622"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:46.519"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:51.450"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:11:56.530"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:01.476"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:06.483"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:11.477"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:16.641"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:21.484"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:26.483"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:31.515"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:36.494"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:41.504"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:46.516"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:51.643"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:12:56.514"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:01.536"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:06.530"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:11.546"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:16.551"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:21.533"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:26.669"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:31.550"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:36.579"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:41.558"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:13:46.609"}
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.774"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.784"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.789"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.793"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.796"}
+{"level":"info","message":"📊 监控系统已启动","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.799"}
+{"level":"warn","message":"[告警] CPU使用率过高: 97.7%","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.816"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.834"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-02-25 14:14:24.835"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:25.045"}
+{"level":"info","message":"✅ 系统已启动，扫描间隔: 5000ms","service":"needlebot-ai","timestamp":"2026-02-25 14:14:25.352"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:30.428"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:35.387"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:40.433"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:45.393"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:50.422"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:14:55.429"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:00.538"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:05.435"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:10.423"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:15.421"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:20.431"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:25.442"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:30.474"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:35.586"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:40.480"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:45.443"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:50.467"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:15:55.457"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:00.459"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:05.513"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:10.571"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:15.504"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:20.492"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:25.514"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:30.505"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:35.561"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:40.541"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:45.618"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:50.518"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:16:55.602"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:00.539"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:05.547"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:10.542"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:15.526"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:20.631"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:25.559"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:30.570"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:35.582"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:40.562"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:45.573"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:50.567"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:17:55.682"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:00.584"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:05.577"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:10.577"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:15.632"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:20.598"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:25.588"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:30.819"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:35.633"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:40.608"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:45.622"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:50.609"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:18:55.625"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:00.616"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:05.708"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:10.634"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:15.639"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:20.647"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:25.632"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:30.642"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:35.677"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:40.767"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:45.684"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:50.679"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:19:55.664"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:00.672"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:05.689"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:10.692"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:15.825"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:20.689"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:25.771"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:30.698"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:35.712"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:40.712"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:45.719"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:50.832"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:20:55.777"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:00.724"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:05.740"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:10.746"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:15.759"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:20.762"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:25.946"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:30.770"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:35.777"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:40.774"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:45.767"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:50.773"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:21:55.786"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:00.896"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:05.784"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:10.804"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:15.803"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:20.821"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:25.810"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:30.814"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:35.963"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:40.842"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:45.840"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:50.841"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:22:55.844"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:00.836"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:05.843"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:10.953"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:15.857"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:20.887"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:25.911"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:30.868"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:35.870"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:40.902"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:45.982"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:50.891"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:23:56.000"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:00.907"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:05.897"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:10.907"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:15.986"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:20.997"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:25.923"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:30.923"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:35.926"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:40.941"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:45.977"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:50.933"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:24:56.081"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:00.959"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:05.952"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:10.981"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:15.964"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:20.970"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:26.014"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:31.158"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:35.982"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:41.007"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:45.997"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:50.998"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:25:56.009"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:00.995"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:06.118"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:11.071"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:16.024"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:21.035"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:26.012"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:31.018"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:36.035"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:41.208"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:46.078"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:51.053"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:26:56.044"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:01.056"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:06.083"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:11.062"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:16.235"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:21.067"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:26.086"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:31.125"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:36.090"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:41.107"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:46.092"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:53.610"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:27:56.112"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:01.104"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:06.131"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:11.126"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:16.120"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:21.120"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:26.224"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:31.125"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:36.144"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:41.141"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:46.138"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:51.156"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:28:56.151"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:01.277"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:06.159"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:11.161"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:16.166"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:21.184"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:26.191"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:31.207"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:36.284"}
+{"level":"info","message":"获取到 4 个Solana Meme币","service":"needlebot-ai","timestamp":"2026-02-25 14:29:41.201"}

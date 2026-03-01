@@ -1,0 +1,60 @@
+{
+  "apiKey": "ddc333e0-5736-43c0-b0fb-5ba6c8823e5e",
+  "baseUrl": "https://api.jup.ag",
+  "defaultSlippageBps": 50,
+  "timeoutMs": 10000,
+  "retryAttempts": 3,
+  "retryDelayMs": 1000,
+  "rateLimit": {
+    "requestsPerMinute": 60,
+    "burstLimit": 10
+  },
+  "ultraApi": {
+    "enabled": true,
+    "baseUrl": "https://api.jup.ag",
+    "endpoints": {
+      "order": "/ultra/v1/order",
+      "execute": "/ultra/v1/execute",
+      "search": "/ultra/v1/search",
+      "holdings": "/ultra/v1/holdings",
+      "shield": "/ultra/v1/shield"
+    }
+  },
+  "metisApi": {
+    "enabled": true,
+    "baseUrl": "https://api.jup.ag",
+    "endpoints": {
+      "quote": "/swap/v1/quote",
+      "swap": "/swap/v1/swap"
+    }
+  },
+  "tokensApi": {
+    "enabled": true,
+    "baseUrl": "https://api.jup.ag",
+    "endpoints": {
+      "search": "/tokens/v2/search",
+      "byMint": "/tokens/v2/mint",
+      "bySymbol": "/tokens/v2/symbol",
+      "byTag": "/tokens/v2/tag",
+      "byCategory": "/tokens/v2/category"
+    }
+  },
+  "priceApi": {
+    "enabled": true,
+    "baseUrl": "https://api.jup.ag",
+    "endpoints": {
+      "price": "/price/v3"
+    }
+  },
+  "portfolioApi": {
+    "enabled": false,
+    "baseUrl": "https://api.jup.ag/portfolio/v1",
+    "endpoints": {
+      "positions": "/positions"
+    }
+  },
+  "headers": {
+    "x-api-key": "ddc333e0-5736-43c0-b0fb-5ba6c8823e5e",
+    "Content-Type": "application/json"
+  }
+}

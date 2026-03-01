@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeedleBot AI 🦞 - Solana Meme 狙击仪表板</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<style>
+:root { --primary: #6366f1; --success: #10b981; --danger: #ef4444; --warning: #f59e0b; --bg: #0f172a; --card: #1e293b; }
+body { background: var(--bg); color: #fff; font-family: 'Inter', system-ui, sans-serif; }
+.glass { background: rgba(30, 41, 59, 0.8); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+.sidebar { width: 240px; transition: all 0.3s; position: fixed; left: 0; top: 0; height: 100vh; z-index: 100; overflow-y: auto; }
+.sidebar.collapsed { width: 60px; }
+.sidebar-item { padding: 12px 16px; display: flex; align-items: center; gap: 12px; transition: all 0.2s; cursor: pointer; border-left: 3px solid transparent; }
+.sidebar-item:hover { background: rgba(99, 102, 241, 0.1); }
+.sidebar-item.active { background: rgba(99, 102, 241, 0.2); border-left-color: var(--primary); }
+.sidebar.collapsed .sidebar-item span { display: none; }
+.sidebar.collapsed .sidebar-item { justify-content: center; padding: 12px; }
+.main-content { margin-left: 240px; transition: margin 0.3s; min-height: 100vh; }
+.main-content.expanded { margin-left: 60px; }
+.page-content { display: none; }
+.page-content.active { display: block; }
+.status-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.status-dot.online { background: var(--success); box-shadow: 0 0 10px var(--success); }
+.status-dot.offline { background: var(--danger); }
+.toast-container { position: fixed; top: 80px; right: 20px; z-index: 300; }
+.toast { padding: 12px 20px; border-radius: 8px; margin-bottom: 10px; animation: slideIn 0.3s ease; display: flex; align-items: center; gap: 10px; }
+.toast.success { background: rgba(16, 185, 129, 0.9); }
+.toast.info { background: rgba(99, 102, 241, 0.9); }
+@keyframes slideIn { from { transform: translateX(100px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+.scroll-log { max-height: 400px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--primary) var(--card); }
+.kpi-card { transition: all 0.3s; }
+.kpi-card:hover { transform: translateY(-2px); }
+.connection-status { position: fixed; top: 70px; right: 20px; z-index: 150; padding: 8px 16px; border-radius: 20px; font-size: 12px; }
+.connection-status.connected { background: rgba(16, 185, 129, 0.9); }
+.connection-status.disconnected { background: rgba(239, 68, 68, 0.9); }
+.signal-row:hover { background: rgba(255,255,255,0.05); }
+.toggle-sidebar { position: fixed; left: 10px; top: 70px; z-index: 101; }
+.log-entry { font-family: monospace; font-size: 12px; padding: 4px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+.log-error { color: #ef4444; }
+.log-warn { color: #f59e0b; }
+.log-info { color: #6366f1; }
+.agent-card { transition: all 0.3s; }
+.agent-card:hover { transform: scale(1.02); }
+@media (max-width: 768px) {
+  .sidebar { transform: translateX(-100%); }
+  .main-content { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+<!-- Connection Status -->
+<div id="connectionStatus" class="connection-status disconnected">
+  <span class="status-dot"></span> 连接中...
+</div>
+
+<!-- Sidebar -->
+<nav id="sidebar" class="sidebar glass flex flex-col">
+  <div class="p-4 border-b border-gray-700">
+    <h1 class="text-xl font-bold"><i class="fas fa-robot text-primary"></i> <span>NeedleBot</span></h1>
+  </div>
+  <div class="flex-1 py-4">
+    <div class="sidebar-item active" data-page="dashboard"><i class="fas fa-home"></i><span>首页概览</span></div>
+    <div class="sidebar-item" data-page="signals"><i class="fas fa-bolt text-yellow-400"></i><span>实时信号</span></div>
+    <div class="sidebar-item" data-page="positions"><i class="fas fa-wallet text-purple-400"></i><span>当前仓位</span></div>
+    <div class="sidebar-item" data-page="trades"><i class="fas fa-history text-blue-400"></i><span>交易历史</span></div>
+    <div class="sidebar-item" data-page="nodes"><i class="fas fa-network-wired text-green-400"></i><span>系统监控</span></div>
+    <div class="sidebar-item" data-page="agents"><i class="fas fa-brain text-pink-400"></i><span>AI Agent</span></div>
+    <div class="sidebar-item" data-page="settings"><i class="fas fa-cog text-gray-400"></i><span>设置</span></div>
+    <div class="sidebar-item" data-page="logs"><i class="fas fa-terminal text-orange-400"></i><span>日志中心</span></div>
+  </div>
+  <div class="p-4 border-t border-gray-700">
+    <div class="text-xs text-gray-400"><span>v2.0.0</span></div>
+  </div>
+</nav>
+
+<button onclick="toggleSidebar()" class="toggle-sidebar px-3 py-2 glass rounded-lg">
+  <i class="fas fa-bars"></i>
+</button>
+
+<!-- Main Content -->
+<main id="mainContent" class="main-content pt-16 px-6 pb-6">
+
+<!-- PAGE: Dashboard (首页概览) -->
+<div id="page-dashboard" class="page-content active">
+  <div class="glass rounded-xl px-6 py-3 flex justify-between items-center mb-6">
+    <div class="flex items-center gap-4">
+      <div class="text-2xl font-bold">🦞 NeedleBot AI</div>
+      <span class="px-3 py-1 rounded-full text-sm bg-green-500/20 text-green-400">
+        <span class="status-dot online"></span> Running
+      </span>
+    </div>
+    <div class="flex items-center gap-6">
+      <div class="text-right">
+        <div class="text-xs text-gray-400">总余额</div>
+        <div class="text-xl font-bold text-green-400" id="totalBalance">-- SOL</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+    <div class="kpi-card glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">今日 PNL</div>
+      <div class="text-2xl font-bold text-green-400" id="todayPnl">+0.00%</div>
+    </div>
+    <div class="kpi-card glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">活跃信号</div>
+      <div class="text-2xl font-bold text-yellow-400" id="activeSignals">0</div>
+    </div>
+    <div class="kpi-card glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">总交易</div>
+      <div class="text-2xl font-bold" id="totalTrades">0</div>
+    </div>
+    <div class="kpi-card glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">胜率</div>
+      <div class="text-2xl font-bold text-blue-400" id="winRate">--%</div>
+    </div>
+  </div>
+
+  <div class="grid lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-2 space-y-6">
+      <div class="glass rounded-xl p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h2 class="text-xl font-bold"><i class="fas fa-bolt text-yellow-400"></i> 实时信号</h2>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead class="text-gray-400 border-b border-gray-700">
+              <tr>
+                <th class="text-left py-3">代币</th>
+                <th class="text-left">类型</th>
+                <th class="text-right">置信度</th>
+                <th class="text-right">价格</th>
+                <th class="text-right">变化</th>
+                <th class="text-right">风险</th>
+                <th class="text-center">操作</th>
+              </tr>
+            </thead>
+            <tbody id="signalsTable"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold mb-4"><i class="fas fa-chart-line text-green-400"></i> 收益曲线</h2>
+        <canvas id="pnlChart" height="120"></canvas>
+      </div>
+    </div>
+    <div class="space-y-6">
+      <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold mb-4"><i class="fas fa-network-wired text-blue-400"></i> RPC 节点</h2>
+        <div id="nodesList" class="space-y-3"></div>
+      </div>
+      <div class="glass rounded-xl p-6">
+        <h2 class="text-xl font-bold mb-4"><i class="fas fa-wallet text-purple-400"></i> 当前仓位</h2>
+        <div id="positionsList" class="space-y-2"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: Signals (实时信号) -->
+<div id="page-signals" class="page-content">
+  <div class="glass rounded-xl p-6 mb-6">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-xl font-bold"><i class="fas fa-bolt text-yellow-400"></i> 实时信号</h2>
+      <div class="flex gap-2">
+        <input type="text" placeholder="搜索代币..." class="bg-black/30 border border-gray-700 rounded px-3 py-2 text-sm">
+        <select class="bg-black/30 border border-gray-700 rounded px-3 py-2 text-sm">
+          <option>全部类型</option>
+          <option>插针</option>
+          <option>动量</option>
+        </select>
+        <button class="px-4 py-2 bg-primary/20 text-primary rounded text-sm"><i class="fas fa-download"></i> 导出</button>
+      </div>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="text-gray-400 border-b border-gray-700">
+          <tr>
+            <th class="text-left py-3">代币</th>
+            <th class="text-left">类型</th>
+            <th class="text-right">置信度</th>
+            <th class="text-right">价格</th>
+            <th class="text-right">24h变化</th>
+            <th class="text-right">流动性</th>
+            <th class="text-right">风险</th>
+            <th class="text-center">操作</th>
+          </tr>
+        </thead>
+        <tbody id="signalsPageTable"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: Positions (当前仓位) -->
+<div id="page-positions" class="page-content">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">总持仓价值</div>
+      <div class="text-2xl font-bold" id="totalValue">-- SOL</div>
+    </div>
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">未实现 PNL</div>
+      <div class="text-2xl font-bold text-green-400" id="unrealizedPnl">+0%</div>
+    </div>
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">持仓数量</div>
+      <div class="text-2xl font-bold" id="positionCount">0</div>
+    </div>
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">平均持仓时长</div>
+      <div class="text-2xl font-bold" id="avgDuration">--</div>
+    </div>
+  </div>
+  <div class="glass rounded-xl p-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-wallet text-purple-400"></i> 持仓明细</h2>
+    <div id="positionsPageTable" class="space-y-2"></div>
+  </div>
+</div>
+
+<!-- PAGE: Trades (交易历史) -->
+<div id="page-trades" class="page-content">
+  <div class="glass rounded-xl p-6 mb-6">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-xl font-bold"><i class="fas fa-history text-blue-400"></i> 交易历史</h2>
+      <div class="flex gap-2">
+        <input type="date" class="bg-black/30 border border-gray-700 rounded px-3 py-2 text-sm">
+        <select class="bg-black/30 border border-gray-700 rounded px-3 py-2 text-sm">
+          <option>全部</option>
+          <option>买入</option>
+          <option>卖出</option>
+        </select>
+      </div>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="text-gray-400 border-b border-gray-700">
+          <tr>
+            <th class="text-left py-3">时间</th>
+            <th class="text-left">代币</th>
+            <th class="text-left">类型</th>
+            <th class="text-right">数量</th>
+            <th class="text-right">价格</th>
+            <th class="text-right">金额</th>
+            <th class="text-right">状态</th>
+            <th class="text-right">PNL</th>
+          </tr>
+        </thead>
+        <tbody id="tradesTable"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: Nodes (系统监控) -->
+<div id="page-nodes" class="page-content">
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+    <div class="glass rounded-xl p-4 text-center">
+      <div class="text-gray-400 text-sm">系统健康度</div>
+      <div class="text-3xl font-bold text-green-400" id="healthScore">98.7%</div>
+    </div>
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">RPC延迟</div>
+      <div class="text-2xl font-bold" id="avgLatency">--ms</div>
+    </div>
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">请求成功率</div>
+      <div class="text-2xl font-bold text-green-400" id="successRate">99.8%</div>
+    </div>
+    <div class="glass rounded-xl p-4">
+      <div class="text-gray-400 text-sm">运行时长</div>
+      <div class="text-2xl font-bold" id="uptime">--</div>
+    </div>
+  </div>
+  <div class="glass rounded-xl p-6 mb-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-server text-green-400"></i> RPC 节点详情</h2>
+    <div id="nodesDetailTable" class="space-y-3"></div>
+  </div>
+  <div class="glass rounded-xl p-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-memory text-blue-400"></i> 系统资源</h2>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div>
+        <div class="text-gray-400 text-sm mb-2">内存使用</div>
+        <div class="h-4 bg-gray-700 rounded overflow-hidden">
+          <div class="h-full bg-green-500" style="width: 37%" id="memBar"></div>
+        </div>
+        <div class="text-xs text-right mt-1" id="memText">37%</div>
+      </div>
+      <div>
+        <div class="text-gray-400 text-sm mb-2">CPU使用</div>
+        <div class="h-4 bg-gray-700 rounded overflow-hidden">
+          <div class="h-full bg-yellow-500" style="width: 42%" id="cpuBar"></div>
+        </div>
+        <div class="text-xs text-right mt-1" id="cpuText">42%</div>
+      </div>
+      <div>
+        <div class="text-gray-400 text-sm mb-2">API成功率</div>
+        <div class="h-4 bg-gray-700 rounded overflow-hidden">
+          <div class="h-full bg-green-500" style="width: 98.5%" id="apiBar"></div>
+        </div>
+        <div class="text-xs text-right mt-1" id="apiText">98.5%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: Agents (AI Agent) -->
+<div id="page-agents" class="page-content">
+  <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+    <div class="agent-card glass rounded-xl p-4">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 bg-blue-500/20 rounded-full flex items-center justify-center">
+          <i class="fas fa-crown text-blue-400"></i>
+        </div>
+        <div>
+          <div class="font-bold">CEO Agent</div>
+          <div class="text-xs text-gray-400">战略决策</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="status-dot online"></span>
+        <span class="text-sm text-green-400">Thinking</span>
+      </div>
+    </div>
+    <div class="agent-card glass rounded-xl p-4">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 bg-yellow-500/20 rounded-full flex items-center justify-center">
+          <i class="fas fa-chart-line text-yellow-400"></i>
+        </div>
+        <div>
+          <div class="font-bold">Trader Agent</div>
+          <div class="text-xs text-gray-400">交易执行</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="status-dot online"></span>
+        <span class="text-sm text-green-400">Executing</span>
+      </div>
+    </div>
+    <div class="agent-card glass rounded-xl p-4">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 bg-purple-500/20 rounded-full flex items-center justify-center">
+          <i class="fas fa-search text-purple-400"></i>
+        </div>
+        <div>
+          <div class="font-bold">Needle Detector</div>
+          <div class="text-xs text-gray-400">信号检测</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="status-dot online"></span>
+        <span class="text-sm text-green-400">Scanning</span>
+      </div>
+    </div>
+    <div class="agent-card glass rounded-xl p-4">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 bg-red-500/20 rounded-full flex items-center justify-center">
+          <i class="fas fa-shield-alt text-red-400"></i>
+        </div>
+        <div>
+          <div class="font-bold">Risk Manager</div>
+          <div class="text-xs text-gray-400">风险管理</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="status-dot online"></span>
+        <span class="text-sm text-green-400">Monitoring</span>
+      </div>
+    </div>
+    <div class="agent-card glass rounded-xl p-4">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 bg-green-500/20 rounded-full flex items-center justify-center">
+          <i class="fas fa-cogs text-green-400"></i>
+        </div>
+        <div>
+          <div class="font-bold">Ops Agent</div>
+          <div class="text-xs text-gray-400">运维监控</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="status-dot online"></span>
+        <span class="text-sm text-green-400">Idle</span>
+      </div>
+    </div>
+    <div class="agent-card glass rounded-xl p-4">
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 bg-pink-500/20 rounded-full flex items-center justify-center">
+          <i class="fas fa-brain text-pink-400"></i>
+        </div>
+        <div>
+          <div class="font-bold">LLM</div>
+          <div class="text-xs text-gray-400">MiniMax M2.5</div>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="status-dot online"></span>
+        <span class="text-sm text-green-400">Ready</span>
+      </div>
+    </div>
+  </div>
+  <div class="glass rounded-xl p-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-stream text-blue-400"></i> 实时决策日志</h2>
+    <div id="agentLog" class="scroll-log bg-black/30 rounded p-4 space-y-2" style="max-height: 300px;">
+      <div class="log-entry log-info">[CEO] 分析市场趋势 - 决策: 保持观望</div>
+      <div class="log-entry log-info">[Trader] 检测到 WIF 插针信号 - 置信度 85%</div>
+      <div class="log-entry log-warn">[Risk] 波动率过高 - 降低仓位建议</div>
+      <div class="log-entry log-info">[Needle] BONK 插针确认 - 建议买入</div>
+    </div>
+  </div>
+</div>
+
+<!-- PAGE: Settings (设置) -->
+<div id="page-settings" class="page-content">
+  <div class="glass rounded-xl p-6 mb-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-cog text-gray-400"></i> 交易参数</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <label class="text-gray-400 text-sm">最大持仓 (SOL)</label>
+        <input type="number" value="10" class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2 mt-1">
+      </div>
+      <div>
+        <label class="text-gray-400 text-sm">单笔风险上限 (%)</label>
+        <input type="number" value="5" class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2 mt-1">
+      </div>
+      <div>
+        <label class="text-gray-400 text-sm">止损默认 (%)</label>
+        <input type="number" value="10" class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2 mt-1">
+      </div>
+      <div>
+        <label class="text-gray-400 text-sm">止盈默认 (%)</label>
+        <input type="number" value="30" class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2 mt-1">
+      </div>
+    </div>
+  </div>
+  <div class="glass rounded-xl p-6 mb-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-shield-alt text-red-400"></i> 风控设置</h2>
+    <div class="grid md:grid-cols-2 gap-4">
+      <div>
+        <label class="text-gray-400 text-sm">Rug 过滤阈值 (流动性)</label>
+        <input type="number" value="10000" class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2 mt-1">
+      </div>
+      <div>
+        <label class="text-gray-400 text-sm">每日交易上限</label>
+        <input type="number" value="20" class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2 mt-1">
+      </div>
+    </div>
+  </div>
+  <div class="glass rounded-xl p-6">
+    <h2 class="text-xl font-bold mb-4"><i class="fas fa-robot text-purple-400"></i> AI 模型</h2>
+    <select class="w-full bg-black/30 border border-gray-700 rounded px-3 py-2">
+      <option>MiniMax M2.5 (200k context)</option>
+      <option>DeepSeek Chat</option>
+      <option>Qwen Coder</option>
+    </select>
+  </div>
+</div>
+
+<!-- PAGE: Logs (日志中心) -->
+<div id="page-logs" class="page-content">
+  <div class="glass rounded-xl p-6 mb-6">
+    <div class="flex justify-between items-center mb-4">
+      <h2 class="text-xl font-bold"><i class="fas fa-terminal text-orange-400"></i> 系统日志</h2>
+      <div class="flex gap-2">
+        <select class="bg-black/30 border border-gray-700 rounded px-3 py-2 text-sm" id="logFilter">
+          <option value="all">全部</option>
+          <option value="info">INFO</option>
+          <option value="warn">WARN</option>
+          <option value="error">ERROR</option>
+        </select>
+        <button onclick="clearLogs()" class="px-3 py-2 bg-red-500/20 text-red-400 rounded text-sm">清空</button>
+        <button class="px-3 py-2 bg-primary/20 text-primary rounded text-sm"><i class="fas fa-download"></i> 导出</button>
+      </div>
+    </div>
+    <div id="logContainer" class="scroll-log bg-black/50 rounded p-4 space-y-1" style="max-height: 500px;"></div>
+  </div>
+</div>
+
+</main>
+
+<!-- Toast -->
+<div id="toastContainer" class="toast-container"></div>
+
+<script>
+let socket = null;
+let pnlChart = null;
+
+// Init
+document.addEventListener('DOMContentLoaded', () => {
+  initChart();
+  connectWebSocket();
+  loadDashboardFromAPI();
+  setupSidebar();
+});
+
+// Sidebar Navigation
+function setupSidebar() {
+  document.querySelectorAll('.sidebar-item').forEach(item => {
+    item.addEventListener('click', function() {
+      document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+      this.classList.add('active');
+      
+      document.querySelectorAll('.page-content').forEach(p => p.classList.remove('active'));
+      const target = this.getAttribute('data-page');
+      document.getElementById('page-' + target).classList.add('active');
+      
+      showToast('info', '切换到 ' + this.querySelector('span').textContent);
+    });
+  });
+}
+
+// WebSocket
+function connectWebSocket() {
+  const wsUrl = 'http://' + window.location.hostname + ':3003';
+  try {
+    socket = io(wsUrl, { transports: ['websocket', 'polling'], reconnection: true });
+    socket.on('connect', () => {
+      document.getElementById('connectionStatus').className = 'connection-status connected';
+      document.getElementById('connectionStatus').innerHTML = '<span class="status-dot online"></span> 已连接';
+      showToast('success', '🔌 WebSocket 已连接');
+    });
+    socket.on('init', updateDashboard);
+    socket.on('update', updateDashboard);
+    socket.on('disconnect', () => {
+      document.getElementById('connectionStatus').className = 'connection-status disconnected';
+      document.getElementById('connectionStatus').innerHTML = '<span class="status-dot offline"></span> 重连中...';
+    });
+  } catch(e) { console.error(e); }
+}
+
+// Load from API
+async function loadDashboardFromAPI() {
+  try {
+    const res = await fetch('/api/dashboard');
+    const json = await res.json();
+    if (json.success) updateDashboard(json.data);
+  } catch(e) { console.error(e); }
+}
+
+// Update Dashboard
+function updateDashboard(data) {
+  // KPI
+  const pnl = data.performance?.totalProfit || 0;
+  document.getElementById('todayPnl').textContent = (pnl >= 0 ? '+' : '') + pnl + '%';
+  document.getElementById('todayPnl').className = 'text-2xl font-bold ' + (pnl >= 0 ? 'text-green-400' : 'text-red-400');
+  document.getElementById('activeSignals').textContent = data.signals?.length || 0;
+  document.getElementById('totalTrades').textContent = data.performance?.totalTrades || 0;
+  document.getElementById('winRate').textContent = (data.performance?.winRate || 0) + '%';
+  document.getElementById('totalBalance').textContent = (data.resources?.rpc?.latency || 0) + ' SOL';
+
+  // Signals
+  const signalsHtml = (data.signals || []).map(s => `
+    <tr class="signal-row border-b border-gray-800">
+      <td class="py-3 font-bold">${s.token}</td>
+      <td><span class="px-2 py-1 rounded text-xs bg-yellow-500/20 text-yellow-400">插针</span></td>
+      <td class="text-right"><div class="flex items-center justify-end gap-2"><div class="w-16 h-2 bg-gray-700 rounded"><div class="h-full bg-primary" style="width:${s.drop || 50}%"></div></div><span>${s.drop || 50}%</span></div></td>
+      <td class="text-right text-gray-400">$${s.recovery || '0.00'}</td>
+      <td class="text-right ${(s.drop || 0) > 0 ? 'text-red-400' : 'text-green-400'}">${s.drop || 0}%</td>
+      <td class="text-right"><span class="px-2 py-1 rounded text-xs ${(s.drop || 0) > 20 ? 'bg-red-500/20 text-red-400' : 'bg-green-500/20 text-green-400'}">${(s.drop || 0) > 20 ? 'HIGH' : 'LOW'}</span></td>
+      <td class="text-center"><button class="px-3 py-1 bg-green-500/20 text-green-400 rounded text-xs">买入</button></td>
+    </tr>
+  `).join('');
+  document.getElementById('signalsTable').innerHTML = signalsHtml || '<tr><td colspan="7" class="text-center py-8">暂无信号</td></tr>';
+  document.getElementById('signalsPageTable').innerHTML = signalsHtml;
+
+  // Nodes
+  const nodesHtml = (data.rpcNodes || []).map(n => `
+    <div class="flex justify-between items-center p-3 bg-black/20 rounded">
+      <div class="flex items-center gap-2">
+        <span class="status-dot ${n.status === 'healthy' ? 'online' : 'offline'}"></span>
+        <span class="font-medium">${n.name}</span>
+      </div>
+      <div class="text-right">
+        <div class="text-sm">${n.latency}</div>
+        <div class="text-xs ${parseFloat(n.successRate||0) > 95 ? 'text-green-400' : 'text-yellow-400'}">${n.successRate}</div>
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('nodesList').innerHTML = nodesHtml;
+  document.getElementById('nodesDetailTable').innerHTML = nodesHtml;
+
+  // Positions
+  const posHtml = (data.tokens || []).map(t => `
+    <div class="flex justify-between items-center p-3 bg-black/20 rounded">
+      <div><div class="font-bold">${t.name}</div><div class="text-xs text-gray-400">${t.amount}</div></div>
+      <div class="text-right"><div class="${t.profit >= 0 ? 'text-green-400' : 'text-red-400'}">${t.profit >= 0 ? '+' : ''}${t.profit}%</div><div class="text-xs text-gray-400">${t.status}</div></div>
+    </div>
+  `).join('');
+  document.getElementById('positionsList').innerHTML = posHtml || '<div class="text-center py-4">无仓位</div>';
+  document.getElementById('positionsPageTable').innerHTML = posHtml;
+
+  // Resources
+  const mem = data.resources?.memory?.percentage || 37;
