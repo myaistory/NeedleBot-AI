@@ -1,48 +1,41 @@
 const axios = require('axios');
 const logger = require('../utils/logger');
-const { callWithRetry } = require('../utils/api-error-handler');
 
 class PriceFetcher {
     constructor() {
         this.baseURL = 'https://api.dexscreener.com';
         this.cache = new Map();
-        this.cacheTTL = 10000;
+        this.cacheTTL = 30000; // 30秒缓存
         
-        // Correct token addresses for popular Solana meme coins
-        this.knownTokens = [
-            { symbol: 'BONK', address: 'DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263' },
-            { symbol: 'WIF', address: '4nKiBzUscGCKkEpz1Jz8upgbaRySigVF94FcDZ6RN5u5' },
-            { symbol: 'POPCAT', address: '7GCihgDB8fe6KNjn2MYtkzZcRjQy3t9GHdC8uHYmW2hr' },
-            { symbol: 'BOME', address: 'ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82' },
-            { symbol: 'WEN', address: '85VBFQZC9TZkfaptBWqv14ALD9fJNUKtWA41kh69teRP' },
-            { symbol: 'MYRO', address: 'MEV1zWNsMxY4KD3KXG3tR4J2vX7yZ9Xw5V6K8J3nN1p' },
-            { symbol: 'JUP', address: 'jupSoLaHXQiZZTSfEWMNXH5P4kT3LvPGqL5WN3S4VV' },
-            { symbol: 'SOL', address: 'So11111111111111111111111111111111111111112' },
-        ];
+        // Known token symbols to search
+        this.knownTokens = ['BONK', 'WIF', 'POPCAT', 'BOME', 'WEN', 'MYRO', 'JUP', 'SOL'];
     }
 
-    async getTokenPrice(tokenAddress) {
-        const cacheKey = `price_${tokenAddress}`;
+    async searchToken(symbol) {
+        const cacheKey = `search_${symbol}`;
         const cached = this.cache.get(cacheKey);
         
         if (cached && (Date.now() - cached.timestamp < this.cacheTTL)) {
-            logger.debug(`从缓存获取 ${tokenAddress} 价格`);
+            logger.debug(`从缓存获取 ${symbol}`);
             return cached.data;
         }
 
         try {
-            const response = await callWithRetry(
-                async () => axios.get(`${this.baseURL}/latest/dex/tokens/${tokenAddress}`),
-                'getTokenPrice',
-                { rateLimit: 30 }
-            );
+            const response = await axios.get(`${this.baseURL}/latest/dex/search`, {
+                params: { q: symbol, chain: 'solana' },
+                timeout: 10000
+            });
 
-            if (!response.data?.pair) {
-                throw new Error('No pair data found');
+            if (!response.data?.pairs || response.data.pairs.length === 0) {
+                return null;
             }
 
-            const pair = response.data.pair;
+            // Find the best pair (usually first one)
+            const pair = response.data.pairs[0];
             const priceData = {
+                symbol: pair.baseToken?.symbol || symbol,
+                name: pair.baseToken?.name || symbol,
+                address: pair.baseToken?.address,
                 price: parseFloat(pair.priceUsd),
                 priceNative: parseFloat(pair.priceNative),
                 volume: parseFloat(pair.volume?.h24 || 0),
@@ -53,16 +46,11 @@ class PriceFetcher {
             };
 
             this.cache.set(cacheKey, { data: priceData, timestamp: Date.now() });
-            logger.debug(`获取到 ${tokenAddress} 价格: $${priceData.price}`);
+            logger.debug(`获取到 ${symbol}: $${priceData.price}`);
             return priceData;
 
         } catch (error) {
-            logger.error(`获取代币价格失败: ${error.message}`);
-            const cached = this.cache.get(cacheKey);
-            if (cached) {
-                logger.warn(`返回缓存数据`);
-                return cached.data;
-            }
+            logger.error(`搜索 ${symbol} 失败: ${error.message}`);
             return null;
         }
     }
@@ -70,21 +58,21 @@ class PriceFetcher {
     async getSolanaMemeTokens() {
         const results = [];
         
-        for (const token of this.knownTokens) {
+        for (const symbol of this.knownTokens) {
             try {
-                const priceData = await this.getTokenPrice(token.address);
-                if (priceData) {
+                const data = await this.searchToken(symbol);
+                if (data) {
                     results.push({
-                        symbol: token.symbol,
-                        name: token.symbol,
-                        address: token.address,
-                        priceUSD: priceData.price || 0,
-                        priceNative: priceData.priceNative || 0,
-                        volume24h: priceData.volume || 0,
-                        liquidity: priceData.liquidity || 0,
-                        change24h: priceData.change24h || 0,
-                        dexId: priceData.dexId || 'raydium',
-                        pairAddress: priceData.pairAddress || token.address,
+                        symbol: data.symbol,
+                        name: data.name,
+                        address: data.address,
+                        priceUSD: data.price,
+                        priceNative: data.priceNative,
+                        volume24h: data.volume,
+                        liquidity: data.liquidity,
+                        change24h: data.change24h,
+                        dexId: data.dexId,
+                        pairAddress: data.pairAddress,
                         chainId: 'solana',
                         timestamp: Date.now()
                     });
@@ -94,32 +82,21 @@ class PriceFetcher {
             }
         }
         
-        logger.info(`获取到 ${results.length} 个Solana Meme币`);
+        logger.info(`获取到 ${results.length} 个代币`);
         return results;
     }
 
-    async getPriceHistory(tokenAddress, timeframe = '5m') {
-        const currentPrice = await this.getTokenPrice(tokenAddress);
-        if (!currentPrice) return [];
-        
-        const prices = [];
-        const now = Date.now();
-        const interval = timeframe === '5m' ? 300000 : 60000;
-        
-        for (let i = 30; i >= 0; i--) {
-            const timestamp = now - (i * interval);
-            const volatility = 0.02;
-            const randomChange = (Math.random() - 0.5) * 2 * volatility;
-            const price = currentPrice.price * (1 + randomChange);
-            prices.push({ timestamp, price });
-        }
-        
-        return prices;
+    async getTokenPrice(address) {
+        // Legacy function - not used
+        return null;
     }
 
-    async batchGetPrices(tokenAddresses) {
-        const promises = tokenAddresses.map(addr => this.getTokenPrice(addr));
-        return Promise.all(promises);
+    async getPriceHistory(address, timeframe = '5m') {
+        return [];
+    }
+
+    async batchGetPrices(addresses) {
+        return [];
     }
 }
 
