@@ -143,16 +143,16 @@
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 41
+        "percentage": 35
       },
       "cpu": {
-        "usage": 29
+        "usage": 30
       },
       "api": {
-        "successRate": 97
+        "successRate": 99
       },
       "rpc": {
-        "latency": 27
+        "latency": 21
       }
     },
     "performance": {
@@ -186,5 +186,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-02T13:20:06.793Z"
+  "timestamp": "2026-03-02T13:25:02.130Z"
 }
