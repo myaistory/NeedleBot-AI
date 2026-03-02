@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-02T15:44:54.509Z",
+  "timestamp": "2026-03-02T15:49:54.547Z",
   "metrics": {
     "system": {
       "startTime": 1772457473554,
-      "uptime": 8820853,
-      "checks": 295,
+      "uptime": 9120891,
+      "checks": 305,
       "alerts": 11
     },
     "api": {
-      "calls": 1762,
+      "calls": 1822,
       "errors": 0,
       "successRate": 1,
-      "avgResponseTime": 1153.695831104426,
+      "avgResponseTime": 1004.3430137228669,
       "lastError": null
     },
     "trading": {
@@ -25,37 +25,37 @@
     },
     "resources": {
       "memory": {
-        "used": 1063219200,
+        "used": 1008345088,
         "total": 2063593472,
-        "percentage": 0.5152270611563555,
-        "processHeapUsed": 13406160,
+        "percentage": 0.48863552908157293,
+        "processHeapUsed": 16785200,
         "processHeapTotal": 21381120,
-        "processHeapPercentage": 0.6270092492816092
+        "processHeapPercentage": 0.7850477430555556
       },
       "cpu": {
-        "usage": 0.01981,
+        "usage": 0.0019,
         "load": [
-          1.61,
+          1.66,
           1.89,
-          2.14
+          2.1
         ]
       },
       "disk": {
-        "used": 10308911104,
+        "used": 10309390336,
         "total": 41123332096,
-        "percentage": 0.25068277735701117
+        "percentage": 0.2506944308873934
       }
     },
-    "lastCheck": "2026-03-02T15:44:54.407Z"
+    "lastCheck": "2026-03-02T15:49:54.445Z"
   },
   "summary": {
-    "uptime": "2.45 小时",
-    "checks": 295,
+    "uptime": "2.53 小时",
+    "checks": 305,
     "alerts": 11,
     "api": {
-      "calls": 1762,
+      "calls": 1822,
       "successRate": "100.0%",
-      "avgResponseTime": "1154ms"
+      "avgResponseTime": "1004ms"
     },
     "trading": {
       "signals": 0,
@@ -66,8 +66,8 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "51.5%",
-      "cpu": "2.0%",
+      "memory": "48.9%",
+      "cpu": "0.2%",
       "disk": "25.1%"
     }
   }
