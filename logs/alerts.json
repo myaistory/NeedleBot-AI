@@ -1534,5 +1534,53 @@
     "value": 0.8952158266955401,
     "threshold": 0.8,
     "timestamp": "2026-03-02T14:02:54.024Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 84.9%",
+    "value": 0.8493927238009793,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T15:00:54.362Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 89.7%",
+    "value": 0.8966905977884388,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T15:01:24.368Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 88.2%",
+    "value": 0.881917083327544,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T15:01:54.365Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 83.5%",
+    "value": 0.8346350884366434,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T15:02:54.372Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 88.8%",
+    "value": 0.8883878151752556,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T15:03:24.372Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 87.8%",
+    "value": 0.8783641354725122,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T15:03:54.376Z"
   }
 ]
