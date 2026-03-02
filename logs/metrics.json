@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-02T15:24:54.448Z",
+  "timestamp": "2026-03-02T15:29:54.461Z",
   "metrics": {
     "system": {
       "startTime": 1772457473554,
-      "uptime": 7620792,
-      "checks": 255,
+      "uptime": 7920806,
+      "checks": 265,
       "alerts": 11
     },
     "api": {
-      "calls": 1523,
+      "calls": 1583,
       "errors": 0,
       "successRate": 1,
-      "avgResponseTime": 910.7117033789874,
+      "avgResponseTime": 1037.5460776024033,
       "lastError": null
     },
     "trading": {
@@ -25,37 +25,37 @@
     },
     "resources": {
       "memory": {
-        "used": 1042345984,
+        "used": 1043996672,
         "total": 2063593472,
-        "percentage": 0.5051120766483991,
-        "processHeapUsed": 13982016,
+        "percentage": 0.5059119861375487,
+        "processHeapUsed": 16745840,
         "processHeapTotal": 21905408,
-        "processHeapPercentage": 0.638290599289454
+        "processHeapPercentage": 0.76446145171092
       },
       "cpu": {
-        "usage": 0.0021,
+        "usage": 0.0018,
         "load": [
-          1.18,
-          1.83,
-          2.42
+          1.84,
+          1.93,
+          2.32
         ]
       },
       "disk": {
-        "used": 10306969600,
+        "used": 10307481600,
         "total": 41123332096,
-        "percentage": 0.2506355656185395
+        "percentage": 0.250648015971512
       }
     },
-    "lastCheck": "2026-03-02T15:24:54.346Z"
+    "lastCheck": "2026-03-02T15:29:54.360Z"
   },
   "summary": {
-    "uptime": "2.12 小时",
-    "checks": 255,
+    "uptime": "2.20 小时",
+    "checks": 265,
     "alerts": 11,
     "api": {
-      "calls": 1523,
+      "calls": 1583,
       "successRate": "100.0%",
-      "avgResponseTime": "911ms"
+      "avgResponseTime": "1038ms"
     },
     "trading": {
       "signals": 0,
@@ -66,7 +66,7 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "50.5%",
+      "memory": "50.6%",
       "cpu": "0.2%",
       "disk": "25.1%"
     }
