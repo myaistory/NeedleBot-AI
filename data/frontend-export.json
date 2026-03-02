@@ -6,14 +6,14 @@
         "id": "price-fetcher",
         "name": "价格获取模块",
         "status": "active",
-        "details": "DEXScreener API · 5 秒间隔",
+        "details": "DEXScreener + GeckoTerminal · 30个代币",
         "icon": "fas fa-sync-alt"
       },
       {
         "id": "needle-detector",
         "name": "信号检测模块",
         "status": "active",
-        "details": "插针检测算法运行中",
+        "details": "插针检测算法 (8%阈值)",
         "icon": "fas fa-search"
       },
       {
@@ -26,45 +26,113 @@
       {
         "id": "trade-executor",
         "name": "交易执行模块",
-        "status": "active",
-        "details": "模拟交易模式",
+        "status": "ready",
+        "details": "真实交易就绪",
         "icon": "fas fa-exchange-alt"
+      }
+    ],
+    "signals": [
+      {
+        "id": "SIG-001",
+        "token": "BOME/USDC",
+        "time": "11:32:15",
+        "drop": 12.5,
+        "recovery": 35.2,
+        "status": "active",
+        "confidence": 85
       },
       {
-        "id": "data-monitor",
-        "name": "数据监控模块",
-        "status": "active",
-        "details": "实时数据提取",
-        "icon": "fas fa-chart-line"
+        "id": "SIG-002",
+        "token": "PNUT/USDC",
+        "time": "11:28:45",
+        "drop": 8.3,
+        "recovery": 42.1,
+        "status": "processed",
+        "confidence": 92
       }
     ],
-    "signals": [],
-    "tokens": [],
-    "errors": [
+    "tokens": [
       {
-        "time": "18:49:44",
-        "message": "数据监控器运行正常"
+        "symbol": "BONK",
+        "price": "$0.00000592",
+        "change": "+2.5%",
+        "volume": "$1.2M"
+      },
+      {
+        "symbol": "WIF",
+        "price": "$1.01",
+        "change": "-1.2%",
+        "volume": "$890K"
+      },
+      {
+        "symbol": "POPCAT",
+        "price": "$0.0468",
+        "change": "+5.8%",
+        "volume": "$2.1M"
+      },
+      {
+        "symbol": "BOME",
+        "price": "$0.000380",
+        "change": "+12.3%",
+        "volume": "$567K"
+      },
+      {
+        "symbol": "WEN",
+        "price": "$0.00000598",
+        "change": "+0.5%",
+        "volume": "$234K"
+      },
+      {
+        "symbol": "MYRO",
+        "price": "$0.00326",
+        "change": "-3.1%",
+        "volume": "$456K"
+      },
+      {
+        "symbol": "JUP",
+        "price": "$0.169",
+        "change": "+1.8%",
+        "volume": "$1.5M"
+      },
+      {
+        "symbol": "SOL",
+        "price": "$83.76",
+        "change": "-0.5%",
+        "volume": "$12M"
+      },
+      {
+        "symbol": "SILLY",
+        "price": "$0.0089",
+        "change": "+8.2%",
+        "volume": "$345K"
+      },
+      {
+        "symbol": "PNUT",
+        "price": "$0.23",
+        "change": "+15.6%",
+        "volume": "$678K"
       }
     ],
+    "errors": [],
     "resources": {
       "memory": {
-        "percentage": 37
+        "percentage": 36
       },
       "cpu": {
-        "usage": 42
+        "usage": 33
       },
       "api": {
-        "successRate": 98.5
+        "successRate": 97
       },
       "rpc": {
-        "latency": 23
+        "latency": 24
       }
     },
     "performance": {
       "totalTrades": 0,
-      "winRate": "83.3",
+      "winRate": 0,
       "totalProfit": 0,
-      "sharpeRatio": 2.1
+      "sharpeRatio": 0
     },
     "rpcNodes": [
       {
@@ -74,13 +142,22 @@
         "successRate": "99.8%",
         "status": "healthy",
         "weight": "60%"
+      },
+      {
+        "name": "dexscreener",
+        "type": "数据源",
+        "latency": "15ms",
+        "successRate": "99.5%",
+        "status": "healthy",
+        "weight": "40%"
       }
     ],
     "projectInfo": {
       "name": "NeedleBot AI",
       "version": "2.0.0",
-      "status": "stopped",
+      "status": "running",
       "domain": "myaistory.xyz"
     }
-  }
+  },
+  "timestamp": "2026-03-02T11:40:03.388Z"
 }
