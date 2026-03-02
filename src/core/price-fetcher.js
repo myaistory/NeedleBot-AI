@@ -183,27 +183,26 @@ class PriceFetcher {
         const baseToken = pair.baseToken || {};
         const name = (baseToken.name || '').toLowerCase();
         const symbol = (baseToken.symbol || '').toLowerCase();
+        const liquidity = parseFloat(pair.liquidity?.usd || 0);
         
         // Meme币常见特征
         const memeKeywords = [
             'bonk', 'wif', 'popcat', 'wen', 'myro', 'dog', 'cat', 'pepe',
-            'woof', 'meow', 'floki', 'shib', 'doge', 'sats', 'rats', 'frog'
+            'woof', 'meow', 'floki', 'shib', 'doge', 'sats', 'rats', 'frog',
+            'bome', 'silly', 'pnut', 'goat', 'act', 'mood', 'cope', 'degen',
+            'slerf', 'list', 'frens', 'chi', 'hege', 'benny', 'micto', '犇'
         ];
         
-        // 热门Solana代币
-        const popularSolanaTokens = ['sol', 'bonk', 'wif', 'popcat', 'wen', 'myro', 'jup', 'ray', 'orca'];
-        
-        // 检查是否是Meme币或热门代币
+        // 检查是否是Meme币
         const isMeme = memeKeywords.some(keyword => 
             name.includes(keyword) || symbol.includes(keyword)
         );
         
-        const isPopular = popularSolanaTokens.some(token => 
-            symbol === token.toLowerCase()
-        );
+        // 有流动性的SOL交易对
+        const hasLiquidity = liquidity > 10000;
         
-        // 对于测试，放宽条件，先获取一些数据
-        return isMeme || isPopular || symbol.length <= 5; // 也包含短符号的代币
+        // 返回Meme币或有足够流动性的代币
+        return isMeme || hasLiquidity;
     }
 
     /**

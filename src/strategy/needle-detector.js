@@ -3,8 +3,8 @@ const logger = require('../utils/logger');
 class NeedleDetector {
     constructor(config = {}) {
         this.config = {
-            minDropPercent: config.minDropPercent || 20,    // 最小跌幅
-            minRecoveryPercent: config.minRecoveryPercent || 50, // 最小回升
+            minDropPercent: config.minDropPercent || 8,    // 最小跌幅
+            minRecoveryPercent: config.minRecoveryPercent || 30, // 最小回升
             lookbackMinutes: config.lookbackMinutes || 5,   // 回看分钟数
             recoverySeconds: config.recoverySeconds || 60,   // 回升秒数
             confidenceThreshold: config.confidenceThreshold || 80, // 置信度阈值
