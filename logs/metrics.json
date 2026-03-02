@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-03-02T11:14:38.182Z",
+  "timestamp": "2026-03-02T11:19:56.003Z",
   "metrics": {
     "system": {
-      "startTime": 1772450078038,
-      "uptime": 5,
+      "startTime": 1772450395834,
+      "uptime": 7,
       "checks": 1,
       "alerts": 1
     },
@@ -25,28 +25,28 @@
     },
     "resources": {
       "memory": {
-        "used": 916496384,
+        "used": 912605184,
         "total": 2063593472,
-        "percentage": 0.4441264214272529,
-        "processHeapUsed": 10517384,
-        "processHeapTotal": 18604032,
-        "processHeapPercentage": 0.5653282041226332
+        "percentage": 0.44224077871089523,
+        "processHeapUsed": 10788992,
+        "processHeapTotal": 18796544,
+        "processHeapPercentage": 0.573988069296143
       },
       "cpu": {
-        "usage": 0.9922,
+        "usage": 1.03665,
         "load": [
-          0.06,
-          0.31,
-          0.47
+          0.29,
+          0.34,
+          0.44
         ]
       },
       "disk": {
-        "used": 9680326656,
+        "used": 9680957440,
         "total": 41123332096,
-        "percentage": 0.2353974292112771
+        "percentage": 0.23541276804613923
       }
     },
-    "lastCheck": "2026-03-02T11:14:38.043Z"
+    "lastCheck": "2026-03-02T11:19:55.841Z"
   },
   "summary": {
     "uptime": "0.00 小时",
@@ -66,8 +66,8 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "44.4%",
-      "cpu": "99.2%",
+      "memory": "44.2%",
+      "cpu": "103.7%",
       "disk": "23.5%"
     }
   }
