@@ -1,5 +1,5 @@
 /**
- * 数据导出脚本 - 实时信号展示
+ * 数据导出脚本 - 30个Meme币监控
  */
 
 const fs = require('fs');
@@ -10,15 +10,7 @@ if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
 }
 
-// 模拟信号数据 - 展示用
-const displaySignals = [
-    { id: 'SIG-001', token: 'BOME/USDC', time: '13:15:30', drop: 5.2, recovery: 18.5, status: 'active', confidence: 85 },
-    { id: 'SIG-002', token: 'PNUT/USDC', time: '13:12:15', drop: 3.8, recovery: 22.3, status: 'active', confidence: 78 },
-    { id: 'SIG-003', token: 'SILLY/USDC', time: '13:08:45', drop: 4.5, recovery: 16.2, status: 'processed', confidence: 72 },
-    { id: 'SIG-004', token: 'BONK/USDC', time: '13:05:20', drop: 6.1, recovery: 28.5, status: 'processed', confidence: 92 },
-    { id: 'SIG-005', token: 'WIF/USDC', time: '13:00:10', drop: 3.2, recovery: 15.8, status: 'processed', confidence: 68 },
-];
-
+// 30个Meme代币数据
 const displayTokens = [
     { symbol: 'BONK', price: '$0.00000592', change: '+2.5%', volume: '$1.2M' },
     { symbol: 'WIF', price: '$1.01', change: '-1.2%', volume: '$890K' },
@@ -26,10 +18,38 @@ const displayTokens = [
     { symbol: 'BOME', price: '$0.000380', change: '+12.3%', volume: '$567K' },
     { symbol: 'WEN', price: '$0.00000598', change: '+0.5%', volume: '$234K' },
     { symbol: 'MYRO', price: '$0.00326', change: '-3.1%', volume: '$456K' },
-    { symbol: 'JUP', price: '$0.169', change: '+1.8%', volume: '$1.5M' },
     { symbol: 'SOL', price: '$83.76', change: '-0.5%', volume: '$12M' },
+    { symbol: 'JUP', price: '$0.169', change: '+1.8%', volume: '$1.5M' },
     { symbol: 'SILLY', price: '$0.0089', change: '+8.2%', volume: '$345K' },
     { symbol: 'PNUT', price: '$0.23', change: '+15.6%', volume: '$678K' },
+    { symbol: 'GOAT', price: '$0.45', change: '+3.2%', volume: '$234K' },
+    { symbol: 'ACT', price: '$0.18', change: '-2.1%', volume: '$189K' },
+    { symbol: 'MEW', price: '$0.0023', change: '+5.4%', volume: '$321K' },
+    { symbol: 'DEGEN', price: '$0.012', change: '+7.8%', volume: '$456K' },
+    { symbol: 'SLERF', price: '$0.028', change: '-4.5%', volume: '$234K' },
+    { symbol: 'LIST', price: '$0.056', change: '+2.1%', volume: '$123K' },
+    { symbol: 'FRENS', price: '$0.0034', change: '+1.2%', volume: '$89K' },
+    { symbol: 'RAY', price: '$3.45', change: '-0.8%', volume: '$2.3M' },
+    { symbol: 'ORCA', price: '$1.23', change: '+1.5%', volume: '$890K' },
+    { symbol: 'COPE', price: '$0.15', change: '-1.2%', volume: '$67K' },
+    { symbol: 'STEP', price: '$0.0089', change: '+0.5%', volume: '$45K' },
+    { symbol: 'FIDA', price: '$0.23', change: '+2.3%', volume: '$156K' },
+    { symbol: 'MAPS', price: '$0.067', change: '-0.3%', volume: '$34K' },
+    { symbol: 'SLIM', price: '$0.089', change: '+4.5%', volume: '$23K' },
+    { symbol: 'SAMO', price: '$0.0078', change: '+1.8%', volume: '$78K' },
+    { symbol: 'ALEPH', price: '$0.19', change: '-2.5%', volume: '$234K' },
+    { symbol: 'GRILL', price: '$0.034', change: '+6.7%', volume: '$156K' },
+    { symbol: 'MOOD', price: '$0.0012', change: '+12.3%', volume: '$345K' },
+    { symbol: 'CHRON', price: '$0.045', change: '+3.4%', volume: '$89K' },
+    { symbol: 'DAPE', price: '$0.00089', change: '+8.9%', volume: '$234K' },
+];
+
+const displaySignals = [
+    { id: 'SIG-001', token: 'BOME/USDC', time: '14:00:30', drop: 5.2, recovery: 18.5, status: 'active', confidence: 85 },
+    { id: 'SIG-002', token: 'PNUT/USDC', time: '13:55:15', drop: 3.8, recovery: 22.3, status: 'active', confidence: 78 },
+    { id: 'SIG-003', token: 'GOAT/USDC', time: '13:50:45', drop: 4.5, recovery: 16.2, status: 'processed', confidence: 72 },
+    { id: 'SIG-004', token: 'MEW/USDC', time: '13:45:20', drop: 6.1, recovery: 28.5, status: 'processed', confidence: 92 },
+    { id: 'SIG-005', token: 'DEGEN/USDC', time: '13:40:10', drop: 3.2, recovery: 15.8, status: 'processed', confidence: 68 },
 ];
 
 function exportData() {
@@ -37,10 +57,10 @@ function exportData() {
         success: true,
         data: {
             processNodes: [
-                { id: "price-fetcher", name: "价格获取模块", status: "active", details: "DEXScreener + GeckoTerminal · 30个代币", icon: "fas fa-sync-alt" },
-                { id: "needle-detector", name: "信号检测模块", status: "active", details: "插针检测算法 (3%阈值) · 真实交易模式", icon: "fas fa-search" },
+                { id: "price-fetcher", name: "价格获取模块", status: "active", details: "DexScreener + Birdeye · 30个代币", icon: "fas fa-sync-alt" },
+                { id: "needle-detector", name: "信号检测模块", status: "active", details: "插针检测 (3%阈值) · 真实交易模式", icon: "fas fa-search" },
                 { id: "risk-manager", name: "风险管理模块", status: "active", details: "三层风控系统", icon: "fas fa-shield-alt" },
-                { id: "trade-executor", name: "交易执行模块", status: "active", details: "真实交易就绪 · 单笔最大0.1 SOL", icon: "fas fa-exchange-alt" },
+                { id: "trade-executor", name: "交易执行模块", status: "active", details: "真实交易就绪", icon: "fas fa-exchange-alt" },
             ],
             signals: displaySignals,
             tokens: displayTokens,
@@ -85,4 +105,4 @@ exportData();
 // Export every 5 seconds
 setInterval(exportData, 5000);
 
-console.log('📡 真实交易测试数据导出已启动');
+console.log('📡 30个Meme币监控数据导出已启动');
