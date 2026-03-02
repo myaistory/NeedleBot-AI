@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-02T15:14:54.422Z",
+  "timestamp": "2026-03-02T15:19:54.442Z",
   "metrics": {
     "system": {
       "startTime": 1772457473554,
-      "uptime": 7020765,
-      "checks": 235,
+      "uptime": 7320776,
+      "checks": 245,
       "alerts": 11
     },
     "api": {
-      "calls": 1403,
+      "calls": 1462,
       "errors": 0,
       "successRate": 1,
-      "avgResponseTime": 995.6148613118816,
+      "avgResponseTime": 590.8228526075931,
       "lastError": null
     },
     "trading": {
@@ -25,37 +25,37 @@
     },
     "resources": {
       "memory": {
-        "used": 666300416,
+        "used": 1040314368,
         "total": 2063593472,
-        "percentage": 0.32288356453959555,
-        "processHeapUsed": 19341280,
+        "percentage": 0.5041275726617535,
+        "processHeapUsed": 15471048,
         "processHeapTotal": 21643264,
-        "processHeapPercentage": 0.8936397024034822
+        "processHeapPercentage": 0.7148204633090461
       },
       "cpu": {
-        "usage": 0.00304,
+        "usage": 0.06234,
         "load": [
-          1.7,
-          2.39,
-          2.92
+          1.86,
+          2.13,
+          2.66
         ]
       },
       "disk": {
-        "used": 10306068480,
+        "used": 10306490368,
         "total": 41123332096,
-        "percentage": 0.2506136529973079
+        "percentage": 0.25062391208815726
       }
     },
-    "lastCheck": "2026-03-02T15:14:54.319Z"
+    "lastCheck": "2026-03-02T15:19:54.330Z"
   },
   "summary": {
-    "uptime": "1.95 小时",
-    "checks": 235,
+    "uptime": "2.03 小时",
+    "checks": 245,
     "alerts": 11,
     "api": {
-      "calls": 1403,
+      "calls": 1462,
       "successRate": "100.0%",
-      "avgResponseTime": "996ms"
+      "avgResponseTime": "591ms"
     },
     "trading": {
       "signals": 0,
@@ -66,8 +66,8 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "32.3%",
-      "cpu": "0.3%",
+      "memory": "50.4%",
+      "cpu": "6.2%",
       "disk": "25.1%"
     }
   }
