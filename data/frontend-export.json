@@ -13,7 +13,7 @@
         "id": "needle-detector",
         "name": "信号检测模块",
         "status": "active",
-        "details": "插针检测算法 (8%阈值)",
+        "details": "插针检测算法 (3%阈值)",
         "icon": "fas fa-search"
       },
       {
@@ -35,20 +35,47 @@
       {
         "id": "SIG-001",
         "token": "BOME/USDC",
-        "time": "11:32:15",
-        "drop": 12.5,
-        "recovery": 35.2,
+        "time": "12:25:30",
+        "drop": 5.2,
+        "recovery": 18.5,
         "status": "active",
         "confidence": 85
       },
       {
         "id": "SIG-002",
         "token": "PNUT/USDC",
-        "time": "11:28:45",
-        "drop": 8.3,
-        "recovery": 42.1,
+        "time": "12:22:15",
+        "drop": 3.8,
+        "recovery": 22.3,
+        "status": "active",
+        "confidence": 78
+      },
+      {
+        "id": "SIG-003",
+        "token": "SILLY/USDC",
+        "time": "12:18:45",
+        "drop": 4.5,
+        "recovery": 16.2,
+        "status": "active",
+        "confidence": 72
+      },
+      {
+        "id": "SIG-004",
+        "token": "BONK/USDC",
+        "time": "12:15:20",
+        "drop": 6.1,
+        "recovery": 28.5,
         "status": "processed",
         "confidence": 92
+      },
+      {
+        "id": "SIG-005",
+        "token": "WIF/USDC",
+        "time": "12:10:10",
+        "drop": 3.2,
+        "recovery": 15.8,
+        "status": "processed",
+        "confidence": 68
       }
     ],
     "tokens": [
@@ -116,23 +143,23 @@
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 35
+        "percentage": 40
       },
       "cpu": {
-        "usage": 33
+        "usage": 17
       },
       "api": {
-        "successRate": 97
+        "successRate": 99
       },
       "rpc": {
-        "latency": 22
+        "latency": 21
       }
     },
     "performance": {
-      "totalTrades": 0,
-      "winRate": 0,
-      "totalProfit": 0,
-      "sharpeRatio": 0
+      "totalTrades": 5,
+      "winRate": 80,
+      "totalProfit": 2.5,
+      "sharpeRatio": 1.8
     },
     "rpcNodes": [
       {
@@ -159,5 +186,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-02T12:09:49.955Z"
+  "timestamp": "2026-03-02T12:30:02.684Z"
 }
