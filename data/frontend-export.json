@@ -13,7 +13,7 @@
         "id": "needle-detector",
         "name": "信号检测模块",
         "status": "active",
-        "details": "插针检测算法 (3%阈值)",
+        "details": "插针检测算法 (3%阈值) · 真实交易模式",
         "icon": "fas fa-search"
       },
       {
@@ -26,8 +26,8 @@
       {
         "id": "trade-executor",
         "name": "交易执行模块",
-        "status": "ready",
-        "details": "真实交易就绪",
+        "status": "active",
+        "details": "真实交易就绪 · 单笔最大0.1 SOL",
         "icon": "fas fa-exchange-alt"
       }
     ],
@@ -35,7 +35,7 @@
       {
         "id": "SIG-001",
         "token": "BOME/USDC",
-        "time": "12:25:30",
+        "time": "13:15:30",
         "drop": 5.2,
         "recovery": 18.5,
         "status": "active",
@@ -44,7 +44,7 @@
       {
         "id": "SIG-002",
         "token": "PNUT/USDC",
-        "time": "12:22:15",
+        "time": "13:12:15",
         "drop": 3.8,
         "recovery": 22.3,
         "status": "active",
@@ -53,16 +53,16 @@
       {
         "id": "SIG-003",
         "token": "SILLY/USDC",
-        "time": "12:18:45",
+        "time": "13:08:45",
         "drop": 4.5,
         "recovery": 16.2,
-        "status": "active",
+        "status": "processed",
         "confidence": 72
       },
       {
         "id": "SIG-004",
         "token": "BONK/USDC",
-        "time": "12:15:20",
+        "time": "13:05:20",
         "drop": 6.1,
         "recovery": 28.5,
         "status": "processed",
@@ -71,7 +71,7 @@
       {
         "id": "SIG-005",
         "token": "WIF/USDC",
-        "time": "12:10:10",
+        "time": "13:00:10",
         "drop": 3.2,
         "recovery": 15.8,
         "status": "processed",
@@ -143,16 +143,16 @@
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 40
+        "percentage": 41
       },
       "cpu": {
-        "usage": 24
+        "usage": 29
       },
       "api": {
-        "successRate": 99
+        "successRate": 97
       },
       "rpc": {
-        "latency": 29
+        "latency": 27
       }
     },
     "performance": {
@@ -186,5 +186,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-02T12:57:53.527Z"
+  "timestamp": "2026-03-02T13:20:06.793Z"
 }

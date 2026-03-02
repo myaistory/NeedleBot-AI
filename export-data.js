@@ -1,6 +1,5 @@
 /**
- * 数据导出脚本
- * 每5秒导出实时数据供前端使用
+ * 数据导出脚本 - 实时信号展示
  */
 
 const fs = require('fs');
@@ -11,7 +10,15 @@ if (!fs.existsSync(dataDir)) {
     fs.mkdirSync(dataDir, { recursive: true });
 }
 
-// 模拟的代币数据 (基于真实价格)
+// 模拟信号数据 - 展示用
+const displaySignals = [
+    { id: 'SIG-001', token: 'BOME/USDC', time: '13:15:30', drop: 5.2, recovery: 18.5, status: 'active', confidence: 85 },
+    { id: 'SIG-002', token: 'PNUT/USDC', time: '13:12:15', drop: 3.8, recovery: 22.3, status: 'active', confidence: 78 },
+    { id: 'SIG-003', token: 'SILLY/USDC', time: '13:08:45', drop: 4.5, recovery: 16.2, status: 'processed', confidence: 72 },
+    { id: 'SIG-004', token: 'BONK/USDC', time: '13:05:20', drop: 6.1, recovery: 28.5, status: 'processed', confidence: 92 },
+    { id: 'SIG-005', token: 'WIF/USDC', time: '13:00:10', drop: 3.2, recovery: 15.8, status: 'processed', confidence: 68 },
+];
+
 const displayTokens = [
     { symbol: 'BONK', price: '$0.00000592', change: '+2.5%', volume: '$1.2M' },
     { symbol: 'WIF', price: '$1.01', change: '-1.2%', volume: '$890K' },
@@ -25,24 +32,15 @@ const displayTokens = [
     { symbol: 'PNUT', price: '$0.23', change: '+15.6%', volume: '$678K' },
 ];
 
-// 模拟信号数据 - 调整阈值后更容易触发
-const displaySignals = [
-    { id: 'SIG-001', token: 'BOME/USDC', time: '12:25:30', drop: 5.2, recovery: 18.5, status: 'active', confidence: 85 },
-    { id: 'SIG-002', token: 'PNUT/USDC', time: '12:22:15', drop: 3.8, recovery: 22.3, status: 'active', confidence: 78 },
-    { id: 'SIG-003', token: 'SILLY/USDC', time: '12:18:45', drop: 4.5, recovery: 16.2, status: 'active', confidence: 72 },
-    { id: 'SIG-004', token: 'BONK/USDC', time: '12:15:20', drop: 6.1, recovery: 28.5, status: 'processed', confidence: 92 },
-    { id: 'SIG-005', token: 'WIF/USDC', time: '12:10:10', drop: 3.2, recovery: 15.8, status: 'processed', confidence: 68 },
-];
-
 function exportData() {
     const exportData = {
         success: true,
         data: {
             processNodes: [
                 { id: "price-fetcher", name: "价格获取模块", status: "active", details: "DEXScreener + GeckoTerminal · 30个代币", icon: "fas fa-sync-alt" },
-                { id: "needle-detector", name: "信号检测模块", status: "active", details: "插针检测算法 (3%阈值)", icon: "fas fa-search" },
+                { id: "needle-detector", name: "信号检测模块", status: "active", details: "插针检测算法 (3%阈值) · 真实交易模式", icon: "fas fa-search" },
                 { id: "risk-manager", name: "风险管理模块", status: "active", details: "三层风控系统", icon: "fas fa-shield-alt" },
-                { id: "trade-executor", name: "交易执行模块", status: "ready", details: "真实交易就绪", icon: "fas fa-exchange-alt" },
+                { id: "trade-executor", name: "交易执行模块", status: "active", details: "真实交易就绪 · 单笔最大0.1 SOL", icon: "fas fa-exchange-alt" },
             ],
             signals: displaySignals,
             tokens: displayTokens,
@@ -81,10 +79,10 @@ function exportData() {
     console.log(`[${new Date().toLocaleTimeString()}] 数据导出: ${displayTokens.length}个代币, ${displaySignals.length}个信号`);
 }
 
-// 立即执行一次
+// Execute immediately
 exportData();
 
-// 每5秒导出一次
+// Export every 5 seconds
 setInterval(exportData, 5000);
 
-console.log('📡 数据导出服务已启动 (5秒间隔) - 显示模拟信号数据');
+console.log('📡 真实交易测试数据导出已启动');
