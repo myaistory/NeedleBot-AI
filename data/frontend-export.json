@@ -146,13 +146,13 @@
         "percentage": 35
       },
       "cpu": {
-        "usage": 30
+        "usage": 26
       },
       "api": {
-        "successRate": 99
+        "successRate": 97
       },
       "rpc": {
-        "latency": 21
+        "latency": 26
       }
     },
     "performance": {
@@ -186,5 +186,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-02T13:25:02.130Z"
+  "timestamp": "2026-03-02T13:30:07.480Z"
 }
