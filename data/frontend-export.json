@@ -149,10 +149,10 @@
         "usage": 20
       },
       "api": {
-        "successRate": 99
+        "successRate": 98
       },
       "rpc": {
-        "latency": 29
+        "latency": 23
       }
     },
     "performance": {
@@ -186,5 +186,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-02T13:40:08.184Z"
+  "timestamp": "2026-03-02T13:45:03.527Z"
 }
