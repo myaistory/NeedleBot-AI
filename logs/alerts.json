@@ -1582,5 +1582,29 @@
     "value": 0.8783641354725122,
     "threshold": 0.8,
     "timestamp": "2026-03-02T15:03:54.376Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 87.6%",
+    "value": 0.876154956163769,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T16:00:54.643Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 85.2%",
+    "value": 0.8518400895581046,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T16:02:24.663Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 89.7%",
+    "value": 0.896992300623056,
+    "threshold": 0.8,
+    "timestamp": "2026-03-02T16:02:54.669Z"
   }
 ]
