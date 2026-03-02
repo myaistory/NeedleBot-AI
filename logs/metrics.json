@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-02T15:54:54.585Z",
+  "timestamp": "2026-03-02T15:59:54.632Z",
   "metrics": {
     "system": {
       "startTime": 1772457473554,
-      "uptime": 9420928,
-      "checks": 315,
+      "uptime": 9720975,
+      "checks": 325,
       "alerts": 11
     },
     "api": {
-      "calls": 1882,
+      "calls": 1942,
       "errors": 0,
       "successRate": 1,
-      "avgResponseTime": 680.3187448097001,
+      "avgResponseTime": 978.9732351392923,
       "lastError": null
     },
     "trading": {
@@ -25,37 +25,37 @@
     },
     "resources": {
       "memory": {
-        "used": 1021247488,
+        "used": 1016369152,
         "total": 2063593472,
-        "percentage": 0.4948879233516009,
-        "processHeapUsed": 15070336,
+        "percentage": 0.4925239228514094,
+        "processHeapUsed": 17729240,
         "processHeapTotal": 20856832,
-        "processHeapPercentage": 0.7225611252945797
+        "processHeapPercentage": 0.8500447239542419
       },
       "cpu": {
-        "usage": 0.00253,
+        "usage": 0.00221,
         "load": [
-          1.49,
-          1.77,
-          2
+          1.83,
+          1.85,
+          1.98
         ]
       },
       "disk": {
-        "used": 10309865472,
+        "used": 10310426624,
         "total": 41123332096,
-        "percentage": 0.2507059848149519
+        "percentage": 0.2507196304018097
       }
     },
-    "lastCheck": "2026-03-02T15:54:54.482Z"
+    "lastCheck": "2026-03-02T15:59:54.529Z"
   },
   "summary": {
-    "uptime": "2.62 小时",
-    "checks": 315,
+    "uptime": "2.70 小时",
+    "checks": 325,
     "alerts": 11,
     "api": {
-      "calls": 1882,
+      "calls": 1942,
       "successRate": "100.0%",
-      "avgResponseTime": "680ms"
+      "avgResponseTime": "979ms"
     },
     "trading": {
       "signals": 0,
@@ -66,8 +66,8 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "49.5%",
-      "cpu": "0.3%",
+      "memory": "49.3%",
+      "cpu": "0.2%",
       "disk": "25.1%"
     }
   }
