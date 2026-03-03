@@ -1622,5 +1622,21 @@
     "value": 2.4368,
     "threshold": 0.7,
     "timestamp": "2026-03-03T01:42:33.828Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 235.2%",
+    "value": 2.3516,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T01:47:32.517Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 220.3%",
+    "value": 2.20295,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T01:48:40.820Z"
   }
 ]

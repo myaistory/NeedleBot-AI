@@ -1,13 +1,10 @@
 /**
  * WebSocketPumpListener - 纯 Solana WebSocket 实时监听器
- * 专门监听 Pump.fun 新币创建 + 大额买入（插针核心信号）
- * 自动重连 + EventEmitter + 与 needle-detector-v2 无缝集成
  */
 
 const { Connection, PublicKey } = require('@solana/web3.js');
 const EventEmitter = require('events');
 
-// Pump.fun 官方程序ID
 const PUMP_PROGRAM = new PublicKey('6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P');
 
 class WebSocketPumpListener extends EventEmitter {
@@ -22,21 +19,21 @@ class WebSocketPumpListener extends EventEmitter {
     }
 
     async start() {
-        const wssUrl = process.env.SOLANA_WSS_URL || process.env.QUICKNODE_WS_URL;
+        const wssUrl = process.env.QUICKNODE_WS_URL || process.env.SOLANA_WSS_URL;
         
-        if (!wssUrl) {
-            console.log('❌ 未配置 WSS，使用默认连接');
-            this.connection = new Connection('https://api.mainnet-beta.solana.com', {
-                commitment: 'confirmed'
-            });
-        } else {
-            // 处理 wss:// 或 https://
-            const wsEndpoint = wssUrl.startsWith('wss://') ? wssUrl : wssUrl.replace('https://', 'wss://');
-            this.connection = new Connection(wssUrl, {
-                commitment: 'confirmed',
-                wsEndpoint: wsEndpoint
-            });
+        let rpcUrl = 'https://api.mainnet-beta.solana.com';
+        let wsEndpoint = 'wss://api.mainnet-beta.solana.com';
+        
+        if (wssUrl) {
+            // Extract HTTP endpoint from WSS
+            rpcUrl = wssUrl.replace('wss://', 'https://').replace('?api-key=', '/?api-key=');
+            wsEndpoint = wssUrl;
         }
+
+        this.connection = new Connection(rpcUrl, {
+            commitment: 'confirmed',
+            wsEndpoint: wsEndpoint
+        });
 
         console.log('🌐 【WebSocketPumpListener】Pump.fun 实时监听启动中...');
 
@@ -68,63 +65,47 @@ class WebSocketPumpListener extends EventEmitter {
 
         const logText = logs.join(' | ');
 
-        // 1. 新币创建信号
         if (logText.includes('Instruction: Create') || logText.includes('create')) {
             console.log(`🆕 [新币创建] ${signature.slice(0, 12)}...`);
-            this.emit('newTokenCreated', {
-                signature,
-                type: 'create',
-                timestamp: Date.now()
-            });
+            this.emit('newTokenCreated', { signature, type: 'create', timestamp: Date.now() });
             this.analyzeSignal(signature, 'newToken');
         }
 
-        // 2. 大额买入信号（插针核心）
         if (logText.includes('Instruction: Buy') || logText.includes('buy')) {
             console.log(`🔥 [大额买入/插针信号] ${signature.slice(0, 12)}...`);
-            this.emit('largeBuyDetected', {
-                signature,
-                type: 'buy',
-                timestamp: Date.now()
-            });
+            this.emit('largeBuyDetected', { signature, type: 'buy', timestamp: Date.now() });
             this.analyzeSignal(signature, 'buySpike');
         }
     }
 
     async analyzeSignal(signature, triggerType) {
-        try {
-            const result = {
-                isNeedle: true,
-                confidence: 75,
-                action: '建议买入',
-                signature,
-                triggerType,
-                timestamp: Date.now()
-            };
+        const result = {
+            isNeedle: true,
+            confidence: 75,
+            action: '建议买入',
+            signature,
+            triggerType,
+            timestamp: Date.now()
+        };
 
-            if (result.isNeedle && result.confidence > 65) {
-                console.log(`🎯 [插针确认] 置信度 ${result.confidence}% → 发送给 Trader Agent`);
-                this.emit('needleConfirmed', result);
-                
-                // 推送到前端
-                if (global.io) {
-                    global.io.emit('new-signal', result);
-                }
+        if (result.isNeedle && result.confidence > 65) {
+            console.log(`🎯 [插针确认] 置信度 ${result.confidence}% → 发送给 Trader Agent`);
+            this.emit('needleConfirmed', result);
+            
+            if (global.io) {
+                global.io.emit('new-signal', result);
             }
-        } catch (e) {}
+        }
     }
 
     setupAutoReconnect() {
         const ws = this.connection?._rpcWebSocket || this.connection?._ws;
-        
         if (ws) {
             ws.on('close', () => {
                 console.log('⚠️ WebSocket 断开，准备自动重连...');
                 if (this.reconnectAttempts < this.maxReconnects) {
                     this.reconnectAttempts++;
                     setTimeout(() => this.start(), 2500);
-                } else {
-                    console.error('❌ 重连次数达上限，请检查网络/RPC');
                 }
             });
         }
@@ -139,5 +120,5 @@ class WebSocketPumpListener extends EventEmitter {
     }
 }
 
-// 导出单例实例
-module.exports = new WebSocketPumpListener();
+// 导出类
+module.exports = WebSocketPumpListener;
