@@ -6,14 +6,14 @@
         "id": "price-fetcher",
         "name": "价格获取模块",
         "status": "active",
-        "details": "DexScreener + Birdeye · 30个代币",
+        "details": "DexScreener + WebSocket · 实时监控",
         "icon": "fas fa-sync-alt"
       },
       {
         "id": "needle-detector",
         "name": "信号检测模块",
         "status": "active",
-        "details": "插针检测 (3%阈值) · 真实交易模式",
+        "details": "WebSocket Pump监听 · 毫秒级",
         "icon": "fas fa-search"
       },
       {
@@ -33,246 +33,165 @@
     ],
     "signals": [
       {
-        "id": "SIG-001",
-        "token": "BOME/USDC",
-        "time": "14:00:30",
-        "drop": 5.2,
-        "recovery": 18.5,
+        "id": "SIG-1772503209408",
+        "token": "POPCAT",
+        "time": "2:00:09 AM",
+        "drop": "5.2",
+        "recovery": "24.6",
         "status": "active",
-        "confidence": 85
+        "confidence": 77
       },
       {
-        "id": "SIG-002",
-        "token": "PNUT/USDC",
-        "time": "13:55:15",
-        "drop": 3.8,
-        "recovery": 22.3,
+        "id": "SIG-1772503204401",
+        "token": "BONK",
+        "time": "2:00:04 AM",
+        "drop": "6.7",
+        "recovery": "24.6",
+        "status": "active",
+        "confidence": 76
+      },
+      {
+        "id": "SIG-1772503189378",
+        "token": "POPCAT",
+        "time": "1:59:49 AM",
+        "drop": "3.7",
+        "recovery": "27.8",
+        "status": "active",
+        "confidence": 71
+      },
+      {
+        "id": "SIG-1772503139320",
+        "token": "DEGEN",
+        "time": "1:58:59 AM",
+        "drop": "4.1",
+        "recovery": "15.3",
+        "status": "active",
+        "confidence": 76
+      },
+      {
+        "id": "SIG-1772503114292",
+        "token": "BOME",
+        "time": "1:58:34 AM",
+        "drop": "5.9",
+        "recovery": "28.3",
         "status": "active",
         "confidence": 78
       },
       {
-        "id": "SIG-003",
-        "token": "GOAT/USDC",
-        "time": "13:50:45",
-        "drop": 4.5,
-        "recovery": 16.2,
-        "status": "processed",
-        "confidence": 72
+        "id": "SIG-1772503109288",
+        "token": "COUNCIL",
+        "time": "1:58:29 AM",
+        "drop": "7.9",
+        "recovery": "30.7",
+        "status": "active",
+        "confidence": 70
       },
       {
-        "id": "SIG-004",
-        "token": "MEW/USDC",
-        "time": "13:45:20",
-        "drop": 6.1,
-        "recovery": 28.5,
-        "status": "processed",
-        "confidence": 92
+        "id": "SIG-1772503094271",
+        "token": "BOME",
+        "time": "1:58:14 AM",
+        "drop": "8.0",
+        "recovery": "29.0",
+        "status": "active",
+        "confidence": 86
       },
       {
-        "id": "SIG-005",
-        "token": "DEGEN/USDC",
-        "time": "13:40:10",
-        "drop": 3.2,
-        "recovery": 15.8,
-        "status": "processed",
-        "confidence": 68
+        "id": "SIG-1772503079254",
+        "token": "DEGEN",
+        "time": "1:57:59 AM",
+        "drop": "4.6",
+        "recovery": "20.1",
+        "status": "active",
+        "confidence": 89
+      },
+      {
+        "id": "SIG-1772503034204",
+        "token": "POPCAT",
+        "time": "1:57:14 AM",
+        "drop": "12.6",
+        "recovery": "34.2",
+        "status": "active",
+        "confidence": 71
       }
     ],
     "tokens": [
       {
-        "symbol": "BONK",
-        "price": "$0.00000592",
-        "change": "+2.5%",
-        "volume": "$1.2M"
+        "name": "POPCAT",
+        "price": "$0.009139",
+        "change": "-0.7%",
+        "volume": "$0.4M",
+        "status": "monitoring"
       },
       {
-        "symbol": "WIF",
-        "price": "$1.01",
-        "change": "-1.2%",
-        "volume": "$890K"
+        "name": "BONK",
+        "price": "$0.000409",
+        "change": "6.3%",
+        "volume": "$0.9M",
+        "status": "monitoring"
       },
       {
-        "symbol": "POPCAT",
-        "price": "$0.0468",
-        "change": "+5.8%",
-        "volume": "$2.1M"
+        "name": "POPCAT",
+        "price": "$0.000444",
+        "change": "-4.2%",
+        "volume": "$0.4M",
+        "status": "monitoring"
       },
       {
-        "symbol": "BOME",
-        "price": "$0.000380",
-        "change": "+12.3%",
-        "volume": "$567K"
+        "name": "DEGEN",
+        "price": "$0.005370",
+        "change": "1.8%",
+        "volume": "$0.8M",
+        "status": "monitoring"
       },
       {
-        "symbol": "WEN",
-        "price": "$0.00000598",
-        "change": "+0.5%",
-        "volume": "$234K"
-      },
-      {
-        "symbol": "MYRO",
-        "price": "$0.00326",
-        "change": "-3.1%",
-        "volume": "$456K"
-      },
-      {
-        "symbol": "SOL",
-        "price": "$83.76",
-        "change": "-0.5%",
-        "volume": "$12M"
-      },
-      {
-        "symbol": "JUP",
-        "price": "$0.169",
-        "change": "+1.8%",
-        "volume": "$1.5M"
-      },
-      {
-        "symbol": "SILLY",
-        "price": "$0.0089",
-        "change": "+8.2%",
-        "volume": "$345K"
-      },
-      {
-        "symbol": "PNUT",
-        "price": "$0.23",
-        "change": "+15.6%",
-        "volume": "$678K"
-      },
-      {
-        "symbol": "GOAT",
-        "price": "$0.45",
-        "change": "+3.2%",
-        "volume": "$234K"
-      },
-      {
-        "symbol": "ACT",
-        "price": "$0.18",
+        "name": "BOME",
+        "price": "$0.000346",
         "change": "-2.1%",
-        "volume": "$189K"
+        "volume": "$1.0M",
+        "status": "monitoring"
       },
       {
-        "symbol": "MEW",
-        "price": "$0.0023",
-        "change": "+5.4%",
-        "volume": "$321K"
+        "name": "COUNCIL",
+        "price": "$0.001744",
+        "change": "-2.3%",
+        "volume": "$0.8M",
+        "status": "monitoring"
       },
       {
-        "symbol": "DEGEN",
-        "price": "$0.012",
-        "change": "+7.8%",
-        "volume": "$456K"
+        "name": "BOME",
+        "price": "$0.007486",
+        "change": "-5.9%",
+        "volume": "$0.3M",
+        "status": "monitoring"
       },
       {
-        "symbol": "SLERF",
-        "price": "$0.028",
-        "change": "-4.5%",
-        "volume": "$234K"
+        "name": "DEGEN",
+        "price": "$0.007272",
+        "change": "4.7%",
+        "volume": "$1.8M",
+        "status": "monitoring"
       },
       {
-        "symbol": "LIST",
-        "price": "$0.056",
-        "change": "+2.1%",
-        "volume": "$123K"
-      },
-      {
-        "symbol": "FRENS",
-        "price": "$0.0034",
-        "change": "+1.2%",
-        "volume": "$89K"
-      },
-      {
-        "symbol": "RAY",
-        "price": "$3.45",
-        "change": "-0.8%",
-        "volume": "$2.3M"
-      },
-      {
-        "symbol": "ORCA",
-        "price": "$1.23",
-        "change": "+1.5%",
-        "volume": "$890K"
-      },
-      {
-        "symbol": "COPE",
-        "price": "$0.15",
-        "change": "-1.2%",
-        "volume": "$67K"
-      },
-      {
-        "symbol": "STEP",
-        "price": "$0.0089",
-        "change": "+0.5%",
-        "volume": "$45K"
-      },
-      {
-        "symbol": "FIDA",
-        "price": "$0.23",
-        "change": "+2.3%",
-        "volume": "$156K"
-      },
-      {
-        "symbol": "MAPS",
-        "price": "$0.067",
-        "change": "-0.3%",
-        "volume": "$34K"
-      },
-      {
-        "symbol": "SLIM",
-        "price": "$0.089",
-        "change": "+4.5%",
-        "volume": "$23K"
-      },
-      {
-        "symbol": "SAMO",
-        "price": "$0.0078",
-        "change": "+1.8%",
-        "volume": "$78K"
-      },
-      {
-        "symbol": "ALEPH",
-        "price": "$0.19",
-        "change": "-2.5%",
-        "volume": "$234K"
-      },
-      {
-        "symbol": "GRILL",
-        "price": "$0.034",
-        "change": "+6.7%",
-        "volume": "$156K"
-      },
-      {
-        "symbol": "MOOD",
-        "price": "$0.0012",
-        "change": "+12.3%",
-        "volume": "$345K"
-      },
-      {
-        "symbol": "CHRON",
-        "price": "$0.045",
-        "change": "+3.4%",
-        "volume": "$89K"
-      },
-      {
-        "symbol": "DAPE",
-        "price": "$0.00089",
-        "change": "+8.9%",
-        "volume": "$234K"
+        "name": "POPCAT",
+        "price": "$0.007682",
+        "change": "-5.9%",
+        "volume": "$1.0M",
+        "status": "monitoring"
       }
     ],
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 35
+        "percentage": 40
       },
       "cpu": {
-        "usage": 24
+        "usage": 20
       },
       "api": {
-        "successRate": 99
+        "successRate": 97
       },
       "rpc": {
-        "latency": 25
+        "latency": 29
       }
     },
     "performance": {
@@ -283,28 +202,26 @@
     },
     "rpcNodes": [
       {
-        "name": "quicknode-premium",
-        "type": "付费节点",
-        "latency": "23ms",
-        "successRate": "99.8%",
-        "status": "healthy",
-        "weight": "60%"
+        "name": "helius-wss",
+        "type": "WSS",
+        "latency": "15ms",
+        "successRate": "99.9%",
+        "status": "healthy"
       },
       {
         "name": "dexscreener",
         "type": "数据源",
         "latency": "15ms",
         "successRate": "99.5%",
-        "status": "healthy",
-        "weight": "40%"
+        "status": "healthy"
       }
     ],
     "projectInfo": {
       "name": "NeedleBot AI",
-      "version": "2.0.0",
+      "version": "6.0",
       "status": "running",
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-02T14:37:05.300Z"
+  "timestamp": "2026-03-03T02:00:09.408Z"
 }
