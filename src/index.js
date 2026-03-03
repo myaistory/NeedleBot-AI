@@ -808,3 +808,31 @@ setInterval(async () => {
         // ignore export errors
     }
 }, 10000);
+
+// ============================================================
+// WebSocket Pump Listener - 实时新币监听
+// ============================================================
+let wsPumpListener = null;
+
+async function startWebSocketPumpListener() {
+    try {
+        const WebSocketPumpListener = require('./modules/websocket-pump-listener');
+        wsPumpListener = new WebSocketPumpListener();
+        
+        wsPumpListener.on('needleConfirmed', (signal) => {
+            console.log('🎯 收到确认信号:', signal);
+            // 推送到前端
+            if (global.io) {
+                global.io.emit('new-signal', signal);
+            }
+        });
+        
+        await wsPumpListener.start();
+        console.log('✅ WebSocket Pump Listener 已启动');
+    } catch (e) {
+        console.error('❌ WebSocket启动失败:', e.message);
+    }
+}
+
+// 启动
+startWebSocketPumpListener();
