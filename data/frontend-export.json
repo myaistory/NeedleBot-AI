@@ -33,181 +33,181 @@
     ],
     "signals": [
       {
-        "id": "SIG-1772503795095",
-        "token": "BOME",
-        "time": "2:09:55 AM",
-        "drop": "7.3",
-        "recovery": "31.1",
-        "status": "active",
-        "confidence": 85
-      },
-      {
-        "id": "SIG-1772503790090",
-        "token": "BOME",
-        "time": "2:09:50 AM",
-        "drop": "11.3",
-        "recovery": "33.6",
-        "status": "active",
-        "confidence": 75
-      },
-      {
-        "id": "SIG-1772503765063",
+        "id": "SIG-1772504075400",
         "token": "POPCAT",
-        "time": "2:09:25 AM",
-        "drop": "3.9",
-        "recovery": "29.4",
+        "time": "2:14:35 AM",
+        "drop": "8.4",
+        "recovery": "21.2",
         "status": "active",
-        "confidence": 86
+        "confidence": 89
       },
       {
-        "id": "SIG-1772503755053",
+        "id": "SIG-1772504070395",
         "token": "COUNCIL",
-        "time": "2:09:15 AM",
-        "drop": "4.1",
-        "recovery": "16.8",
+        "time": "2:14:30 AM",
+        "drop": "12.1",
+        "recovery": "26.9",
         "status": "active",
-        "confidence": 81
+        "confidence": 70
       },
       {
-        "id": "SIG-1772503750048",
-        "token": "POPCAT",
-        "time": "2:09:10 AM",
-        "drop": "9.3",
-        "recovery": "21.7",
+        "id": "SIG-1772504065390",
+        "token": "WIF",
+        "time": "2:14:25 AM",
+        "drop": "3.5",
+        "recovery": "34.7",
         "status": "active",
         "confidence": 79
       },
       {
-        "id": "SIG-1772503740035",
-        "token": "POPCAT",
-        "time": "2:09:00 AM",
-        "drop": "10.0",
-        "recovery": "34.1",
+        "id": "SIG-1772504060385",
+        "token": "WIF",
+        "time": "2:14:20 AM",
+        "drop": "10.8",
+        "recovery": "32.7",
         "status": "active",
-        "confidence": 77
+        "confidence": 71
       },
       {
-        "id": "SIG-1772503735030",
-        "token": "BOME",
-        "time": "2:08:55 AM",
-        "drop": "12.1",
-        "recovery": "16.6",
-        "status": "active",
-        "confidence": 81
-      },
-      {
-        "id": "SIG-1772503730025",
+        "id": "SIG-1772504050375",
         "token": "DEGEN",
-        "time": "2:08:50 AM",
-        "drop": "6.4",
-        "recovery": "25.1",
+        "time": "2:14:10 AM",
+        "drop": "12.9",
+        "recovery": "30.0",
         "status": "active",
-        "confidence": 81
+        "confidence": 74
       },
       {
-        "id": "SIG-1772503720013",
+        "id": "SIG-1772504025349",
+        "token": "POPCAT",
+        "time": "2:13:45 AM",
+        "drop": "7.1",
+        "recovery": "22.7",
+        "status": "active",
+        "confidence": 89
+      },
+      {
+        "id": "SIG-1772504020344",
+        "token": "MEW",
+        "time": "2:13:40 AM",
+        "drop": "6.0",
+        "recovery": "15.0",
+        "status": "active",
+        "confidence": 74
+      },
+      {
+        "id": "SIG-1772503995316",
         "token": "COUNCIL",
-        "time": "2:08:40 AM",
-        "drop": "12.3",
-        "recovery": "25.6",
+        "time": "2:13:15 AM",
+        "drop": "4.1",
+        "recovery": "22.7",
         "status": "active",
-        "confidence": 77
+        "confidence": 80
       },
       {
-        "id": "SIG-1772503710004",
+        "id": "SIG-1772503990311",
         "token": "BONK",
-        "time": "2:08:30 AM",
-        "drop": "12.0",
-        "recovery": "20.3",
+        "time": "2:13:10 AM",
+        "drop": "13.0",
+        "recovery": "15.7",
         "status": "active",
-        "confidence": 77
+        "confidence": 82
+      },
+      {
+        "id": "SIG-1772503965283",
+        "token": "DEGEN",
+        "time": "2:12:45 AM",
+        "drop": "6.6",
+        "recovery": "23.2",
+        "status": "active",
+        "confidence": 79
       }
     ],
     "tokens": [
       {
-        "name": "BOME",
-        "price": "$0.004027",
-        "change": "7.1%",
-        "volume": "$1.8M",
-        "status": "monitoring"
-      },
-      {
-        "name": "BOME",
-        "price": "$0.005940",
-        "change": "1.7%",
-        "volume": "$0.5M",
-        "status": "monitoring"
-      },
-      {
         "name": "POPCAT",
-        "price": "$0.009481",
-        "change": "0.0%",
-        "volume": "$0.7M",
+        "price": "$0.003932",
+        "change": "6.8%",
+        "volume": "$0.3M",
         "status": "monitoring"
       },
       {
         "name": "COUNCIL",
-        "price": "$0.002657",
-        "change": "-4.8%",
-        "volume": "$0.6M",
+        "price": "$0.006135",
+        "change": "9.3%",
+        "volume": "$0.9M",
         "status": "monitoring"
       },
       {
-        "name": "POPCAT",
-        "price": "$0.003331",
-        "change": "-1.5%",
-        "volume": "$0.6M",
+        "name": "WIF",
+        "price": "$0.007140",
+        "change": "2.0%",
+        "volume": "$0.7M",
         "status": "monitoring"
       },
       {
-        "name": "POPCAT",
-        "price": "$0.005938",
-        "change": "6.6%",
-        "volume": "$0.5M",
-        "status": "monitoring"
-      },
-      {
-        "name": "BOME",
-        "price": "$0.002565",
-        "change": "2.5%",
-        "volume": "$0.8M",
+        "name": "WIF",
+        "price": "$0.004899",
+        "change": "5.2%",
+        "volume": "$1.9M",
         "status": "monitoring"
       },
       {
         "name": "DEGEN",
-        "price": "$0.005926",
-        "change": "4.9%",
-        "volume": "$0.2M",
+        "price": "$0.002629",
+        "change": "-2.4%",
+        "volume": "$1.8M",
+        "status": "monitoring"
+      },
+      {
+        "name": "POPCAT",
+        "price": "$0.000256",
+        "change": "-1.4%",
+        "volume": "$0.8M",
+        "status": "monitoring"
+      },
+      {
+        "name": "MEW",
+        "price": "$0.008162",
+        "change": "-0.3%",
+        "volume": "$1.8M",
         "status": "monitoring"
       },
       {
         "name": "COUNCIL",
-        "price": "$0.003966",
-        "change": "-5.1%",
-        "volume": "$0.1M",
+        "price": "$0.006547",
+        "change": "-9.3%",
+        "volume": "$0.3M",
         "status": "monitoring"
       },
       {
         "name": "BONK",
-        "price": "$0.006978",
-        "change": "-2.8%",
-        "volume": "$0.7M",
+        "price": "$0.003599",
+        "change": "-3.6%",
+        "volume": "$1.1M",
+        "status": "monitoring"
+      },
+      {
+        "name": "DEGEN",
+        "price": "$0.005688",
+        "change": "-0.8%",
+        "volume": "$1.1M",
         "status": "monitoring"
       }
     ],
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 36
+        "percentage": 43
       },
       "cpu": {
-        "usage": 31
+        "usage": 23
       },
       "api": {
         "successRate": 97
       },
       "rpc": {
-        "latency": 29
+        "latency": 25
       }
     },
     "performance": {
@@ -239,5 +239,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-03T02:10:05.108Z"
+  "timestamp": "2026-03-03T02:15:05.432Z"
 }
