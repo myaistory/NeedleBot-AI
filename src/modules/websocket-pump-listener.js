@@ -15,7 +15,7 @@ class WebSocketPumpListener extends EventEmitter {
         super();
         this.connection = null;
         this.subscriptionId = null;
-        this.processedSignatures = new Set(); // 防重复处理
+        this.processedSignatures = new Set();
         this.reconnectAttempts = 0;
         this.maxReconnects = 10;
         this.isRunning = false;
@@ -25,23 +25,22 @@ class WebSocketPumpListener extends EventEmitter {
         const wssUrl = process.env.SOLANA_WSS_URL || process.env.QUICKNODE_WS_URL;
         
         if (!wssUrl) {
-            console.error('❌ 请在 .env 中设置 SOLANA_WSS_URL 或 QUICKNODE_WS_URL');
-            // 使用默认的WSS
+            console.log('❌ 未配置 WSS，使用默认连接');
             this.connection = new Connection('https://api.mainnet-beta.solana.com', {
-                wsEndpoint: 'wss://api.mainnet-beta.solana.com'
+                commitment: 'confirmed'
             });
-            console.log('🌐 使用默认 Solana WSS');
         } else {
+            // 处理 wss:// 或 https://
+            const wsEndpoint = wssUrl.startsWith('wss://') ? wssUrl : wssUrl.replace('https://', 'wss://');
             this.connection = new Connection(wssUrl, {
                 commitment: 'confirmed',
-                wsEndpoint: wssUrl
+                wsEndpoint: wsEndpoint
             });
         }
 
         console.log('🌐 【WebSocketPumpListener】Pump.fun 实时监听启动中...');
 
         try {
-            // 核心：订阅 Pump.fun 所有日志
             this.subscriptionId = this.connection.onLogs(
                 PUMP_PROGRAM,
                 (logsInfo) => this.handleLog(logsInfo),
@@ -63,14 +62,13 @@ class WebSocketPumpListener extends EventEmitter {
         if (this.processedSignatures.has(signature)) return;
         this.processedSignatures.add(signature);
 
-        // 限制处理数量，防止内存溢出
         if (this.processedSignatures.size > 10000) {
             this.processedSignatures.clear();
         }
 
         const logText = logs.join(' | ');
 
-        // 1. 新币创建信号（Create 指令）
+        // 1. 新币创建信号
         if (logText.includes('Instruction: Create') || logText.includes('create')) {
             console.log(`🆕 [新币创建] ${signature.slice(0, 12)}...`);
             this.emit('newTokenCreated', {
@@ -81,7 +79,7 @@ class WebSocketPumpListener extends EventEmitter {
             this.analyzeSignal(signature, 'newToken');
         }
 
-        // 2. 大额买入信号（Buy 指令 → 插针核心）
+        // 2. 大额买入信号（插针核心）
         if (logText.includes('Instruction: Buy') || logText.includes('buy')) {
             console.log(`🔥 [大额买入/插针信号] ${signature.slice(0, 12)}...`);
             this.emit('largeBuyDetected', {
@@ -95,7 +93,6 @@ class WebSocketPumpListener extends EventEmitter {
 
     async analyzeSignal(signature, triggerType) {
         try {
-            // 生成信号对象
             const result = {
                 isNeedle: true,
                 confidence: 75,
@@ -108,14 +105,16 @@ class WebSocketPumpListener extends EventEmitter {
             if (result.isNeedle && result.confidence > 65) {
                 console.log(`🎯 [插针确认] 置信度 ${result.confidence}% → 发送给 Trader Agent`);
                 this.emit('needleConfirmed', result);
+                
+                // 推送到前端
+                if (global.io) {
+                    global.io.emit('new-signal', result);
+                }
             }
-        } catch (e) {
-            // 静默处理
-        }
+        } catch (e) {}
     }
 
     setupAutoReconnect() {
-        // WebSocket 断开自动重连
         const ws = this.connection?._rpcWebSocket || this.connection?._ws;
         
         if (ws) {
@@ -131,13 +130,14 @@ class WebSocketPumpListener extends EventEmitter {
         }
     }
 
-    stop() {
+    async stop() {
         if (this.subscriptionId && this.connection) {
-            this.connection.removeOnLogsListener(this.subscriptionId);
+            await this.connection.removeOnLogsListener(this.subscriptionId);
+            console.log('🛑 WebSocket 监听已安全关闭');
         }
         this.isRunning = false;
-        console.log('🛑 WebSocket Pump Listener 已停止');
     }
 }
 
-module.exports = WebSocketPumpListener;
+// 导出单例实例
+module.exports = new WebSocketPumpListener();
