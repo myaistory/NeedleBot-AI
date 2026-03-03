@@ -1654,5 +1654,21 @@
     "value": 2.67685,
     "threshold": 0.7,
     "timestamp": "2026-03-03T01:52:08.496Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 86.6%",
+    "value": 0.866115397364467,
+    "threshold": 0.8,
+    "timestamp": "2026-03-03T02:01:08.034Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 82.8%",
+    "value": 0.8282973440226118,
+    "threshold": 0.8,
+    "timestamp": "2026-03-03T02:02:08.033Z"
   }
 ]
