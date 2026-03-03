@@ -33,181 +33,181 @@
     ],
     "signals": [
       {
-        "id": "SIG-1772506813518",
-        "token": "POPCAT",
-        "time": "3:00:13 AM",
+        "id": "SIG-1772507108958",
+        "token": "BOME",
+        "time": "3:05:08 AM",
         "drop": "3.3",
-        "recovery": "18.9",
-        "status": "active",
-        "confidence": 76
-      },
-      {
-        "id": "SIG-1772506808510",
-        "token": "COUNCIL",
-        "time": "3:00:08 AM",
-        "drop": "10.7",
-        "recovery": "30.3",
-        "status": "active",
-        "confidence": 78
-      },
-      {
-        "id": "SIG-1772506803504",
-        "token": "COUNCIL",
-        "time": "3:00:03 AM",
-        "drop": "7.4",
-        "recovery": "21.3",
+        "recovery": "28.2",
         "status": "active",
         "confidence": 88
       },
       {
-        "id": "SIG-1772506798497",
-        "token": "WIF",
-        "time": "2:59:58 AM",
-        "drop": "8.0",
-        "recovery": "31.0",
-        "status": "active",
-        "confidence": 75
-      },
-      {
-        "id": "SIG-1772506793492",
-        "token": "COUNCIL",
-        "time": "2:59:53 AM",
-        "drop": "9.4",
-        "recovery": "27.8",
+        "id": "SIG-1772507098943",
+        "token": "BONK",
+        "time": "3:04:58 AM",
+        "drop": "4.0",
+        "recovery": "17.5",
         "status": "active",
         "confidence": 83
       },
       {
-        "id": "SIG-1772506778475",
-        "token": "BONK",
-        "time": "2:59:38 AM",
-        "drop": "7.3",
-        "recovery": "19.5",
+        "id": "SIG-1772507078916",
+        "token": "DEGEN",
+        "time": "3:04:38 AM",
+        "drop": "10.1",
+        "recovery": "25.1",
+        "status": "active",
+        "confidence": 81
+      },
+      {
+        "id": "SIG-1772507073909",
+        "token": "MEW",
+        "time": "3:04:33 AM",
+        "drop": "8.0",
+        "recovery": "33.4",
+        "status": "active",
+        "confidence": 86
+      },
+      {
+        "id": "SIG-1772507063856",
+        "token": "POPCAT",
+        "time": "3:04:23 AM",
+        "drop": "11.6",
+        "recovery": "28.0",
+        "status": "active",
+        "confidence": 76
+      },
+      {
+        "id": "SIG-1772507058847",
+        "token": "POPCAT",
+        "time": "3:04:18 AM",
+        "drop": "5.7",
+        "recovery": "20.4",
+        "status": "active",
+        "confidence": 80
+      },
+      {
+        "id": "SIG-1772507038815",
+        "token": "BOME",
+        "time": "3:03:58 AM",
+        "drop": "6.2",
+        "recovery": "32.9",
         "status": "active",
         "confidence": 73
       },
       {
-        "id": "SIG-1772506748440",
-        "token": "MEW",
-        "time": "2:59:08 AM",
-        "drop": "3.6",
-        "recovery": "28.7",
+        "id": "SIG-1772507033809",
+        "token": "DEGEN",
+        "time": "3:03:53 AM",
+        "drop": "11.7",
+        "recovery": "31.7",
         "status": "active",
-        "confidence": 82
+        "confidence": 72
       },
       {
-        "id": "SIG-1772506743435",
-        "token": "POPCAT",
-        "time": "2:59:03 AM",
-        "drop": "12.0",
-        "recovery": "26.1",
-        "status": "active",
-        "confidence": 83
-      },
-      {
-        "id": "SIG-1772506713399",
+        "id": "SIG-1772507008777",
         "token": "BOME",
-        "time": "2:58:33 AM",
-        "drop": "11.2",
-        "recovery": "33.7",
-        "status": "active",
-        "confidence": 79
-      },
-      {
-        "id": "SIG-1772506708393",
-        "token": "BOME",
-        "time": "2:58:28 AM",
-        "drop": "10.0",
-        "recovery": "22.3",
+        "time": "3:03:28 AM",
+        "drop": "4.5",
+        "recovery": "15.9",
         "status": "active",
         "confidence": 84
+      },
+      {
+        "id": "SIG-1772506993756",
+        "token": "WIF",
+        "time": "3:03:13 AM",
+        "drop": "6.6",
+        "recovery": "22.0",
+        "status": "active",
+        "confidence": 76
       }
     ],
     "tokens": [
       {
-        "name": "POPCAT",
-        "price": "$0.000050",
-        "change": "-4.9%",
+        "name": "BOME",
+        "price": "$0.000011",
+        "change": "-6.3%",
         "volume": "$1.3M",
         "status": "monitoring"
       },
       {
-        "name": "COUNCIL",
-        "price": "$0.003136",
-        "change": "-5.2%",
-        "volume": "$1.8M",
-        "status": "monitoring"
-      },
-      {
-        "name": "COUNCIL",
-        "price": "$0.007933",
-        "change": "-1.5%",
-        "volume": "$0.1M",
-        "status": "monitoring"
-      },
-      {
-        "name": "WIF",
-        "price": "$0.002225",
-        "change": "6.6%",
-        "volume": "$1.9M",
-        "status": "monitoring"
-      },
-      {
-        "name": "COUNCIL",
-        "price": "$0.000103",
-        "change": "3.1%",
-        "volume": "$1.5M",
-        "status": "monitoring"
-      },
-      {
         "name": "BONK",
-        "price": "$0.001646",
-        "change": "-3.6%",
-        "volume": "$0.1M",
+        "price": "$0.008526",
+        "change": "-1.3%",
+        "volume": "$1.3M",
         "status": "monitoring"
       },
       {
-        "name": "MEW",
-        "price": "$0.007448",
-        "change": "-3.7%",
-        "volume": "$0.9M",
-        "status": "monitoring"
-      },
-      {
-        "name": "POPCAT",
-        "price": "$0.002837",
-        "change": "4.8%",
+        "name": "DEGEN",
+        "price": "$0.008790",
+        "change": "-6.9%",
         "volume": "$2.0M",
         "status": "monitoring"
       },
       {
-        "name": "BOME",
-        "price": "$0.004748",
-        "change": "8.5%",
-        "volume": "$0.5M",
+        "name": "MEW",
+        "price": "$0.009012",
+        "change": "0.3%",
+        "volume": "$1.1M",
+        "status": "monitoring"
+      },
+      {
+        "name": "POPCAT",
+        "price": "$0.008965",
+        "change": "6.2%",
+        "volume": "$1.3M",
+        "status": "monitoring"
+      },
+      {
+        "name": "POPCAT",
+        "price": "$0.000885",
+        "change": "2.9%",
+        "volume": "$0.4M",
         "status": "monitoring"
       },
       {
         "name": "BOME",
-        "price": "$0.004574",
-        "change": "8.2%",
-        "volume": "$1.1M",
+        "price": "$0.003867",
+        "change": "3.9%",
+        "volume": "$1.2M",
+        "status": "monitoring"
+      },
+      {
+        "name": "DEGEN",
+        "price": "$0.005491",
+        "change": "-5.5%",
+        "volume": "$1.7M",
+        "status": "monitoring"
+      },
+      {
+        "name": "BOME",
+        "price": "$0.000666",
+        "change": "7.9%",
+        "volume": "$1.4M",
+        "status": "monitoring"
+      },
+      {
+        "name": "WIF",
+        "price": "$0.009231",
+        "change": "7.5%",
+        "volume": "$1.7M",
         "status": "monitoring"
       }
     ],
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 36
+        "percentage": 43
       },
       "cpu": {
-        "usage": 21
+        "usage": 17
       },
       "api": {
         "successRate": 98
       },
       "rpc": {
-        "latency": 20
+        "latency": 21
       }
     },
     "performance": {
@@ -239,5 +239,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-03T03:00:18.525Z"
+  "timestamp": "2026-03-03T03:05:08.965Z"
 }
