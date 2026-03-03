@@ -1,0 +1,50 @@
+[
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 280.8%",
+    "value": 2.80776,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T03:32:11.805Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 372.2%",
+    "value": 3.72216,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T03:33:12.069Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 670.3%",
+    "value": 6.70328,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T03:33:43.396Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 1111.6%",
+    "value": 11.11599,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T03:34:16.254Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 1178.8%",
+    "value": 11.78811,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T03:34:48.825Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 1436.0%",
+    "value": 14.35997,
+    "threshold": 0.7,
+    "timestamp": "2026-03-03T03:35:23.546Z"
+  }
+]
