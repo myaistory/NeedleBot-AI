@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-02-27T07:10:41.342Z",
+  "tests": [
+    "DNS解析测试",
+    "配置文件测试",
+    "JupiterClient测试",
+    "OrderManager测试"
+  ],
+  "status": "修复测试完成",
+  "recommendations": [
+    "已修复baseUrl从quote-api.jup.ag改为api.jup.ag",
+    "验证了DNS解析和API连接",
+    "测试了客户端和订单管理器功能"
+  ]
+}

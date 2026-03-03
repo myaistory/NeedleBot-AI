@@ -126,88 +126,88 @@
     "tokens": [
       {
         "name": "WIF",
-        "price": "$0.002150",
-        "change": "2.9%",
-        "volume": "$0.1M",
-        "status": "monitoring"
-      },
-      {
-        "name": "BONK",
-        "price": "$0.005345",
-        "change": "8.5%",
-        "volume": "$1.9M",
-        "status": "monitoring"
-      },
-      {
-        "name": "POPCAT",
-        "price": "$0.002042",
-        "change": "-0.7%",
-        "volume": "$0.4M",
-        "status": "monitoring"
-      },
-      {
-        "name": "WIF",
-        "price": "$0.001366",
-        "change": "-8.2%",
-        "volume": "$0.5M",
-        "status": "monitoring"
-      },
-      {
-        "name": "BOME",
-        "price": "$0.006808",
-        "change": "7.0%",
+        "price": "$0.000906",
+        "change": "4.4%",
         "volume": "$1.0M",
         "status": "monitoring"
       },
       {
         "name": "BONK",
-        "price": "$0.003855",
-        "change": "-9.9%",
-        "volume": "$1.2M",
+        "price": "$0.000012",
+        "change": "-5.4%",
+        "volume": "$0.3M",
         "status": "monitoring"
       },
       {
         "name": "POPCAT",
-        "price": "$0.000130",
-        "change": "-8.1%",
-        "volume": "$1.9M",
-        "status": "monitoring"
-      },
-      {
-        "name": "DEGEN",
-        "price": "$0.002859",
-        "change": "-4.8%",
-        "volume": "$0.9M",
+        "price": "$0.002402",
+        "change": "1.7%",
+        "volume": "$0.8M",
         "status": "monitoring"
       },
       {
         "name": "WIF",
-        "price": "$0.002746",
-        "change": "-8.3%",
+        "price": "$0.009288",
+        "change": "-2.4%",
+        "volume": "$1.2M",
+        "status": "monitoring"
+      },
+      {
+        "name": "BOME",
+        "price": "$0.000028",
+        "change": "5.8%",
+        "volume": "$0.4M",
+        "status": "monitoring"
+      },
+      {
+        "name": "BONK",
+        "price": "$0.002539",
+        "change": "-1.3%",
+        "volume": "$0.9M",
+        "status": "monitoring"
+      },
+      {
+        "name": "POPCAT",
+        "price": "$0.005463",
+        "change": "-4.2%",
         "volume": "$1.4M",
         "status": "monitoring"
       },
       {
         "name": "DEGEN",
-        "price": "$0.000770",
-        "change": "8.2%",
-        "volume": "$0.1M",
+        "price": "$0.006981",
+        "change": "-4.2%",
+        "volume": "$0.8M",
+        "status": "monitoring"
+      },
+      {
+        "name": "WIF",
+        "price": "$0.004443",
+        "change": "-7.2%",
+        "volume": "$1.9M",
+        "status": "monitoring"
+      },
+      {
+        "name": "DEGEN",
+        "price": "$0.004371",
+        "change": "-0.1%",
+        "volume": "$0.7M",
         "status": "monitoring"
       }
     ],
     "errors": [],
     "resources": {
       "memory": {
-        "percentage": 40
+        "percentage": 35
       },
       "cpu": {
-        "usage": 34
+        "usage": 24
       },
       "api": {
         "successRate": 97
       },
       "rpc": {
-        "latency": 25
+        "latency": 29
       }
     },
     "performance": {
@@ -239,5 +239,5 @@
       "domain": "myaistory.xyz"
     }
   },
-  "timestamp": "2026-03-03T03:10:04.289Z"
+  "timestamp": "2026-03-03T03:10:09.295Z"
 }

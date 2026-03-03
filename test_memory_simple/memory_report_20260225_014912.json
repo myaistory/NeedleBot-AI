@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "cache_hits": 0,
+    "cache_misses": 0,
+    "file_reads": 0,
+    "file_writes": 0,
+    "summary_calls": 0,
+    "file_counts": {
+      "short_term": 0,
+      "mid_term": 1,
+      "long_term": 0,
+      "conversations": 0
+    },
+    "cache_size": 0,
+    "user_count": 0,
+    "conversation_count": 0,
+    "timestamp": "2026-02-25T01:49:12.191941"
+  },
+  "user_preferences": {},
+  "recent_conversations": [],
+  "cache_keys": [],
+  "export_time": "2026-02-25T01:49:12.191978"
+}
