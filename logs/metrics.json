@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-03-04T05:30:04.650Z",
+  "timestamp": "2026-03-04T05:35:04.657Z",
   "metrics": {
     "system": {
       "startTime": 1772601424430,
-      "uptime": 780079,
-      "checks": 27,
-      "alerts": 26
+      "uptime": 1080106,
+      "checks": 37,
+      "alerts": 38
     },
     "api": {
-      "calls": 89,
-      "errors": 22,
-      "successRate": 0.7528089887640449,
-      "avgResponseTime": 813.1984216542501,
+      "calls": 121,
+      "errors": 26,
+      "successRate": 0.7851239669421488,
+      "avgResponseTime": 691.8055016944402,
       "lastError": {
         "message": "未获取到代币列表",
-        "timestamp": "2026-03-04T05:29:37.129Z"
+        "timestamp": "2026-03-04T05:33:17.267Z"
       }
     },
     "trading": {
@@ -28,37 +28,37 @@
     },
     "resources": {
       "memory": {
-        "used": 1461309440,
+        "used": 1478144000,
         "total": 2063593472,
-        "percentage": 0.7081382354750927,
-        "processHeapUsed": 17814072,
-        "processHeapTotal": 26206208,
-        "processHeapPercentage": 0.6797653441505158
+        "percentage": 0.7162961213321768,
+        "processHeapUsed": 22141184,
+        "processHeapTotal": 27254784,
+        "processHeapPercentage": 0.8123778929966937
       },
       "cpu": {
-        "usage": 0.09203,
+        "usage": 0.02777,
         "load": [
-          3.11,
-          3.12,
-          2.4
+          3.14,
+          3.53,
+          2.84
         ]
       },
       "disk": {
-        "used": 10790203392,
+        "used": 10763857920,
         "total": 41123332096,
-        "percentage": 0.2623864079596202
+        "percentage": 0.26174576259706794
       }
     },
-    "lastCheck": "2026-03-04T05:30:04.509Z"
+    "lastCheck": "2026-03-04T05:35:04.536Z"
   },
   "summary": {
-    "uptime": "0.22 小时",
-    "checks": 27,
-    "alerts": 26,
+    "uptime": "0.30 小时",
+    "checks": 37,
+    "alerts": 38,
     "api": {
-      "calls": 89,
-      "successRate": "75.3%",
-      "avgResponseTime": "813ms"
+      "calls": 121,
+      "successRate": "78.5%",
+      "avgResponseTime": "692ms"
     },
     "trading": {
       "signals": 0,
@@ -69,8 +69,8 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "70.8%",
-      "cpu": "9.2%",
+      "memory": "71.6%",
+      "cpu": "2.8%",
       "disk": "26.2%"
     }
   }
