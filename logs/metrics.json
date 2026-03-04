@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-03-04T03:29:28.818Z",
+  "metrics": {
+    "system": {
+      "startTime": 1772591058289,
+      "uptime": 3893350,
+      "checks": 111,
+      "alerts": 112
+    },
+    "api": {
+      "calls": 447,
+      "errors": 6,
+      "successRate": 0.9865771812080537,
+      "avgResponseTime": 296579.6708570471,
+      "lastError": {
+        "message": "未获取到代币列表",
+        "timestamp": "2026-03-04T03:07:23.558Z"
+      }
+    },
+    "trading": {
+      "signals": 0,
+      "trades": 0,
+      "successes": 0,
+      "failures": 0,
+      "successRate": 1,
+      "totalProfit": 0,
+      "totalLoss": 0
+    },
+    "resources": {
+      "memory": {
+        "used": 1155407872,
+        "total": 2063593472,
+        "percentage": 0.559900914437473,
+        "processHeapUsed": 114265464,
+        "processHeapTotal": 142073856,
+        "processHeapPercentage": 0.8042680561862134
+      },
+      "cpu": {
+        "usage": 56.94592,
+        "load": [
+          2.18,
+          2.72,
+          5.13
+        ]
+      },
+      "disk": {
+        "used": 10802929664,
+        "total": 41123332096,
+        "percentage": 0.26269587393310434
+      }
+    },
+    "lastCheck": "2026-03-04T03:29:11.639Z"
+  },
+  "summary": {
+    "uptime": "1.08 小时",
+    "checks": 111,
+    "alerts": 112,
+    "api": {
+      "calls": 447,
+      "successRate": "98.7%",
+      "avgResponseTime": "296580ms"
+    },
+    "trading": {
+      "signals": 0,
+      "trades": 0,
+      "successRate": "100.0%",
+      "profit": "$0.00",
+      "loss": "$0.00",
+      "net": "$0.00"
+    },
+    "resources": {
+      "memory": "56.0%",
+      "cpu": "5694.6%",
+      "disk": "26.3%"
+    }
+  }
+}
