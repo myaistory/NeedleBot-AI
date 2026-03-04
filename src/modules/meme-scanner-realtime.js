@@ -20,7 +20,7 @@ class MemeScannerRealtime extends EventEmitter {
         // 配置
         this.config = {
             // 使用 Birdeye WebSocket (需要API Key)
-            birdeyeWs: 'wss://api.birdeye.so/public/ws',
+            birdeyeWs: null // Disabled due to 521 errors,
             reconnectInterval: 5000
         };
     }
@@ -30,7 +30,7 @@ class MemeScannerRealtime extends EventEmitter {
         return new Promise((resolve, reject) => {
             try {
                 // 尝试连接 (需要有效的API Key)
-                this.ws = new WebSocket(this.config.birdeyeWs);
+                // Using DexScreener as primary data source;
                 
                 this.ws.on('open', () => {
                     console.log('[MemeScannerWS] ✅ WebSocket已连接');
