@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-04T02:24:48.399Z",
+  "timestamp": "2026-03-04T02:29:48.406Z",
   "metrics": {
     "system": {
       "startTime": 1772591058289,
-      "uptime": 30009,
-      "checks": 2,
+      "uptime": 330014,
+      "checks": 12,
       "alerts": 1
     },
     "api": {
-      "calls": 5,
+      "calls": 65,
       "errors": 0,
       "successRate": 1,
-      "avgResponseTime": 404.44421000000006,
+      "avgResponseTime": 737.6206029659468,
       "lastError": null
     },
     "trading": {
@@ -25,37 +25,37 @@
     },
     "resources": {
       "memory": {
-        "used": 923795456,
+        "used": 930308096,
         "total": 2063593472,
-        "percentage": 0.4476634901857259,
-        "processHeapUsed": 24327056,
-        "processHeapTotal": 40361984,
-        "processHeapPercentage": 0.6027220069261213
+        "percentage": 0.4508194606267876,
+        "processHeapUsed": 22286784,
+        "processHeapTotal": 41656320,
+        "processHeapPercentage": 0.5350156710914454
       },
       "cpu": {
-        "usage": 0.02858,
+        "usage": 0.0539,
         "load": [
-          0.09,
-          0.25,
-          0.37
+          0.04,
+          0.22,
+          0.33
         ]
       },
       "disk": {
-        "used": 10785415168,
+        "used": 10787262464,
         "total": 41123332096,
-        "percentage": 0.26226997225862153
+        "percentage": 0.26231489313214623
       }
     },
-    "lastCheck": "2026-03-04T02:24:48.298Z"
+    "lastCheck": "2026-03-04T02:29:48.303Z"
   },
   "summary": {
-    "uptime": "0.01 小时",
-    "checks": 2,
+    "uptime": "0.09 小时",
+    "checks": 12,
     "alerts": 1,
     "api": {
-      "calls": 5,
+      "calls": 65,
       "successRate": "100.0%",
-      "avgResponseTime": "404ms"
+      "avgResponseTime": "738ms"
     },
     "trading": {
       "signals": 0,
@@ -66,8 +66,8 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "44.8%",
-      "cpu": "2.9%",
+      "memory": "45.1%",
+      "cpu": "5.4%",
       "disk": "26.2%"
     }
   }
