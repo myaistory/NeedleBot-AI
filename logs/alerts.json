@@ -1,75 +1,35 @@
 [
   {
-    "type": "high_cpu_usage",
+    "type": "api_error_rate",
     "level": "warning",
-    "message": "CPU使用率过高: 2513.3%",
-    "value": 25.13262,
-    "threshold": 0.7,
-    "timestamp": "2026-03-04T05:18:41.413Z"
+    "message": "API错误率过高: 11.6%",
+    "value": 0.11594202898550725,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:21:14.159Z"
   },
   {
     "type": "api_error_rate",
     "level": "warning",
-    "message": "API错误率过高: 40.0%",
-    "value": 0.4,
+    "message": "API错误率过高: 30.4%",
+    "value": 0.30434782608695654,
     "threshold": 0.1,
-    "timestamp": "2026-03-04T05:19:04.559Z"
-  },
-  {
-    "type": "api_error_rate",
-    "level": "warning",
-    "message": "API错误率过高: 17.8%",
-    "value": 0.17777777777777778,
-    "threshold": 0.1,
-    "timestamp": "2026-03-04T05:19:14.153Z"
-  },
-  {
-    "type": "api_error_rate",
-    "level": "warning",
-    "message": "API错误率过高: 33.8%",
-    "value": 0.3384615384615385,
-    "threshold": 0.1,
-    "timestamp": "2026-03-04T05:19:15.147Z"
+    "timestamp": "2026-03-04T05:21:15.152Z"
   },
   {
     "type": "high_cpu_usage",
     "level": "warning",
-    "message": "CPU使用率过高: 2840.5%",
-    "value": 28.40492,
+    "message": "CPU使用率过高: 2448.8%",
+    "value": 24.4882,
     "threshold": 0.7,
-    "timestamp": "2026-03-04T05:19:13.219Z"
+    "timestamp": "2026-03-04T05:21:24.501Z"
   },
   {
     "type": "api_error_rate",
     "level": "warning",
-    "message": "API错误率过高: 33.3%",
-    "value": 0.3333333333333333,
+    "message": "API错误率过高: 10.7%",
+    "value": 0.10666666666666667,
     "threshold": 0.1,
-    "timestamp": "2026-03-04T05:19:34.556Z"
-  },
-  {
-    "type": "api_error_rate",
-    "level": "warning",
-    "message": "API错误率过高: 15.7%",
-    "value": 0.1568627450980392,
-    "threshold": 0.1,
-    "timestamp": "2026-03-04T05:19:44.158Z"
-  },
-  {
-    "type": "api_error_rate",
-    "level": "warning",
-    "message": "API错误率过高: 31.0%",
-    "value": 0.30985915492957744,
-    "threshold": 0.1,
-    "timestamp": "2026-03-04T05:19:45.157Z"
-  },
-  {
-    "type": "high_cpu_usage",
-    "level": "warning",
-    "message": "CPU使用率过高: 3051.6%",
-    "value": 30.51566,
-    "threshold": 0.7,
-    "timestamp": "2026-03-04T05:19:46.169Z"
+    "timestamp": "2026-03-04T05:21:44.162Z"
   },
   {
     "type": "api_error_rate",
@@ -77,6 +37,142 @@
     "message": "API错误率过高: 28.6%",
     "value": 0.2857142857142857,
     "threshold": 0.1,
-    "timestamp": "2026-03-04T05:20:04.574Z"
+    "timestamp": "2026-03-04T05:21:45.157Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 2990.2%",
+    "value": 29.90193,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:21:58.999Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 26.9%",
+    "value": 0.2692307692307692,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:22:15.158Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 21.6%",
+    "value": 0.21621621621621623,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:22:34.585Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 2639.6%",
+    "value": 26.39563,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:22:34.327Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 252.6%",
+    "value": 2.52633,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:22:51.545Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 20.0%",
+    "value": 0.2,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:23:04.578Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 2696.1%",
+    "value": 26.9608,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:23:08.845Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 18.6%",
+    "value": 0.18604651162790697,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:23:34.577Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 3054.6%",
+    "value": 30.5462,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:23:40.691Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 17.4%",
+    "value": 0.17391304347826086,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:24:04.585Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 31.1%",
+    "value": 0.3111111111111111,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:24:15.169Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 3393.6%",
+    "value": 33.93626,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:24:16.383Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 20.0%",
+    "value": 0.2,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:24:34.582Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 10.6%",
+    "value": 0.10619469026548672,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:24:44.191Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 36.7%",
+    "value": 0.3673469387755102,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:24:45.174Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 3141.1%",
+    "value": 31.4112,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T05:24:45.710Z"
+  },
+  {
+    "type": "api_error_rate",
+    "level": "warning",
+    "message": "API错误率过高: 18.9%",
+    "value": 0.18867924528301888,
+    "threshold": 0.1,
+    "timestamp": "2026-03-04T05:25:04.595Z"
   }
 ]
