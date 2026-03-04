@@ -1,124 +1,72 @@
-/**
- * WebSocketPumpListener - 纯 Solana WebSocket 实时监听器
- */
-
 const { Connection, PublicKey } = require('@solana/web3.js');
-const EventEmitter = require('events');
 
 const PUMP_PROGRAM = new PublicKey('6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P');
 
 class WebSocketPumpListener extends EventEmitter {
-    constructor() {
+    constructor(config = {}) {
         super();
+        this.config = config;
         this.connection = null;
-        this.subscriptionId = null;
-        this.processedSignatures = new Set();
+        this.ws = null;
         this.reconnectAttempts = 0;
-        this.maxReconnects = 10;
-        this.isRunning = false;
+        this.maxReconnectAttempts = 10;
+        this.reconnectDelay = 5000;
     }
 
     async start() {
-        const wssUrl = process.env.QUICKNODE_WS_URL || process.env.SOLANA_WSS_URL;
-        
-        let rpcUrl = 'https://api.mainnet-beta.solana.com';
-        let wsEndpoint = 'wss://api.mainnet-beta.solana.com';
-        
-        if (wssUrl) {
-            // Extract HTTP endpoint from WSS
-            rpcUrl = wssUrl.replace('wss://', 'https://').replace('?api-key=', '/?api-key=');
-            wsEndpoint = wssUrl;
-        }
-
-        this.connection = new Connection(rpcUrl, {
-            commitment: 'confirmed',
-            wsEndpoint: wsEndpoint
-        });
-
-        console.log('🌐 【WebSocketPumpListener】Pump.fun 实时监听启动中...');
-
         try {
-            this.subscriptionId = this.connection.onLogs(
-                PUMP_PROGRAM,
-                (logsInfo) => this.handleLog(logsInfo),
-                'confirmed'
-            );
+            // Use Helius RPC WebSocket for better reliability
+            const rpcUrl = process.env.QUICKNODE_RPC_URL || process.env.SOLANA_RPC_URL;
+            this.connection = new Connection(rpcUrl);
             
-            this.isRunning = true;
-            this.setupAutoReconnect();
-            console.log(`✅ WebSocket 订阅成功！正在监听 Pump.fun 新币创建与大额买入信号`);
-            this.reconnectAttempts = 0;
+            console.log('🌐 【WebSocketPumpListener】正在连接 Solana RPC...');
+            
+            // Use onLogs for direct Solana chain listening
+            this.connection.onLogs(
+                PUMP_PROGRAM,
+                (logs, ctx) => {
+                    this.handleLogs(logs);
+                },
+                'confirmed'
+            ).then(() => {
+                console.log('✅ Solana RPC onLogs 订阅成功！监听Pump.fun程序');
+            }).catch(err => {
+                console.error('❌ onLogs订阅失败:', err.message);
+            });
+            
+            this.emit('started');
             return true;
         } catch (e) {
-            console.error('❌ WebSocket 订阅失败:', e.message);
+            console.error('❌ WebSocket启动失败:', e.message);
+            this.emit('error', e);
             return false;
         }
     }
 
-    handleLog({ signature, logs }) {
-        if (this.processedSignatures.has(signature)) return;
-        this.processedSignatures.add(signature);
-
-        if (this.processedSignatures.size > 10000) {
-            this.processedSignatures.clear();
+    handleLogs(logs) {
+        if (!logs || !logs.logs) return;
+        
+        const logString = logs.logs.join(' ');
+        
+        // Detect new token creation
+        if (logString.includes('InitializeMint') || logString.includes('create')) {
+            console.log('🆕 [新币创建]', logs.signature?.slice(0, 8));
+            this.emit('newToken', { signature: logs.signature });
         }
-
-        const logText = logs.join(' | ');
-
-        if (logText.includes('Instruction: Create') || logText.includes('create')) {
-            console.log(`🆕 [新币创建] ${signature.slice(0, 12)}...`);
-            this.emit('newTokenCreated', { signature, type: 'create', timestamp: Date.now() });
-            this.analyzeSignal(signature, 'newToken');
-        }
-
-        if (logText.includes('Instruction: Buy') || logText.includes('buy')) {
-            console.log(`🔥 [大额买入/插针信号] ${signature.slice(0, 12)}...`);
-            this.emit('largeBuyDetected', { signature, type: 'buy', timestamp: Date.now() });
-            this.analyzeSignal(signature, 'buySpike');
+        
+        // Detect large buy
+        if (logString.includes('transfer') && logString.includes('5000000000')) {
+            console.log('🔥 [大额转账]', logs.signature?.slice(0, 8));
+            this.emit('largeTransfer', { signature: logs.signature });
         }
     }
 
-    async analyzeSignal(signature, triggerType) {
-        const result = {
-            isNeedle: true,
-            confidence: 75,
-            action: '建议买入',
-            signature,
-            triggerType,
-            timestamp: Date.now()
-        };
-
-        if (result.isNeedle && result.confidence > 65) {
-            console.log(`🎯 [插针确认] 置信度 ${result.confidence}% → 发送给 Trader Agent`);
-            this.emit('needleConfirmed', result);
-            
-            if (global.io) {
-                global.io.emit('new-signal', result);
-            }
+    stop() {
+        if (this.ws) {
+            this.ws.close();
         }
-    }
-
-    setupAutoReconnect() {
-        const ws = this.connection?._rpcWebSocket || this.connection?._ws;
-        if (ws) {
-            ws.on('close', () => {
-                console.log('⚠️ WebSocket 断开，准备自动重连...');
-                if (this.reconnectAttempts < this.maxReconnects) {
-                    this.reconnectAttempts++;
-                    setTimeout(() => this.start(), 2500);
-                }
-            });
-        }
-    }
-
-    async stop() {
-        if (this.subscriptionId && this.connection) {
-            await this.connection.removeOnLogsListener(this.subscriptionId);
-            console.log('🛑 WebSocket 监听已安全关闭');
-        }
-        this.isRunning = false;
+        this.emit('stopped');
     }
 }
 
-// 导出类
 module.exports = WebSocketPumpListener;
