@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-03-03T03:35:23.490Z",
+  "timestamp": "2026-03-04T02:24:48.399Z",
   "metrics": {
     "system": {
-      "startTime": 1772508730947,
-      "uptime": 185986,
-      "checks": 7,
-      "alerts": 5
+      "startTime": 1772591058289,
+      "uptime": 30009,
+      "checks": 2,
+      "alerts": 1
     },
     "api": {
-      "calls": 11,
+      "calls": 5,
       "errors": 0,
       "successRate": 1,
-      "avgResponseTime": 45512.7138604505,
+      "avgResponseTime": 404.44421000000006,
       "lastError": null
     },
     "trading": {
@@ -25,37 +25,37 @@
     },
     "resources": {
       "memory": {
-        "used": 1303097344,
+        "used": 923795456,
         "total": 2063593472,
-        "percentage": 0.6314699875150603,
-        "processHeapUsed": 42968704,
-        "processHeapTotal": 67362816,
-        "processHeapPercentage": 0.6378697707649277
+        "percentage": 0.4476634901857259,
+        "processHeapUsed": 24327056,
+        "processHeapTotal": 40361984,
+        "processHeapPercentage": 0.6027220069261213
       },
       "cpu": {
-        "usage": 14.35997,
+        "usage": 0.02858,
         "load": [
-          3.57,
-          2.95,
-          2.77
+          0.09,
+          0.25,
+          0.37
         ]
       },
       "disk": {
-        "used": 10715181056,
+        "used": 10785415168,
         "total": 41123332096,
-        "percentage": 0.26056208263926767
+        "percentage": 0.26226997225862153
       }
     },
-    "lastCheck": "2026-03-03T03:35:16.933Z"
+    "lastCheck": "2026-03-04T02:24:48.298Z"
   },
   "summary": {
-    "uptime": "0.05 小时",
-    "checks": 7,
-    "alerts": 5,
+    "uptime": "0.01 小时",
+    "checks": 2,
+    "alerts": 1,
     "api": {
-      "calls": 11,
+      "calls": 5,
       "successRate": "100.0%",
-      "avgResponseTime": "45513ms"
+      "avgResponseTime": "404ms"
     },
     "trading": {
       "signals": 0,
@@ -66,9 +66,9 @@
       "net": "$0.00"
     },
     "resources": {
-      "memory": "63.1%",
-      "cpu": "1436.0%",
-      "disk": "26.1%"
+      "memory": "44.8%",
+      "cpu": "2.9%",
+      "disk": "26.2%"
     }
   }
 }
