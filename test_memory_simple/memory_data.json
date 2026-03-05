@@ -1,0 +1,91 @@
+{
+  "marketData": {
+    "BONK_1771984188879": {
+      "token": "BONK",
+      "data": {
+        "token": "BONK",
+        "price": 0.0000125,
+        "change24h": -2.3,
+        "volume": 142000,
+        "timestamp": "2026-02-25T01:49:48.879Z"
+      },
+      "timestamp": 1771984188879,
+      "expiresAt": 1771984488879
+    },
+    "BONK_1771984202116": {
+      "token": "BONK",
+      "data": {
+        "token": "BONK",
+        "price": 0.0000125,
+        "change24h": -2.3,
+        "volume": 142000,
+        "timestamp": "2026-02-25T01:50:02.115Z"
+      },
+      "timestamp": 1771984202116,
+      "expiresAt": 1771984502116
+    }
+  },
+  "signals": [
+    {
+      "id": "sig_1771984188881_cwyat",
+      "timestamp": 1771984188881,
+      "token": "BONK",
+      "confidence": 85,
+      "drop_percent": 22.5,
+      "recovery_percent": 52.1,
+      "storedAt": "2026-02-25T01:49:48.881Z"
+    },
+    {
+      "id": "sig_1771984202117_4c9hz",
+      "timestamp": 1771984202117,
+      "token": "BONK",
+      "confidence": 85,
+      "drop_percent": 22.5,
+      "recovery_percent": 52.1,
+      "storedAt": "2026-02-25T01:50:02.117Z"
+    }
+  ],
+  "trades": [
+    {
+      "id": "trade_1771984202119_6ew0b",
+      "timestamp": "2026-02-25T01:50:02.119Z",
+      "storedAt": 1771984202119,
+      "token": "BONK",
+      "action": "buy",
+      "entry_price": 0.0000118,
+      "amount": 0.1,
+      "pnl": 0.018,
+      "pnl_percent": 18
+    }
+  ],
+  "userPreferences": {
+    "test_user": {
+      "preferred_chain": {
+        "value": "Solana",
+        "timestamp": 1771984202111,
+        "updatedAt": "2026-02-25T01:50:02.111Z"
+      },
+      "risk_tolerance": {
+        "value": "medium",
+        "timestamp": 1771984202113,
+        "updatedAt": "2026-02-25T01:50:02.113Z"
+      },
+      "trading_style": {
+        "value": "needle_recovery",
+        "timestamp": 1771984202114,
+        "updatedAt": "2026-02-25T01:50:02.114Z"
+      },
+      "max_position_size": {
+        "value": 0.1,
+        "timestamp": 1771984188873,
+        "updatedAt": "2026-02-25T01:49:48.873Z"
+      },
+      "stop_loss_percent": {
+        "value": 0.05,
+        "timestamp": 1771984188875,
+        "updatedAt": "2026-02-25T01:49:48.875Z"
+      }
+    }
+  },
+  "conversations": []
+}

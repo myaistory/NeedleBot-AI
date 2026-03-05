@@ -1,0 +1,74 @@
+{
+  "timestamp": "2026-03-05T14:45:47.395Z",
+  "metrics": {
+    "system": {
+      "startTime": 1772720177227,
+      "uptime": 1770065,
+      "checks": 60,
+      "alerts": 1
+    },
+    "api": {
+      "calls": 40,
+      "errors": 0,
+      "successRate": 1,
+      "avgResponseTime": 4697.983458803638,
+      "lastError": null
+    },
+    "trading": {
+      "signals": 0,
+      "trades": 0,
+      "successes": 0,
+      "failures": 0,
+      "successRate": 1,
+      "totalProfit": 0,
+      "totalLoss": 0
+    },
+    "resources": {
+      "memory": {
+        "used": 1135648768,
+        "total": 2063593472,
+        "percentage": 0.5503258192125159,
+        "processHeapUsed": 25344016,
+        "processHeapTotal": 41672704,
+        "processHeapPercentage": 0.6081682628513859
+      },
+      "cpu": {
+        "usage": 0.01943,
+        "load": [
+          1.97,
+          1.68,
+          1.71
+        ]
+      },
+      "disk": {
+        "used": 10790785024,
+        "total": 41123332096,
+        "percentage": 0.26240055156059694
+      }
+    },
+    "lastCheck": "2026-03-05T14:45:47.292Z"
+  },
+  "summary": {
+    "uptime": "0.49 小时",
+    "checks": 60,
+    "alerts": 1,
+    "api": {
+      "calls": 40,
+      "successRate": "100.0%",
+      "avgResponseTime": "4698ms"
+    },
+    "trading": {
+      "signals": 0,
+      "trades": 0,
+      "successRate": "100.0%",
+      "profit": "$0.00",
+      "loss": "$0.00",
+      "net": "$0.00"
+    },
+    "resources": {
+      "memory": "55.0%",
+      "cpu": "1.9%",
+      "disk": "26.2%"
+    }
+  }
+}

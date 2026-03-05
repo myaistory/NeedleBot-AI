@@ -1,0 +1,243 @@
+{
+  "success": true,
+  "data": {
+    "processNodes": [
+      {
+        "id": "price-fetcher",
+        "name": "价格获取模块",
+        "status": "active",
+        "details": "DexScreener + WebSocket · 实时监控",
+        "icon": "fas fa-sync-alt"
+      },
+      {
+        "id": "needle-detector",
+        "name": "信号检测模块",
+        "status": "active",
+        "details": "WebSocket Pump监听 · 毫秒级",
+        "icon": "fas fa-search"
+      },
+      {
+        "id": "risk-manager",
+        "name": "风险管理模块",
+        "status": "active",
+        "details": "三层风控系统",
+        "icon": "fas fa-shield-alt"
+      },
+      {
+        "id": "trade-executor",
+        "name": "交易执行模块",
+        "status": "active",
+        "details": "真实交易就绪",
+        "icon": "fas fa-exchange-alt"
+      }
+    ],
+    "signals": [
+      {
+        "id": "SIG-1772507399281",
+        "token": "WIF",
+        "time": "3:09:59 AM",
+        "drop": "12.0",
+        "recovery": "30.6",
+        "status": "active",
+        "confidence": 71
+      },
+      {
+        "id": "SIG-1772507394276",
+        "token": "BONK",
+        "time": "3:09:54 AM",
+        "drop": "7.3",
+        "recovery": "23.2",
+        "status": "active",
+        "confidence": 78
+      },
+      {
+        "id": "SIG-1772507294171",
+        "token": "POPCAT",
+        "time": "3:08:14 AM",
+        "drop": "4.8",
+        "recovery": "26.4",
+        "status": "active",
+        "confidence": 84
+      },
+      {
+        "id": "SIG-1772507274150",
+        "token": "WIF",
+        "time": "3:07:54 AM",
+        "drop": "13.0",
+        "recovery": "33.8",
+        "status": "active",
+        "confidence": 88
+      },
+      {
+        "id": "SIG-1772507234109",
+        "token": "BOME",
+        "time": "3:07:14 AM",
+        "drop": "7.8",
+        "recovery": "17.1",
+        "status": "active",
+        "confidence": 75
+      },
+      {
+        "id": "SIG-1772507214089",
+        "token": "BONK",
+        "time": "3:06:54 AM",
+        "drop": "5.6",
+        "recovery": "20.8",
+        "status": "active",
+        "confidence": 81
+      },
+      {
+        "id": "SIG-1772507199070",
+        "token": "POPCAT",
+        "time": "3:06:39 AM",
+        "drop": "10.8",
+        "recovery": "34.1",
+        "status": "active",
+        "confidence": 88
+      },
+      {
+        "id": "SIG-1772507184053",
+        "token": "DEGEN",
+        "time": "3:06:24 AM",
+        "drop": "6.7",
+        "recovery": "22.9",
+        "status": "active",
+        "confidence": 72
+      },
+      {
+        "id": "SIG-1772507179048",
+        "token": "WIF",
+        "time": "3:06:19 AM",
+        "drop": "5.5",
+        "recovery": "21.7",
+        "status": "active",
+        "confidence": 85
+      },
+      {
+        "id": "SIG-1772507169037",
+        "token": "DEGEN",
+        "time": "3:06:09 AM",
+        "drop": "11.9",
+        "recovery": "30.7",
+        "status": "active",
+        "confidence": 87
+      }
+    ],
+    "tokens": [
+      {
+        "name": "WIF",
+        "price": "$0.000906",
+        "change": "4.4%",
+        "volume": "$1.0M",
+        "status": "monitoring"
+      },
+      {
+        "name": "BONK",
+        "price": "$0.000012",
+        "change": "-5.4%",
+        "volume": "$0.3M",
+        "status": "monitoring"
+      },
+      {
+        "name": "POPCAT",
+        "price": "$0.002402",
+        "change": "1.7%",
+        "volume": "$0.8M",
+        "status": "monitoring"
+      },
+      {
+        "name": "WIF",
+        "price": "$0.009288",
+        "change": "-2.4%",
+        "volume": "$1.2M",
+        "status": "monitoring"
+      },
+      {
+        "name": "BOME",
+        "price": "$0.000028",
+        "change": "5.8%",
+        "volume": "$0.4M",
+        "status": "monitoring"
+      },
+      {
+        "name": "BONK",
+        "price": "$0.002539",
+        "change": "-1.3%",
+        "volume": "$0.9M",
+        "status": "monitoring"
+      },
+      {
+        "name": "POPCAT",
+        "price": "$0.005463",
+        "change": "-4.2%",
+        "volume": "$1.4M",
+        "status": "monitoring"
+      },
+      {
+        "name": "DEGEN",
+        "price": "$0.006981",
+        "change": "-4.2%",
+        "volume": "$0.8M",
+        "status": "monitoring"
+      },
+      {
+        "name": "WIF",
+        "price": "$0.004443",
+        "change": "-7.2%",
+        "volume": "$1.9M",
+        "status": "monitoring"
+      },
+      {
+        "name": "DEGEN",
+        "price": "$0.004371",
+        "change": "-0.1%",
+        "volume": "$0.7M",
+        "status": "monitoring"
+      }
+    ],
+    "errors": [],
+    "resources": {
+      "memory": {
+        "percentage": 35
+      },
+      "cpu": {
+        "usage": 24
+      },
+      "api": {
+        "successRate": 97
+      },
+      "rpc": {
+        "latency": 29
+      }
+    },
+    "performance": {
+      "totalTrades": 5,
+      "winRate": 80,
+      "totalProfit": 2.5,
+      "sharpeRatio": 1.8
+    },
+    "rpcNodes": [
+      {
+        "name": "helius-wss",
+        "type": "WSS",
+        "latency": "15ms",
+        "successRate": "99.9%",
+        "status": "healthy"
+      },
+      {
+        "name": "dexscreener",
+        "type": "数据源",
+        "latency": "15ms",
+        "successRate": "99.5%",
+        "status": "healthy"
+      }
+    ],
+    "projectInfo": {
+      "name": "NeedleBot AI",
+      "version": "6.0",
+      "status": "running",
+      "domain": "myaistory.xyz"
+    }
+  },
+  "timestamp": "2026-03-03T03:10:09.295Z"
+}

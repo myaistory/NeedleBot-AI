@@ -1,0 +1,1 @@
+{"action":"wallet_integrated","config":{"wallet":{"address":null,"balanceSOL":0,"isReady":false,"integrationTime":"2026-02-27T13:48:22.985Z"},"trading":{"enabled":true,"maxAmountSOL":0.1,"defaultSlippageBps":100},"monitoring":{"enabled":true,"checkIntervalMinutes":5}},"timestamp":"2026-02-27T13:48:22.987Z"}

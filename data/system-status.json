@@ -1,0 +1,12 @@
+{
+  "scans": 0,
+  "tokensScanned": 0,
+  "signalsDetected": 0,
+  "tradesExecuted": 0,
+  "activePositions": 0,
+  "totalProfit": 0,
+  "lastUpdate": "2026-02-28T18:49:44.942Z",
+  "status": "monitoring",
+  "needlebotRunning": false,
+  "uptime": 60527439
+}

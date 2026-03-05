@@ -1,0 +1,50 @@
+{"level":"info","message":"初始化 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.539"}
+{"level":"info","message":"系统组件初始化完成","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.547"}
+{"level":"info","message":"🚀 启动 NeedleBot AI 系统...","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.550"}
+{"level":"info","message":"🚀 启动监控系统...","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.552"}
+{"level":"info","message":"✅ 监控系统已启动，检查间隔: 30000ms","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.554"}
+{"level":"info","message":"📊 监控系统已启动","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.557"}
+{"level":"warn","message":"[告警] CPU使用率过高: 235.7%","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.573"}
+{"level":"info","message":"加载了 0 条历史交易记录","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.598"}
+{"level":"info","message":"模拟交易系统初始化完成，初始余额: 1 SOL","service":"needlebot-ai","timestamp":"2026-03-05 14:16:17.599"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:16:22.152"}
+{"level":"info","message":"✅ 系统已启动，扫描间隔: 45000ms","service":"needlebot-ai","timestamp":"2026-03-05 14:16:22.157"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:17:12.167"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:17:57.284"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:18:41.655"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:19:27.389"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:20:11.891"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:20:57.294"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:21:41.686"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:22:26.663"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:23:11.566"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:23:56.612"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:24:41.628"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:25:27.076"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:26:11.917"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:26:57.175"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:27:41.975"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:28:26.890"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:29:11.848"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:29:56.514"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:30:42.000"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:31:26.892"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:32:11.775"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:32:56.927"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:33:41.825"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:34:26.895"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:35:12.255"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:35:57.034"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:36:41.424"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:37:26.537"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:38:11.569"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:38:57.169"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:39:41.731"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:40:26.946"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:41:11.971"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:41:56.993"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:42:41.521"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:43:27.366"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:44:11.634"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:44:56.877"}
+{"level":"info","message":"获取到 30 个代币 (多数据源)","service":"needlebot-ai","timestamp":"2026-03-05 14:45:42.626"}

@@ -1,0 +1,77 @@
+{
+  "nodes": [
+    {
+      "name": "quicknode-premium",
+      "url": "https://purple-wiser-tab.solana-mainnet.quiknode.pro/5e15144ae8962f5d2dae5d8d9f4bb722fd65156a",
+      "wsUrl": "wss://purple-wiser-tab.solana-mainnet.quiknode.pro/5e15144ae8962f5d2dae5d8d9f4bb722fd65156a",
+      "weight": 40,
+      "type": "premium",
+      "provider": "quicknode",
+      "features": ["websocket", "archive", "enhanced-api", "priority-fee"],
+      "lastResponseTime": 0,
+      "successRate": 1.0,
+      "priority": 1
+    },
+    {
+      "name": "helius-premium",
+      "url": "https://mainnet.helius-rpc.com/?api-key=YOUR_HELIUS_KEY_HERE",
+      "weight": 30,
+      "type": "premium",
+      "provider": "helius",
+      "features": ["jito-bundles", "priority-fee", "compressed-nfts"],
+      "lastResponseTime": 0,
+      "successRate": 1.0,
+      "priority": 2
+    },
+    {
+      "name": "triton-public",
+      "url": "https://api.mainnet-beta.solana.com",
+      "weight": 20,
+      "type": "public",
+      "provider": "solana",
+      "features": ["basic"],
+      "lastResponseTime": 0,
+      "successRate": 0.8,
+      "priority": 3
+    },
+    {
+      "name": "solana-public",
+      "url": "https://solana-api.projectserum.com",
+      "weight": 10,
+      "type": "public",
+      "provider": "serum",
+      "features": ["basic"],
+      "lastResponseTime": 0,
+      "successRate": 0.7,
+      "priority": 4
+    }
+  ],
+  "healthCheck": {
+    "intervalMs": 30000,
+    "timeoutMs": 5000,
+    "maxResponseTime": 2000,
+    "minSuccessRate": 0.8
+  },
+  "selection": {
+    "strategy": "weighted-random",
+    "fallbackStrategy": "round-robin",
+    "maxRetries": 3,
+    "retryDelayMs": 100
+  },
+  "monitoring": {
+    "enableLogging": true,
+    "logLevel": "info",
+    "metricsIntervalMs": 60000,
+    "alertThresholds": {
+      "highLatency": 3000,
+      "lowSuccessRate": 0.7,
+      "consecutiveFailures": 3
+    }
+  },
+  "features": {
+    "enableWebSocket": true,
+    "enableJitoBundles": false,
+    "enablePriorityFee": true,
+    "enableCompression": false
+  }
+}

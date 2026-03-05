@@ -1,0 +1,42 @@
+[
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 20910.2%",
+    "value": 209.10174,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T06:06:23.980Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 16745.2%",
+    "value": 167.45184,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T06:07:04.920Z"
+  },
+  {
+    "type": "high_memory_usage",
+    "level": "warning",
+    "message": "内存使用率过高: 92.6%",
+    "value": 0.9261284579213865,
+    "threshold": 0.8,
+    "timestamp": "2026-03-04T06:07:34.081Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 279.4%",
+    "value": 2.79431,
+    "threshold": 0.7,
+    "timestamp": "2026-03-04T06:52:16.733Z"
+  },
+  {
+    "type": "high_cpu_usage",
+    "level": "warning",
+    "message": "CPU使用率过高: 235.7%",
+    "value": 2.35715,
+    "threshold": 0.7,
+    "timestamp": "2026-03-05T14:16:17.480Z"
+  }
+]

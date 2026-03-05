@@ -1,0 +1,1010 @@
+🔧 正在创建记忆系统...
+🔧 MemoryIntegration 构造函数开始...
+🔧 配置设置完成: ./memory
+✅ MemoryIntegration 构造函数完成
+✅ 记忆系统创建成功: 是
+🧠 初始化记忆系统...
+  检查 memorySystem: null/undefined
+  检查 memorySystem 类型: object
+  检查 memorySystem 构造函数: undefined
+记忆系统未配置，跳过初始化
+🌐 【Solana RPC】监听中...
+❌ WebSocket启动失败: this.connection.onLogs(...).then is not a function
+✅ WebSocket Pump Listener 已启动
+[14:16:17.541] [32minfo[39m: 初始化 NeedleBot AI 系统... {"service":"needlebot-ai"}
+[14:16:17.547] [32minfo[39m: 系统组件初始化完成 {"service":"needlebot-ai"}
+[14:16:17.550] [32minfo[39m: 🚀 启动 NeedleBot AI 系统... {"service":"needlebot-ai"}
+[14:16:17.552] [32minfo[39m: 🚀 启动监控系统... {"service":"needlebot-ai"}
+[14:16:17.555] [32minfo[39m: ✅ 监控系统已启动，检查间隔: 30000ms {"service":"needlebot-ai"}
+[14:16:17.557] [32minfo[39m: 📊 监控系统已启动 {"service":"needlebot-ai"}
+[14:16:17.560] [34mdebug[39m: 开始扫描 #1 (scan_1772720177456) {"service":"needlebot-ai"}
+[14:16:17.574] [33mwarn[39m: [告警] CPU使用率过高: 235.7% {"service":"needlebot-ai"}
+[14:16:17.597] [34mdebug[39m: 监控检查完成 #1 {"service":"needlebot-ai"}
+[14:16:17.598] [32minfo[39m: 加载了 0 条历史交易记录 {"service":"needlebot-ai"}
+[14:16:17.599] [32minfo[39m: 模拟交易系统初始化完成，初始余额: 1 SOL {"service":"needlebot-ai"}
+🆕 [新币创建] 5NfgUa3V
+🆕 [新币创建] zj7cqLPY
+[14:16:21.746] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:16:22.152] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:16:22.154] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:16:22.155] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+
+============================================================
+📊 NEEDLEBOT AI 系统状态
+============================================================
+运行时间: 4s
+扫描次数: 1
+检测信号: 0
+执行交易: 0
+账户余额: 1.0000 SOL
+持仓数量: 0
+胜率: 0.00%
+总盈亏: 0.0000 SOL
+最大回撤: 0.00%
+
+🧠 记忆系统: 未初始化
+============================================================
+
+
+============================================================
+📊 NEEDLEBOT AI 系统状态
+============================================================
+运行时间: 4s
+扫描次数: 1
+检测信号: 0
+执行交易: 0
+账户余额: 1.0000 SOL
+持仓数量: 0
+胜率: 0.00%
+总盈亏: 0.0000 SOL
+最大回撤: 0.00%
+
+🧠 记忆系统: 未初始化
+============================================================
+
+[14:16:22.158] [32minfo[39m: ✅ 系统已启动，扫描间隔: 45000ms {"service":"needlebot-ai"}
+🆕 [新币创建] 55WAcNdv
+🆕 [新币创建] 5fwvjsCB
+🆕 [新币创建] 5DEDW1UV
+🆕 [新币创建] 2TbyrFXm
+🆕 [新币创建] 2PzWmUmB
+🆕 [新币创建] 2e4Ydga1
+[14:16:47.340] [34mdebug[39m: 监控检查完成 #2 {"service":"needlebot-ai"}
+🆕 [新币创建] 22GBkLdE
+🆕 [新币创建] 4MTHuMoe
+🆕 [新币创建] MF6kixbA
+[14:17:07.168] [34mdebug[39m: 开始扫描 #2 (scan_1772720227158) {"service":"needlebot-ai"}
+🆕 [新币创建] 5ZMGJ8FJ
+[14:17:12.108] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:17:12.168] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:17:12.169] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:17:12.171] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+[14:17:17.344] [34mdebug[39m: 监控检查完成 #3 {"service":"needlebot-ai"}
+🆕 [新币创建] 2QFk5sn5
+🆕 [新币创建] 4EVBeNU9
+🆕 [新币创建] 3FctBEZF
+🆕 [新币创建] 2GvZKj1z
+🆕 [新币创建] 2f7fvTTG
+🆕 [新币创建] gJhVYg7N
+🆕 [新币创建] 5sREPjnc
+🆕 [新币创建] 5KdGJ4xW
+🆕 [新币创建] 4iw13XJA
+🆕 [新币创建] NgvYBp2V
+[14:17:47.339] [34mdebug[39m: 监控检查完成 #4 {"service":"needlebot-ai"}
+[14:17:52.174] [34mdebug[39m: 开始扫描 #3 (scan_1772720272158) {"service":"needlebot-ai"}
+🆕 [新币创建] 31J1u7M6
+🆕 [新币创建] 4n8dKjt4
+🆕 [新币创建] 4wK5ydX3
+🆕 [新币创建] 3bb5Qund
+🆕 [新币创建] 2BFGS9WD
+🆕 [新币创建] 2Ds6ZEAk
+🆕 [新币创建] 523orm4D
+[14:17:57.018] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:17:57.284] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:17:57.285] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:17:57.285] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] x2ddXXiS
+🆕 [新币创建] WenaHHMD
+🆕 [新币创建] 5koFnD2e
+🆕 [新币创建] 4LW3ELcB
+[14:18:17.342] [34mdebug[39m: 监控检查完成 #5 {"service":"needlebot-ai"}
+🆕 [新币创建] 4pSRoGdv
+🆕 [新币创建] WDGnSpQP
+🆕 [新币创建] 4M2EwER1
+🆕 [新币创建] 5ZcUgLYd
+[14:18:37.167] [34mdebug[39m: 开始扫描 #4 (scan_1772720317159) {"service":"needlebot-ai"}
+[14:18:41.602] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:18:41.655] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:18:41.657] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:18:41.657] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2xj1TyUs
+[14:18:47.341] [34mdebug[39m: 监控检查完成 #6 {"service":"needlebot-ai"}
+🆕 [新币创建] 5RR9ZdYa
+🆕 [新币创建] aV3DnYTQ
+🆕 [新币创建] 4k4ToaJX
+🆕 [新币创建] 4qFJPzrt
+🆕 [新币创建] 442wvWDJ
+🆕 [新币创建] 3b8tgZ4c
+🆕 [新币创建] 4h4LXcUw
+🆕 [新币创建] 3AWdHsz6
+🆕 [新币创建] ZkuTriQ7
+🆕 [新币创建] 4ujBF8eX
+[14:19:17.344] [34mdebug[39m: 监控检查完成 #7 {"service":"needlebot-ai"}
+[14:19:22.172] [34mdebug[39m: 开始扫描 #5 (scan_1772720362159) {"service":"needlebot-ai"}
+🆕 [新币创建] Fn8HVrwd
+[14:19:27.036] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:19:27.389] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:19:27.390] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:19:27.390] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4VUM3VbN
+🆕 [新币创建] 4XQAzwBC
+🆕 [新币创建] 3dd1QFed
+[14:19:47.342] [34mdebug[39m: 监控检查完成 #8 {"service":"needlebot-ai"}
+🆕 [新币创建] 2FwH1ZqM
+🆕 [新币创建] 5fpDtaSc
+[14:20:07.187] [34mdebug[39m: 开始扫描 #6 (scan_1772720407160) {"service":"needlebot-ai"}
+[14:20:11.817] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:20:11.894] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:20:11.896] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:20:11.896] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 5rbga5vN
+🆕 [新币创建] eZ337QMJ
+[14:20:17.351] [34mdebug[39m: 监控检查完成 #9 {"service":"needlebot-ai"}
+🆕 [新币创建] 3EiJzrVc
+🆕 [新币创建] 5NCuJ2P5
+🆕 [新币创建] 57or1ks2
+🆕 [新币创建] 5Kz4f8G6
+🆕 [新币创建] 3RA7TzNu
+🆕 [新币创建] 2FGHq5Yo
+🆕 [新币创建] 2LYUh63Z
+🆕 [新币创建] 5M6QRTX7
+🆕 [新币创建] 64rBY9VC
+🆕 [新币创建] 5YehZ6aT
+🆕 [新币创建] 4YB3MF6z
+🆕 [新币创建] 2MLT2EVU
+[14:20:47.346] [34mdebug[39m: 监控检查完成 #10 {"service":"needlebot-ai"}
+🆕 [新币创建] xQd14d3V
+[14:20:52.170] [34mdebug[39m: 开始扫描 #7 (scan_1772720452160) {"service":"needlebot-ai"}
+🆕 [新币创建] 2wkbjx64
+🆕 [新币创建] 2uGerbQz
+[14:20:57.031] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+🆕 [新币创建] hbrP1KNk
+[14:20:57.294] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:20:57.299] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:20:57.299] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 3PmnXLgE
+🆕 [新币创建] STPnQpvX
+🆕 [新币创建] 3GxrNsw9
+🆕 [新币创建] 3B6vWbaU
+[14:21:17.362] [34mdebug[39m: 监控检查完成 #11 {"service":"needlebot-ai"}
+🆕 [新币创建] 27J77qdz
+🆕 [新币创建] nzssRvcz
+🆕 [新币创建] 4cUtepg9
+🆕 [新币创建] sfGh9uBR
+🆕 [新币创建] 3eygqxqi
+🆕 [新币创建] LYzq4z6P
+[14:21:37.174] [34mdebug[39m: 开始扫描 #8 (scan_1772720497160) {"service":"needlebot-ai"}
+[14:21:41.609] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:21:41.687] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:21:41.689] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:21:41.690] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 5242hSaZ
+[14:21:47.354] [34mdebug[39m: 监控检查完成 #12 {"service":"needlebot-ai"}
+🆕 [新币创建] 5nTr1qoR
+🆕 [新币创建] 4HmKUdi3
+🆕 [新币创建] 3cV74syy
+🆕 [新币创建] PGU9s2DL
+🆕 [新币创建] 2G6J2foL
+🆕 [新币创建] 53Txydb9
+🆕 [新币创建] 2hhJEZiR
+[14:22:17.346] [34mdebug[39m: 监控检查完成 #13 {"service":"needlebot-ai"}
+🆕 [新币创建] 57kQf21f
+🆕 [新币创建] 5TcoyqmR
+🆕 [新币创建] 4T7x1X3s
+🆕 [新币创建] d9iYPYjG
+[14:22:22.185] [34mdebug[39m: 开始扫描 #9 (scan_1772720542161) {"service":"needlebot-ai"}
+🆕 [新币创建] 4jXNqEi4
+🆕 [新币创建] 4bDZYLTJ
+[14:22:26.307] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:22:26.663] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:22:26.667] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:22:26.668] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] mBdYy5Vp
+🆕 [新币创建] Nhxijo5h
+🆕 [新币创建] 5AvG3TSQ
+[14:22:47.350] [34mdebug[39m: 监控检查完成 #14 {"service":"needlebot-ai"}
+🆕 [新币创建] YnFQ9iXv
+🆕 [新币创建] 3uabvfmX
+🆕 [新币创建] 2Y8mVq4u
+🆕 [新币创建] 4pfieFBg
+🆕 [新币创建] 5hYAgnUL
+🆕 [新币创建] 426yRVUi
+[14:23:07.175] [34mdebug[39m: 开始扫描 #10 (scan_1772720587161) {"service":"needlebot-ai"}
+🆕 [新币创建] QMSBkopr
+[14:23:11.477] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:23:11.566] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:23:11.569] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:23:11.569] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+[14:23:17.348] [34mdebug[39m: 监控检查完成 #15 {"service":"needlebot-ai"}
+🆕 [新币创建] 3w4y4oVn
+🆕 [新币创建] 3zyfJaCe
+🆕 [新币创建] 26kD3MnH
+🆕 [新币创建] 4xcPGc6w
+🆕 [新币创建] JJpRCSqv
+🆕 [新币创建] 55rCv4k4
+🆕 [新币创建] 3sxmVFcz
+🆕 [新币创建] 4J2xKYSR
+[14:23:47.354] [34mdebug[39m: 监控检查完成 #16 {"service":"needlebot-ai"}
+🆕 [新币创建] ekJ69wXZ
+🆕 [新币创建] 2btjh1LS
+[14:23:52.170] [34mdebug[39m: 开始扫描 #11 (scan_1772720632161) {"service":"needlebot-ai"}
+🆕 [新币创建] 5pscE7cC
+[14:23:56.314] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:23:56.612] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:23:56.614] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:23:56.614] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 244oP5E4
+🆕 [新币创建] 42cMhx1W
+🆕 [新币创建] 4YshVMfa
+🆕 [新币创建] 4EiNjQqY
+[14:24:17.354] [34mdebug[39m: 监控检查完成 #17 {"service":"needlebot-ai"}
+🆕 [新币创建] 3pJENfT3
+🆕 [新币创建] 4hyc5KiC
+🆕 [新币创建] 4NLQaA7c
+🆕 [新币创建] 3GVBxQyx
+[14:24:37.180] [34mdebug[39m: 开始扫描 #12 (scan_1772720677161) {"service":"needlebot-ai"}
+🆕 [新币创建] WWJtvxoX
+🆕 [新币创建] 5NBpvsLF
+🆕 [新币创建] 5KjNE8fh
+[14:24:41.555] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:24:41.628] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:24:41.629] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:24:41.629] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2ZzH1Ggu
+🆕 [新币创建] 7PV7vz6D
+🆕 [新币创建] 4ffWq7KV
+[14:24:47.348] [34mdebug[39m: 监控检查完成 #18 {"service":"needlebot-ai"}
+🆕 [新币创建] 3zdcdZ3w
+🆕 [新币创建] Ki3yHheU
+🆕 [新币创建] 5sWvA1Qq
+🆕 [新币创建] 2JEUMUpr
+🆕 [新币创建] 3f5bKUQU
+🆕 [新币创建] 5tMMrRTo
+🆕 [新币创建] 2rJuxqoe
+🆕 [新币创建] 51ZqsQXY
+🆕 [新币创建] 45YY5nqc
+[14:25:17.354] [34mdebug[39m: 监控检查完成 #19 {"service":"needlebot-ai"}
+🆕 [新币创建] 3YGTGMkD
+[14:25:22.174] [34mdebug[39m: 开始扫描 #13 (scan_1772720722161) {"service":"needlebot-ai"}
+[14:25:26.773] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:25:27.077] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:25:27.079] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:25:27.079] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2hNL4wZJ
+🆕 [新币创建] QFSfqM8b
+🆕 [新币创建] 5DbU2bZh
+🆕 [新币创建] 2WdVqoMj
+🆕 [新币创建] 5irM5cmq
+🆕 [新币创建] 35VPiTWt
+🆕 [新币创建] 3CFVHTr1
+🆕 [新币创建] 4nZVpd3w
+[14:25:47.350] [34mdebug[39m: 监控检查完成 #20 {"service":"needlebot-ai"}
+🆕 [新币创建] 2pGjuotY
+🆕 [新币创建] 28PkVcMK
+🆕 [新币创建] 5NpztZjn
+🆕 [新币创建] MQf3cEW2
+[14:26:07.181] [34mdebug[39m: 开始扫描 #14 (scan_1772720767162) {"service":"needlebot-ai"}
+🆕 [新币创建] FdXKR8gt
+[14:26:11.860] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:26:11.917] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:26:11.919] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:26:11.920] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4hQGpkkf
+[14:26:17.352] [34mdebug[39m: 监控检查完成 #21 {"service":"needlebot-ai"}
+🆕 [新币创建] x4bWF9HS
+🆕 [新币创建] 3d6C5gzm
+🆕 [新币创建] 61RFGsLZ
+🆕 [新币创建] 35axmwia
+🆕 [新币创建] 26XTiZKv
+🆕 [新币创建] rC776Pd8
+🆕 [新币创建] HVztrScs
+🆕 [新币创建] 4eEP7GMz
+🆕 [新币创建] 4AzDHXSV
+🆕 [新币创建] 62zeZPfr
+🆕 [新币创建] 4MerzQ72
+🆕 [新币创建] 2JoJ9krs
+[14:26:47.354] [34mdebug[39m: 监控检查完成 #22 {"service":"needlebot-ai"}
+🆕 [新币创建] 64jyPvTf
+[14:26:52.177] [34mdebug[39m: 开始扫描 #15 (scan_1772720812163) {"service":"needlebot-ai"}
+🆕 [新币创建] 4zpPpi25
+🆕 [新币创建] 3g4qA4Ej
+[14:26:56.906] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:26:57.175] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:26:57.176] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:26:57.176] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] mhZm5mF6
+🆕 [新币创建] 3MT4HZXS
+🆕 [新币创建] 4d3qtfM8
+🆕 [新币创建] 2ybtHkwT
+🆕 [新币创建] 5qecf8ec
+🆕 [新币创建] 3b5LxqrM
+🆕 [新币创建] oByXCcty
+[14:27:17.353] [34mdebug[39m: 监控检查完成 #23 {"service":"needlebot-ai"}
+🆕 [新币创建] HatLiQpH
+🆕 [新币创建] 4AMxg4GF
+🆕 [新币创建] 4UpFqzi4
+🆕 [新币创建] 4Xhjgrvq
+🆕 [新币创建] 5k7pVup6
+🆕 [新币创建] 5XQ72MQN
+🆕 [新币创建] 5oRP9Cdx
+🆕 [新币创建] gENr8fpL
+🆕 [新币创建] 3s7ho4bi
+🆕 [新币创建] 4mQxcUU2
+🆕 [新币创建] 3hDTSEpW
+🆕 [新币创建] sTfULf7Y
+🆕 [新币创建] 3sUiXryb
+[14:27:37.179] [34mdebug[39m: 开始扫描 #16 (scan_1772720857164) {"service":"needlebot-ai"}
+🆕 [新币创建] 5xQWrFGK
+🆕 [新币创建] 4pFxLWtc
+🆕 [新币创建] 2cDmib7y
+[14:27:41.926] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:27:41.975] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:27:41.976] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:27:41.976] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2ap3CBmk
+[14:27:47.353] [34mdebug[39m: 监控检查完成 #24 {"service":"needlebot-ai"}
+🆕 [新币创建] Tu8ok8aN
+🆕 [新币创建] 5X4gYiGA
+🆕 [新币创建] 2pq5K2yg
+🆕 [新币创建] ACtKDfjH
+🆕 [新币创建] 2GeGqwTM
+🆕 [新币创建] 251dLDSe
+🆕 [新币创建] 4qZV88Q3
+🆕 [新币创建] 2X5qH8ao
+🆕 [新币创建] 3AvZABaN
+🆕 [新币创建] 36vkXAYi
+🆕 [新币创建] 2iYbTipx
+🆕 [新币创建] 3q9TVhpH
+🆕 [新币创建] 2T7EwM6X
+🆕 [新币创建] Rn5hTLZc
+🆕 [新币创建] 5YEashFB
+🆕 [新币创建] 5F1ehVM1
+🆕 [新币创建] 4AZyn3wP
+[14:28:17.355] [34mdebug[39m: 监控检查完成 #25 {"service":"needlebot-ai"}
+🆕 [新币创建] vRrxK873
+🆕 [新币创建] 4oi1ndaU
+🆕 [新币创建] 5LxVsYvw
+🆕 [新币创建] 5SVzi4sV
+🆕 [新币创建] 2grR24m8
+🆕 [新币创建] 4UHSPxe9
+[14:28:22.198] [34mdebug[39m: 开始扫描 #17 (scan_1772720902166) {"service":"needlebot-ai"}
+🆕 [新币创建] 4MkLYw5S
+[14:28:26.575] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:28:26.890] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:28:26.891] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:28:26.891] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4yEKm8uK
+🆕 [新币创建] 2ETMYcqB
+🆕 [新币创建] 2uk8yrJp
+🆕 [新币创建] 2zmxpgsU
+🆕 [新币创建] fFBLFr64
+[14:28:47.356] [34mdebug[39m: 监控检查完成 #26 {"service":"needlebot-ai"}
+🆕 [新币创建] DaZbpwJY
+🆕 [新币创建] 5jprYsnx
+🆕 [新币创建] D7wtY6aU
+🆕 [新币创建] 3qhTUmex
+🆕 [新币创建] 3BcG59FN
+🆕 [新币创建] 5KvM8zmb
+[14:29:07.174] [34mdebug[39m: 开始扫描 #18 (scan_1772720947166) {"service":"needlebot-ai"}
+🆕 [新币创建] 5vYzftQu
+🆕 [新币创建] YQXV1X7P
+[14:29:11.789] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:29:11.849] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:29:11.850] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:29:11.851] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+[14:29:17.360] [34mdebug[39m: 监控检查完成 #27 {"service":"needlebot-ai"}
+🆕 [新币创建] 2mStgc5Z
+🆕 [新币创建] 4LewjFSK
+🆕 [新币创建] 4iPJtDLp
+🆕 [新币创建] BDfrkbV7
+🆕 [新币创建] 4sLrQDQU
+🆕 [新币创建] 5KYtGdM1
+🆕 [新币创建] 4sVRfuhJ
+🆕 [新币创建] 2uQR7oas
+[14:29:47.364] [34mdebug[39m: 监控检查完成 #28 {"service":"needlebot-ai"}
+🆕 [新币创建] 3X8nRoRh
+[14:29:52.174] [34mdebug[39m: 开始扫描 #19 (scan_1772720992167) {"service":"needlebot-ai"}
+🆕 [新币创建] 2y9EDDFi
+🆕 [新币创建] 2hKR2KQm
+🆕 [新币创建] 4re6mQZG
+🆕 [新币创建] 5bnnRo1F
+🆕 [新币创建] 5EadMoz8
+[14:29:56.200] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:29:56.515] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:29:56.515] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:29:56.516] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4mx6oyPN
+🆕 [新币创建] 583oYQDt
+[14:30:17.363] [34mdebug[39m: 监控检查完成 #29 {"service":"needlebot-ai"}
+🆕 [新币创建] 4SohC336
+🆕 [新币创建] 4MaB5ZeV
+🆕 [新币创建] wPZdqxNg
+🆕 [新币创建] DDx1nLtA
+[14:30:37.182] [34mdebug[39m: 开始扫描 #20 (scan_1772721037168) {"service":"needlebot-ai"}
+[14:30:41.924] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:30:42.000] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:30:42.004] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:30:42.005] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+[14:30:47.361] [34mdebug[39m: 监控检查完成 #30 {"service":"needlebot-ai"}
+🆕 [新币创建] ZavZedGr
+🆕 [新币创建] 2GB481m7
+🆕 [新币创建] 5zspqyii
+🆕 [新币创建] dRtjR3bW
+🆕 [新币创建] 4Dnec3tt
+🆕 [新币创建] 2Vqnzb3P
+🆕 [新币创建] s5VXZaM5
+🆕 [新币创建] 5amefNKo
+[14:31:17.364] [34mdebug[39m: 监控检查完成 #31 {"service":"needlebot-ai"}
+🆕 [新币创建] 2uj24xaB
+[14:31:22.191] [34mdebug[39m: 开始扫描 #21 (scan_1772721082170) {"service":"needlebot-ai"}
+🆕 [新币创建] 5At2z7Cz
+[14:31:26.586] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:31:26.893] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:31:26.896] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:31:26.897] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2iCQ1U35
+🆕 [新币创建] 2Xu3so2j
+🆕 [新币创建] 4JmAABqr
+🆕 [新币创建] 3henN5gA
+[14:31:47.360] [34mdebug[39m: 监控检查完成 #32 {"service":"needlebot-ai"}
+🆕 [新币创建] 5bqEHhsY
+🆕 [新币创建] QFKirx5f
+🆕 [新币创建] 4AX72p7V
+🆕 [新币创建] 5k455szN
+🆕 [新币创建] 4aU7NwgS
+🆕 [新币创建] euYkqX79
+🆕 [新币创建] 3VNKfaaE
+[14:32:07.180] [34mdebug[39m: 开始扫描 #22 (scan_1772721127171) {"service":"needlebot-ai"}
+[14:32:11.713] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:32:11.775] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:32:11.777] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:32:11.777] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4MfJ4gCX
+[14:32:17.372] [34mdebug[39m: 监控检查完成 #33 {"service":"needlebot-ai"}
+🆕 [新币创建] 1XqgoZM9
+🆕 [新币创建] tMd7V4cv
+🆕 [新币创建] ob5924hn
+🆕 [新币创建] 4QoXeA5d
+🆕 [新币创建] 2BUk3hh7
+🆕 [新币创建] BaA5LJ34
+🆕 [新币创建] 5Xsk9Qrz
+🆕 [新币创建] 4Cph3BKu
+🆕 [新币创建] 2B1EXrSC
+🆕 [新币创建] 2w9ZqygE
+🆕 [新币创建] 3vTSzHKz
+🆕 [新币创建] 5jZYFsqK
+🆕 [新币创建] 4eDdf7iw
+🆕 [新币创建] 4nEXAbK2
+[14:32:47.370] [34mdebug[39m: 监控检查完成 #34 {"service":"needlebot-ai"}
+🆕 [新币创建] 4oehha7e
+🆕 [新币创建] 49R4nrsJ
+[14:32:52.180] [34mdebug[39m: 开始扫描 #23 (scan_1772721172172) {"service":"needlebot-ai"}
+[14:32:56.656] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:32:56.928] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:32:56.929] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:32:56.929] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4j7jzA3g
+🆕 [新币创建] 4xsn9WQr
+🆕 [新币创建] dSaAhb8c
+🆕 [新币创建] 4HMzG2mQ
+🆕 [新币创建] 47r4hfWQ
+🆕 [新币创建] 2tLwMVhV
+🆕 [新币创建] KPmXzF4B
+[14:33:17.365] [34mdebug[39m: 监控检查完成 #35 {"service":"needlebot-ai"}
+🆕 [新币创建] 4RKVGbhN
+🆕 [新币创建] 5KiH5456
+🆕 [新币创建] 4SGq6hgq
+🆕 [新币创建] 58MLAsu6
+🆕 [新币创建] 4cj3dyay
+[14:33:37.178] [34mdebug[39m: 开始扫描 #24 (scan_1772721217172) {"service":"needlebot-ai"}
+🆕 [新币创建] 8cWxxCRJ
+[14:33:41.769] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:33:41.827] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:33:41.829] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:33:41.829] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+[14:33:47.371] [34mdebug[39m: 监控检查完成 #36 {"service":"needlebot-ai"}
+🆕 [新币创建] 43M2Nf3x
+🆕 [新币创建] 5BaSWA1E
+🆕 [新币创建] 4TMKdSY6
+🆕 [新币创建] 4WNBCRyr
+🆕 [新币创建] 48HFhH5M
+🆕 [新币创建] 5xiXQfuQ
+🆕 [新币创建] 3bxj9wtz
+🆕 [新币创建] 8ZZfNyER
+🆕 [新币创建] ww73Nfj9
+🆕 [新币创建] 2vaHBaKv
+🆕 [新币创建] 3cAZSowg
+🆕 [新币创建] 3qDM1qge
+🆕 [新币创建] 4X4npe5c
+🆕 [新币创建] 3XfynX7Z
+🆕 [新币创建] FS9Rdw5d
+🆕 [新币创建] 4DViPWMc
+🆕 [新币创建] 2ETCeZWC
+🆕 [新币创建] 3FQdMQvK
+🆕 [新币创建] 3qEwrnJR
+🆕 [新币创建] 4k26pGjt
+🆕 [新币创建] 2gdXeEJu
+🆕 [新币创建] 4qBgseKm
+🆕 [新币创建] 5xJyMUnh
+🆕 [新币创建] 3DdDGLpC
+🆕 [新币创建] xGZ5zpBU
+🆕 [新币创建] 3e5KHePo
+🆕 [新币创建] 5ffGR7hz
+🆕 [新币创建] 3XYrt5Nr
+🆕 [新币创建] 4z5epwmk
+[14:34:17.384] [34mdebug[39m: 监控检查完成 #37 {"service":"needlebot-ai"}
+🆕 [新币创建] Erz2c2jv
+[14:34:22.180] [34mdebug[39m: 开始扫描 #25 (scan_1772721262173) {"service":"needlebot-ai"}
+🆕 [新币创建] 5Q63cpNS
+[14:34:26.620] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:34:26.895] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:34:26.897] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:34:26.897] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 5f7B8V73
+🆕 [新币创建] 5LiuSi5J
+🆕 [新币创建] 4pNe2voR
+🆕 [新币创建] 3QWt7WYD
+🆕 [新币创建] 5FX26sp8
+🆕 [新币创建] sY1BMu9E
+🆕 [新币创建] 39v6gz4Q
+🆕 [新币创建] 5N7o6cpi
+🆕 [新币创建] MWefojBn
+[14:34:47.382] [34mdebug[39m: 监控检查完成 #38 {"service":"needlebot-ai"}
+🆕 [新币创建] 5MUfbybm
+🆕 [新币创建] 4jQQPPvE
+🆕 [新币创建] 2oLQ9eay
+🆕 [新币创建] 4Nc3GUcr
+🆕 [新币创建] 61kTYFhC
+🆕 [新币创建] 3UuX4Wx3
+🆕 [新币创建] 2i4wWGXY
+🆕 [新币创建] 5oARDm9i
+🆕 [新币创建] 5WVnL9P7
+🆕 [新币创建] 4r4tigiY
+🆕 [新币创建] 251vrkNN
+🆕 [新币创建] 2yrJoi4c
+[14:35:07.207] [34mdebug[39m: 开始扫描 #26 (scan_1772721307175) {"service":"needlebot-ai"}
+🆕 [新币创建] 5YihXZps
+🆕 [新币创建] 4eJ1cBQt
+[14:35:12.130] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:35:12.255] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:35:12.261] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:35:12.261] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 3Ta1xfRU
+🆕 [新币创建] 3k39qiN3
+🆕 [新币创建] 3wkjocbk
+[14:35:17.391] [34mdebug[39m: 监控检查完成 #39 {"service":"needlebot-ai"}
+🆕 [新币创建] 2yRBnNyD
+🆕 [新币创建] 2bfKE3Zq
+🆕 [新币创建] QP1rZpwL
+🆕 [新币创建] 2qSEqp4G
+🆕 [新币创建] ghn9tspo
+🆕 [新币创建] 4MwW2rY6
+🆕 [新币创建] 5qQHM1yE
+🆕 [新币创建] 3vCCS1rL
+🆕 [新币创建] 4cVpu51o
+🆕 [新币创建] 26xpuWQA
+🆕 [新币创建] 2WbjKGNb
+🆕 [新币创建] 2TUghj8n
+[14:35:47.400] [34mdebug[39m: 监控检查完成 #40 {"service":"needlebot-ai"}
+🆕 [新币创建] 4rUMtmc5
+🆕 [新币创建] 4WamKQeF
+🆕 [新币创建] 4Lm5rwSR
+🆕 [新币创建] 2D2hf7yy
+🆕 [新币创建] MaF1zUVy
+[14:35:52.186] [34mdebug[39m: 开始扫描 #27 (scan_1772721352174) {"service":"needlebot-ai"}
+🆕 [新币创建] 39WM15zc
+[14:35:56.710] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:35:57.034] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:35:57.039] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:35:57.039] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2fm9fa9D
+🆕 [新币创建] 4Qa2eYhK
+🆕 [新币创建] 3a7khkx9
+🆕 [新币创建] 2XUTv9FQ
+🆕 [新币创建] 25CE2A8v
+🆕 [新币创建] 3sbxnGt9
+[14:36:17.387] [34mdebug[39m: 监控检查完成 #41 {"service":"needlebot-ai"}
+🆕 [新币创建] 5VyM8vHk
+🆕 [新币创建] AK1oHKyS
+🆕 [新币创建] o2NzXtEX
+🆕 [新币创建] 5AHqTNaf
+🆕 [新币创建] 3bf5jKbW
+🆕 [新币创建] 56aXGbJF
+🆕 [新币创建] 25xQHjJW
+🆕 [新币创建] 2KNB9gWp
+🆕 [新币创建] 4TDWmo8v
+🆕 [新币创建] 5x2vFvDN
+🆕 [新币创建] LGB6itjp
+🆕 [新币创建] YDg4br1w
+[14:36:37.183] [34mdebug[39m: 开始扫描 #28 (scan_1772721397175) {"service":"needlebot-ai"}
+🆕 [新币创建] 3n5XU3Fy
+[14:36:41.357] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:36:41.424] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:36:41.425] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:36:41.426] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4EJJ4KpZ
+🆕 [新币创建] 5AauaGL2
+🆕 [新币创建] 4MbhvH4b
+🆕 [新币创建] BGxRHUyd
+🆕 [新币创建] 5KuFymFd
+🆕 [新币创建] 3S2LgEV3
+[14:36:47.386] [34mdebug[39m: 监控检查完成 #42 {"service":"needlebot-ai"}
+🆕 [新币创建] 1iRVMHtS
+🆕 [新币创建] QBCtUMCN
+🆕 [新币创建] 3nWsLLt6
+🆕 [新币创建] 2x92ZYgL
+🆕 [新币创建] 2JH5GJ6j
+🆕 [新币创建] 3Gvv1pjA
+🆕 [新币创建] 2MXRYXNi
+🆕 [新币创建] 4XfBXd6p
+🆕 [新币创建] 4GLvWbqt
+🆕 [新币创建] 5VMmtmk9
+🆕 [新币创建] uj7qxUqF
+🆕 [新币创建] 4jMAn41Y
+🆕 [新币创建] 4NKt2kXF
+🆕 [新币创建] 2kdcsVJ6
+🆕 [新币创建] 4RhMfSLw
+🆕 [新币创建] 5YvkNr7o
+🆕 [新币创建] 5wzoWg15
+🆕 [新币创建] 3Bj6LXxi
+🆕 [新币创建] 3WfuXUWH
+🆕 [新币创建] 38AopF7P
+🆕 [新币创建] 4z3AfBkg
+🆕 [新币创建] 4hg84Q3H
+🆕 [新币创建] 4btbMeqV
+🆕 [新币创建] ft4qcgF1
+[14:37:17.386] [34mdebug[39m: 监控检查完成 #43 {"service":"needlebot-ai"}
+🆕 [新币创建] 4Nse76Qn
+🆕 [新币创建] 4Nzd6eNf
+🆕 [新币创建] 2NJD7JJA
+🆕 [新币创建] 62sqiiEi
+[14:37:22.186] [34mdebug[39m: 开始扫描 #29 (scan_1772721442175) {"service":"needlebot-ai"}
+🆕 [新币创建] CgGqUV9p
+[14:37:26.258] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:37:26.538] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:37:26.540] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:37:26.541] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2nawj4u3
+🆕 [新币创建] 59rNwBJU
+🆕 [新币创建] 3NR7k1KY
+[14:37:47.390] [34mdebug[39m: 监控检查完成 #44 {"service":"needlebot-ai"}
+🆕 [新币创建] 476gY4zA
+🆕 [新币创建] 2C2WDc7z
+🆕 [新币创建] fzJHgUL4
+🆕 [新币创建] 2yfuCopj
+🆕 [新币创建] 4CsbnHnk
+🆕 [新币创建] 3MDWSx2m
+🆕 [新币创建] 4hJHz8DR
+🆕 [新币创建] 2aHVzot5
+🆕 [新币创建] 2UYYgT22
+🆕 [新币创建] 5wdYtFb5
+🆕 [新币创建] 2kd8wP2E
+🆕 [新币创建] 2uwNcfZp
+🆕 [新币创建] 5AnUR7yx
+[14:38:07.184] [34mdebug[39m: 开始扫描 #30 (scan_1772721487176) {"service":"needlebot-ai"}
+🆕 [新币创建] 5CHCu3B2
+[14:38:11.510] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:38:11.569] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:38:11.571] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:38:11.571] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2HYv8hBg
+🆕 [新币创建] 4PRbZvhu
+🆕 [新币创建] 266Bqq9r
+🆕 [新币创建] iadmLMrx
+🆕 [新币创建] 4XTE9UQd
+[14:38:17.388] [34mdebug[39m: 监控检查完成 #45 {"service":"needlebot-ai"}
+🆕 [新币创建] 225zkgXi
+🆕 [新币创建] 66bbNmEQ
+🆕 [新币创建] 46D3yaHH
+🆕 [新币创建] 4P2GQRdo
+🆕 [新币创建] dqdBpdrD
+🆕 [新币创建] 31jhHkcS
+🆕 [新币创建] 2QxNAX7R
+🆕 [新币创建] 4zej4XZ4
+🆕 [新币创建] 5Ru73HUU
+🆕 [新币创建] 4QZkQ4QR
+🆕 [新币创建] 2PefbBzZ
+🆕 [新币创建] 5881qdFu
+🆕 [新币创建] 5TVmjGDr
+🆕 [新币创建] 5yVQXxft
+🆕 [新币创建] 2vdoc2S3
+🆕 [新币创建] fJYWiHhu
+[14:38:47.388] [34mdebug[39m: 监控检查完成 #46 {"service":"needlebot-ai"}
+🆕 [新币创建] 4BKYaWQg
+[14:38:52.188] [34mdebug[39m: 开始扫描 #31 (scan_1772721532176) {"service":"needlebot-ai"}
+🆕 [新币创建] 3MqLUpzr
+[14:38:56.920] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+🆕 [新币创建] uBqDiYng
+[14:38:57.169] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:38:57.170] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:38:57.170] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 4kzunQow
+🆕 [新币创建] 31svX4Q4
+🆕 [新币创建] 43QDVK9f
+🆕 [新币创建] xiLpQima
+🆕 [新币创建] 4GuFp3yZ
+🆕 [新币创建] 4xW6wp6U
+🆕 [新币创建] 2djBLWn3
+🆕 [新币创建] 3BXULqnp
+🆕 [新币创建] 2foeyL4J
+🆕 [新币创建] 2XGfwvDT
+🆕 [新币创建] jxFRH3oq
+🆕 [新币创建] 52JjP9MZ
+🆕 [新币创建] vNk4reWU
+🆕 [新币创建] 5pcpf9VR
+🆕 [新币创建] 3xFb6Xcy
+🆕 [新币创建] 5kZoYHrU
+🆕 [新币创建] 5kSPZR5Z
+[14:39:17.391] [34mdebug[39m: 监控检查完成 #47 {"service":"needlebot-ai"}
+🆕 [新币创建] 4Vk5r2m4
+🆕 [新币创建] XptTogKG
+🆕 [新币创建] UTmmieor
+🆕 [新币创建] HKR3ti9n
+🆕 [新币创建] 3MeqEzpY
+🆕 [新币创建] ErVtGg3w
+🆕 [新币创建] 5qdkiyEf
+🆕 [新币创建] RFQw8rxa
+🆕 [新币创建] 2KEGybvb
+🆕 [新币创建] 4PbX31LQ
+🆕 [新币创建] 7ugJr9WN
+🆕 [新币创建] 4yrnCfP2
+🆕 [新币创建] 2Fumttwv
+🆕 [新币创建] vJ5RcLcY
+🆕 [新币创建] 23FwG7yT
+🆕 [新币创建] nbjVUstP
+🆕 [新币创建] 4GwUUQD7
+🆕 [新币创建] jmUwPc5G
+🆕 [新币创建] 4TQ3WB99
+🆕 [新币创建] 2hG6cH6a
+🆕 [新币创建] 3nfJBW1g
+🆕 [新币创建] 4UZqT77D
+🆕 [新币创建] 3g9DBV3T
+[14:39:37.196] [34mdebug[39m: 开始扫描 #32 (scan_1772721577178) {"service":"needlebot-ai"}
+🆕 [新币创建] xRQcXXXL
+[14:39:41.678] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:39:41.731] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:39:41.733] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:39:41.734] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+[14:39:47.388] [34mdebug[39m: 监控检查完成 #48 {"service":"needlebot-ai"}
+🆕 [新币创建] 5PPXsPL2
+🆕 [新币创建] 46TwTJUC
+🆕 [新币创建] 4EXQcJqG
+🆕 [新币创建] 5878GYrG
+🆕 [新币创建] 5uSs9pCG
+🆕 [新币创建] JZSEtqga
+🆕 [新币创建] ciGGhNLG
+🆕 [新币创建] 2JQyLoR8
+🆕 [新币创建] 2nZKZpZg
+🆕 [新币创建] 3E2KnKdJ
+🆕 [新币创建] cfLjLL6A
+🆕 [新币创建] 5PzWKtqp
+🆕 [新币创建] 3qzrjY76
+🆕 [新币创建] 5XRySe3M
+🆕 [新币创建] 3vX6QzXW
+🆕 [新币创建] 2hYnGk8q
+🆕 [新币创建] 5JgZw8wH
+🆕 [新币创建] SNk99d9r
+🆕 [新币创建] 2DPBDSBE
+🆕 [新币创建] 5sEPLPES
+🆕 [新币创建] 23cuZFqT
+🆕 [新币创建] 3j6eq8kH
+[14:40:17.392] [34mdebug[39m: 监控检查完成 #49 {"service":"needlebot-ai"}
+🆕 [新币创建] 5xgQXtSN
+🆕 [新币创建] 5rrsd3my
+🆕 [新币创建] 3thhniC6
+[14:40:22.208] [34mdebug[39m: 开始扫描 #33 (scan_1772721622179) {"service":"needlebot-ai"}
+🆕 [新币创建] ccy16uKC
+[14:40:26.648] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:40:26.946] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:40:26.949] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:40:26.949] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 3RiugUsb
+🆕 [新币创建] 3UNabn8a
+🆕 [新币创建] 4EQSzZmm
+🆕 [新币创建] 3rkAD2Em
+🆕 [新币创建] 3qB25Ai7
+🆕 [新币创建] 2ykYqrh7
+🆕 [新币创建] 4cFh6szo
+🆕 [新币创建] 4iMdc7Vq
+🆕 [新币创建] 26Nmjvdi
+🆕 [新币创建] 5797NBPc
+[14:40:47.391] [34mdebug[39m: 监控检查完成 #50 {"service":"needlebot-ai"}
+🆕 [新币创建] 3R8rFeJf
+🆕 [新币创建] KyM5mVXu
+🆕 [新币创建] Z5bNhKNC
+🆕 [新币创建] 4pnNYCNK
+🆕 [新币创建] 31Pmj34a
+🆕 [新币创建] u7nSVYnV
+🆕 [新币创建] 5PcGGhH5
+[14:41:07.189] [34mdebug[39m: 开始扫描 #34 (scan_1772721667180) {"service":"needlebot-ai"}
+🆕 [新币创建] 3RQGAMqx
+🆕 [新币创建] 2HvXqSGs
+🆕 [新币创建] 23z7jNQn
+🆕 [新币创建] 4qZmFfnR
+🆕 [新币创建] 3jkkJyRR
+🆕 [新币创建] BbD6Ssj4
+🆕 [新币创建] 4GDzZQmN
+[14:41:11.864] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:41:11.971] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:41:11.973] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:41:11.974] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] HyzWYHWJ
+[14:41:17.396] [34mdebug[39m: 监控检查完成 #51 {"service":"needlebot-ai"}
+🆕 [新币创建] 3tEa8RRR
+🆕 [新币创建] VgMiKEG6
+🆕 [新币创建] 2jGc6TBh
+🆕 [新币创建] 2H3UGeZT
+🆕 [新币创建] 2xojW1Qk
+🆕 [新币创建] 5dH2VmGd
+🆕 [新币创建] 2Cc1rNTb
+🆕 [新币创建] 65iVnJmN
+🆕 [新币创建] 3QcrKvJE
+🆕 [新币创建] LTHwHotX
+🆕 [新币创建] 2q9xbVyx
+🆕 [新币创建] 2oounJFd
+🆕 [新币创建] 3f2XMHBS
+🆕 [新币创建] 22h1DHjR
+🆕 [新币创建] 5Er8KzFB
+🆕 [新币创建] 2SH8PzcR
+[14:41:47.394] [34mdebug[39m: 监控检查完成 #52 {"service":"needlebot-ai"}
+🆕 [新币创建] 2RPZgNjL
+🆕 [新币创建] 56foaT8f
+🆕 [新币创建] 5f5coKJw
+[14:41:52.188] [34mdebug[39m: 开始扫描 #35 (scan_1772721712181) {"service":"needlebot-ai"}
+🆕 [新币创建] 3rnQavS9
+[14:41:56.641] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:41:56.993] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:41:56.998] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:41:56.998] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] tXfu7Qif
+🆕 [新币创建] 3St7Zq2u
+🆕 [新币创建] zYbaYj8B
+🆕 [新币创建] 5s9tCeVa
+🆕 [新币创建] 3jE9bSNY
+[14:42:17.395] [34mdebug[39m: 监控检查完成 #53 {"service":"needlebot-ai"}
+🆕 [新币创建] T2KnoGHg
+🆕 [新币创建] 29gtZyPW
+🆕 [新币创建] 3kE4dsGw
+🆕 [新币创建] Dr8bcqQc
+🆕 [新币创建] 5DsVBkr1
+🆕 [新币创建] WnBPQ7S9
+🆕 [新币创建] 33QQcT47
+🆕 [新币创建] 3KUvPwzX
+🆕 [新币创建] 3wrQQXAT
+🆕 [新币创建] wVk1HgUP
+🆕 [新币创建] 48Y2zn3j
+[14:42:37.193] [34mdebug[39m: 开始扫描 #36 (scan_1772721757181) {"service":"needlebot-ai"}
+🆕 [新币创建] 3eHPWcnw
+🆕 [新币创建] 23KVWYAg
+🆕 [新币创建] 4CrLwLMA
+🆕 [新币创建] 52hp8gTG
+[14:42:41.467] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:42:41.522] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:42:41.523] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:42:41.524] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 5am7tyaA
+[14:42:47.396] [34mdebug[39m: 监控检查完成 #54 {"service":"needlebot-ai"}
+🆕 [新币创建] 5izz9JZ9
+🆕 [新币创建] 2Z2rYhiS
+🆕 [新币创建] 462ipukU
+🆕 [新币创建] DA9ZJsTN
+🆕 [新币创建] 3Pi52nRc
+🆕 [新币创建] 4K1Sn4sN
+🆕 [新币创建] FBeHPDL8
+🆕 [新币创建] 3pTWExhs
+🆕 [新币创建] 5dpASyVH
+🆕 [新币创建] 2La61yXT
+[14:43:17.393] [34mdebug[39m: 监控检查完成 #55 {"service":"needlebot-ai"}
+🆕 [新币创建] 2aEoyT9C
+[14:43:22.193] [34mdebug[39m: 开始扫描 #37 (scan_1772721802182) {"service":"needlebot-ai"}
+🆕 [新币创建] zo7wM9wB
+🆕 [新币创建] 2hSc6LSr
+[14:43:27.101] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:43:27.368] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:43:27.369] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:43:27.369] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 2s31wsec
+🆕 [新币创建] 64fdWGrb
+🆕 [新币创建] vxPCUUBV
+🆕 [新币创建] TsHYstZt
+🆕 [新币创建] 3fHuk2Ep
+🆕 [新币创建] 5PVXutGK
+🆕 [新币创建] 4kSMxZqL
+🆕 [新币创建] 54T1xdC1
+[14:43:47.396] [34mdebug[39m: 监控检查完成 #56 {"service":"needlebot-ai"}
+🆕 [新币创建] 4Q9U5wV3
+🆕 [新币创建] 3Gyq8BY8
+🆕 [新币创建] 45Z4k36c
+🆕 [新币创建] 3rTyKYFQ
+🆕 [新币创建] 3GsbfYYy
+🆕 [新币创建] 3Z94nQaF
+🆕 [新币创建] 5R9XgLYY
+🆕 [新币创建] 311vFr4G
+🆕 [新币创建] q2uRqDZw
+🆕 [新币创建] 2HvaZPTB
+[14:44:07.203] [34mdebug[39m: 开始扫描 #38 (scan_1772721847183) {"service":"needlebot-ai"}
+🆕 [新币创建] 4F8oRPyk
+[14:44:11.540] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:44:11.634] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:44:11.638] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:44:11.639] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] ZRUYWaXZ
+[14:44:17.396] [34mdebug[39m: 监控检查完成 #57 {"service":"needlebot-ai"}
+🆕 [新币创建] 62nH9Wyz
+🆕 [新币创建] 5WqUxEq3
+🆕 [新币创建] 59dnATXW
+🆕 [新币创建] 4ZMDre6g
+🆕 [新币创建] 5AeD4Lr7
+🆕 [新币创建] 5LdgGCNb
+🆕 [新币创建] 4PnXRK7v
+🆕 [新币创建] 4iioFu1N
+🆕 [新币创建] RYb5fuWz
+🆕 [新币创建] 55mduR1j
+🆕 [新币创建] 28ATAP7U
+[14:44:47.397] [34mdebug[39m: 监控检查完成 #58 {"service":"needlebot-ai"}
+🆕 [新币创建] 2nf32m3g
+🆕 [新币创建] tvN5XBF7
+[14:44:52.200] [34mdebug[39m: 开始扫描 #39 (scan_1772721892184) {"service":"needlebot-ai"}
+[14:44:56.580] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:44:56.878] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:44:56.878] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:44:56.878] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 3UadaWLh
+🆕 [新币创建] 265ecdwF
+🆕 [新币创建] 3Y8E9NbS
+🆕 [新币创建] 4Q2RMbwo
+🆕 [新币创建] 5YoAq5Dv
+🆕 [新币创建] 5j4b6vAy
+🆕 [新币创建] MAq8YhLc
+[14:45:17.400] [34mdebug[39m: 监控检查完成 #59 {"service":"needlebot-ai"}
+🆕 [新币创建] 29T8sPTE
+🆕 [新币创建] 32Z9WQ9P
+🆕 [新币创建] 5cJZgFmH
+🆕 [新币创建] 3uR3grKH
+🆕 [新币创建] 37xWGEm8
+🆕 [新币创建] 2TDcRqPW
+🆕 [新币创建] 3h6bYbeE
+🆕 [新币创建] 3gv9qWdx
+🆕 [新币创建] 3BJ3vtqn
+🆕 [新币创建] 3bisp3Pm
+🆕 [新币创建] 2m64ybGu
+🆕 [新币创建] 43kTDvHn
+🆕 [新币创建] 3RKFudYb
+🆕 [新币创建] 5mCqCXxa
+[14:45:37.207] [34mdebug[39m: 开始扫描 #40 (scan_1772721937185) {"service":"needlebot-ai"}
+🆕 [新币创建] P1XGdQRt
+🆕 [新币创建] FjMdSKz2
+🆕 [新币创建] 7aKgvLbD
+[14:45:42.452] [34mdebug[39m: Birdeye trending: Request failed with status code 521 {"service":"needlebot-ai"}
+[14:45:42.626] [32minfo[39m: 获取到 30 个代币 (多数据源) {"service":"needlebot-ai"}
+[14:45:42.640] [34mdebug[39m: 扫描 30 个代币 {"service":"needlebot-ai"}
+[14:45:42.641] [34mdebug[39m: 未检测到插针信号 {"service":"needlebot-ai"}
+🆕 [新币创建] 21dNiGDk
+[14:45:47.399] [34mdebug[39m: 监控检查完成 #60 {"service":"needlebot-ai"}
+🆕 [新币创建] 3nytopr9
+🆕 [新币创建] 4NAJMn4X
+🆕 [新币创建] 2hycNPHt
+🆕 [新币创建] 2sPaWAgX
+🆕 [新币创建] 38sCMnfA
+🆕 [新币创建] 4gtVjtGK
+🆕 [新币创建] 4P1nkeZH
+🆕 [新币创建] mHN2ymcV
+🆕 [新币创建] 45NER7wF
+🆕 [新币创建] 5md3WkEo
+🆕 [新币创建] 3ga8QNKr
+🆕 [新币创建] 55ZZVaDu
+🆕 [新币创建] hu4u1hUP
+🆕 [新币创建] iVHmqNhn
+🆕 [新币创建] 2cQVXQsg
+
+收到终止信号，正在停止系统...

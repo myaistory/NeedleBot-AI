@@ -1,0 +1,598 @@
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:38.830"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:38.919"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.023"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.072"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.165"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.259"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.344"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.469"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.554"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:39.575"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.613"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.642"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.662"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.680"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.698"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.729"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.760"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.778"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.799"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:44.823"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.648"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.674"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.691"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.713"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.741"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.761"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.781"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.796"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.826"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:17:49.845"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:17:58.589"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:02.596"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:03.591"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:06.600"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:07.595"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:08.591"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:10.603"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:11.597"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:12.594"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:13.595"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:14.607"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:15.598"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:16.599"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:17.598"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:18.596"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:18.609"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:19.602"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:20.602"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:21.600"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:22.601"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:22.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:23.597"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:23.604"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:24.607"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:25.603"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:26.604"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:26.629"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:27.601"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:27.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:28.600"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:28.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:29.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:30.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:30.635"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:31.605"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:31.615"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:32.604"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:32.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:33.601"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:33.612"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:34.609"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:34.637"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:35.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:35.619"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:36.606"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:36.616"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:37.602"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:37.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.600"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.621"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.687"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.738"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.741"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.746"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.752"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.756"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.762"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.767"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.769"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.771"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.777"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.783"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.790"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.792"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.795"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.797"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.807"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.813"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.819"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.845"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.850"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.851"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.863"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.869"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.871"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.874"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.885"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.894"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.902"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:18:38.903"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:42.889"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:42.897"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:42.903"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:42.906"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:43.600"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:46.892"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:46.898"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:46.907"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:46.908"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:47.603"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:48.604"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:50.911"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:50.913"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:51.609"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:52.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:53.605"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:55.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:56.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:57.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:58.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:18:59.615"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:00.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:01.612"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:02.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:03.609"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:03.619"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:04.620"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:05.617"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:06.618"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:07.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:07.623"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:08.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:08.624"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:09.623"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:10.621"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:11.616"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:11.627"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:12.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:12.628"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:13.610"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:13.624"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:14.621"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:15.619"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:15.629"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:16.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:16.629"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:17.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:17.627"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:18.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:18.623"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:19.620"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:19.632"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:20.617"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:20.629"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:21.616"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:21.628"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:22.617"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:22.626"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:23.615"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:23.622"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:24.619"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:24.632"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:25.617"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:25.632"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:26.618"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:26.629"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:27.617"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:27.625"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:28.617"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:28.620"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:29.622"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:29.636"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:30.622"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:30.632"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:31.621"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:31.627"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:32.622"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:32.624"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:33.620"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:33.625"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:34.625"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:34.633"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:35.624"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:35.631"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:36.625"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:19:36.629"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.044"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.149"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.176"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.245"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.308"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.464"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.556"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:19:56.581"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.626"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.653"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.685"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.716"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.745"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.767"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.793"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:01.815"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.671"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.696"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.769"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.794"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.821"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.844"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.872"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:06.921"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:11.625"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:11.652"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:11.675"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:11.698"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:11.718"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:11.742"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:15.752"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:19.756"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:20.601"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:24.606"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:25.604"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:28.608"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:29.606"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:30.607"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:32.612"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:33.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:34.610"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:35.607"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:36.616"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:37.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:38.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:39.610"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:40.607"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:40.619"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:41.620"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:42.618"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:43.616"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:44.614"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:44.628"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:45.609"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:45.628"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:46.621"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:47.621"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:48.618"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:48.636"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:49.611"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:49.632"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:50.609"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:50.625"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:51.625"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:52.622"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:53.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:53.634"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:54.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:54.631"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:55.613"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:55.630"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.653"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.710"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.740"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.754"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.757"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.763"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.765"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.772"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.774"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.780"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.782"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.793"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.797"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.805"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.813"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.821"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.841"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.855"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.863"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.868"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.883"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.887"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.889"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.906"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.910"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.914"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.915"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.923"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.936"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.960"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:20:56.983"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:00.931"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:00.943"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:05.628"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:09.630"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:10.629"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:13.635"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:14.633"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:15.633"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:17.637"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:18.637"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:19.636"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:20.632"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:21.640"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:22.639"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:23.640"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:24.636"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:25.635"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:25.644"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:26.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:27.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:28.638"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:29.639"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:29.646"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:30.638"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:30.647"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:31.647"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:32.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:33.641"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:33.650"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:34.640"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:34.650"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:35.639"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:35.650"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:36.647"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:37.642"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:38.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:38.653"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:39.644"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:39.654"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:40.640"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:40.650"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:41.646"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:42.646"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:43.645"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:43.658"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:44.641"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:44.652"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:45.641"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:45.647"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:46.647"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:47.646"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:48.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:48.653"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:49.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:49.650"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:50.641"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:50.651"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:51.649"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:52.646"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:53.646"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:53.654"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:54.649"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:54.652"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:55.643"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:55.652"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.658"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.702"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.705"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.740"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.761"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.769"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.787"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.794"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.800"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.817"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.836"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.842"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.848"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.851"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.855"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.862"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.867"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.874"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.877"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.884"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.887"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.898"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.907"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.910"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.913"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.927"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.930"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.939"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.946"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.955"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:21:56.967"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:00.958"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:04.964"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:05.650"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:09.654"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:10.654"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:13.658"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:14.659"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:15.655"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:17.662"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:18.661"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:19.658"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:20.656"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:21.663"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:22.661"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:23.659"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:24.658"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:25.657"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:25.665"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:26.663"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:27.661"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:28.661"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:29.660"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:29.667"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:30.660"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:30.665"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:31.663"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:32.664"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:33.664"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:33.669"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:34.662"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:34.668"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:35.659"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:35.668"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:36.666"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:37.669"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:38.666"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:38.684"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:39.661"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:39.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:40.661"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:40.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:41.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:42.670"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:43.665"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:43.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:44.665"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:44.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:45.664"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:45.681"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:46.674"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:47.669"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:48.669"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:48.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:49.668"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:49.684"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:50.663"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:50.678"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:51.672"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:52.672"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:53.671"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:53.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:54.667"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:54.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:55.666"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:55.691"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.684"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.745"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.750"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.756"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.761"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.775"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.790"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.794"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.797"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.800"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.809"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.819"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.844"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.852"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.875"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.878"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.900"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.903"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.908"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.912"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.924"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.926"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.932"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.938"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.946"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.955"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.966"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.969"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.974"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:56.987"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:22:57.004"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:00.993"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:04.997"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:05.671"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:09.675"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:10.672"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:13.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:14.675"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:15.674"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:17.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:18.680"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:19.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:20.675"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:21.686"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:22.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:23.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:24.677"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:25.676"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:25.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:26.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:27.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:28.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:29.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:29.690"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:30.679"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:30.691"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:31.689"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:32.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:33.684"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:33.697"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:34.683"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:34.696"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:35.680"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:35.692"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:36.686"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:37.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:38.684"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:38.698"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:39.683"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:39.693"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:40.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:40.694"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:41.692"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:42.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:43.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:43.698"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:44.684"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:44.698"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:45.682"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:45.693"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:46.688"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:47.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:48.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:48.700"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:49.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:49.695"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:50.685"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:50.691"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:51.690"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:52.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:53.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:53.698"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:54.687"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:54.695"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:55.686"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:55.690"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.700"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.738"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.743"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.791"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.808"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.810"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.813"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.815"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.834"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.837"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.850"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.854"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.856"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.871"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.878"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.896"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.898"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.916"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.920"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.922"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.934"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.940"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.943"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.945"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.958"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.969"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.972"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.974"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.984"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:56.991"}
+{"level":"error","message":"获取代币价格失败: No pair data found","service":"needlebot-ai","timestamp":"2026-03-02 11:23:57.002"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:00.980"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:00.995"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:05.693"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:09.697"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:10.697"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:13.699"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:14.699"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:15.697"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:17.701"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:18.700"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:19.700"}
+{"level":"error","message":"获取代币价格失败: getTokenPrice 失败，达到最大重试次数","service":"needlebot-ai","timestamp":"2026-03-02 11:24:20.700"}

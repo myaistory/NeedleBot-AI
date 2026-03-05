@@ -1,0 +1,201 @@
+{
+  "config": {
+    "initialBalance": 1000,
+    "startDate": "2024-01-01",
+    "endDate": "2024-01-31",
+    "timeFrame": "1h",
+    "commissionRate": 0.001,
+    "slippage": 0.002
+  },
+  "summary": {
+    "initialBalance": 1000,
+    "finalBalance": 1000,
+    "netProfit": 0,
+    "totalTrades": 12,
+    "winningTrades": 1,
+    "losingTrades": 5,
+    "winRate": 8.333333333333332,
+    "totalReturn": 0,
+    "totalProfit": 0.2317960488868973,
+    "totalLoss": 0.6361977378354968,
+    "profitFactor": 0.3643459181032696,
+    "maxDrawdown": 1.1015599467734345,
+    "sharpeRatio": -0.32882748217042124,
+    "avgProfit": 0.2317960488868973,
+    "avgLoss": 0.12723954756709938,
+    "profitLossRatio": 1.8217295905163478
+  },
+  "trades": [
+    {
+      "type": "ENTRY",
+      "success": true,
+      "symbol": "SOL",
+      "action": "BUY",
+      "price": 101.05080481074955,
+      "amount": 0.1,
+      "cost": 10.105080481074957,
+      "timestamp": 1771645437938,
+      "balance": 989.894919518925
+    },
+    {
+      "type": "EXIT",
+      "success": true,
+      "symbol": "SOL",
+      "action": "SELL",
+      "entryPrice": 101.05080481074955,
+      "exitPrice": 99.7443133271742,
+      "amount": 0.1,
+      "profit": -0.13064914835753605,
+      "profitPercent": -1.2929055696510185,
+      "timestamp": 1771649037938,
+      "balance": 999.8693508516425
+    },
+    {
+      "type": "ENTRY",
+      "success": true,
+      "symbol": "SOL",
+      "action": "BUY",
+      "price": 97.9696047758568,
+      "amount": 0.1,
+      "cost": 9.79696047758568,
+      "timestamp": 1771699437938,
+      "balance": 990.0723903740568
+    },
+    {
+      "type": "EXIT",
+      "success": true,
+      "symbol": "SOL",
+      "action": "SELL",
+      "entryPrice": 97.9696047758568,
+      "exitPrice": 100.28756526472577,
+      "amount": 0.1,
+      "profit": 0.2317960488868973,
+      "profitPercent": 2.365999632408644,
+      "timestamp": 1771703037938,
+      "balance": 1000.1011469005293
+    },
+    {
+      "type": "ENTRY",
+      "success": true,
+      "symbol": "SOL",
+      "action": "BUY",
+      "price": 103.20625037713253,
+      "amount": 0.1,
+      "cost": 10.320625037713254,
+      "timestamp": 1771800237938,
+      "balance": 989.780521862816
+    },
+    {
+      "type": "EXIT",
+      "success": true,
+      "symbol": "SOL",
+      "action": "SELL",
+      "entryPrice": 103.20625037713253,
+      "exitPrice": 98.90884367062111,
+      "amount": 0.1,
+      "profit": -0.4297406706511424,
+      "profitPercent": -4.16390159588978,
+      "timestamp": 1771811037938,
+      "balance": 999.6714062298781
+    },
+    {
+      "type": "ENTRY",
+      "success": true,
+      "symbol": "SOL",
+      "action": "BUY",
+      "price": 105.869729908268,
+      "amount": 0.1,
+      "cost": 10.586972990826801,
+      "timestamp": 1771847037938,
+      "balance": 989.0844332390514
+    },
+    {
+      "type": "EXIT",
+      "success": true,
+      "symbol": "SOL",
+      "action": "SELL",
+      "entryPrice": 105.869729908268,
+      "exitPrice": 105.869729908268,
+      "amount": 0.1,
+      "profit": 0,
+      "profitPercent": 0,
+      "timestamp": 1771847037938,
+      "balance": 999.6714062298781
+    },
+    {
+      "type": "ENTRY",
+      "success": true,
+      "symbol": "SOL",
+      "action": "BUY",
+      "price": 101.3887935802438,
+      "amount": 0.1,
+      "cost": 10.138879358024381,
+      "timestamp": 1771879437938,
+      "balance": 989.5325268718537
+    },
+    {
+      "type": "EXIT",
+      "success": true,
+      "symbol": "SOL",
+      "action": "SELL",
+      "entryPrice": 101.3887935802438,
+      "exitPrice": 100.63071439197562,
+      "amount": 0.1,
+      "profit": -0.07580791882681837,
+      "profitPercent": -0.7476952447098648,
+      "timestamp": 1771883037938,
+      "balance": 999.5955983110513
+    },
+    {
+      "type": "ENTRY",
+      "success": true,
+      "symbol": "SOL",
+      "action": "BUY",
+      "price": 102.2206808900737,
+      "amount": 0.1,
+      "cost": 10.22206808900737,
+      "timestamp": 1771937037938,
+      "balance": 989.3735302220439
+    },
+    {
+      "type": "EXIT",
+      "success": true,
+      "symbol": "SOL",
+      "action": "SELL",
+      "entryPrice": 102.2206808900737,
+      "exitPrice": 102.2206808900737,
+      "amount": 0.1,
+      "profit": 0,
+      "profitPercent": 0,
+      "timestamp": 1771937037938,
+      "balance": 999.5955983110513
+    }
+  ],
+  "charts": {
+    "equityCurve": [
+      1000,
+      989.894919518925,
+      999.8693508516425,
+      990.0723903740568,
+      1000.1011469005293,
+      989.780521862816,
+      999.6714062298781,
+      989.0844332390514,
+      999.6714062298781,
+      989.5325268718537,
+      999.5955983110513,
+      989.3735302220439,
+      999.5955983110513
+    ],
+    "tradeDistribution": {
+      "byProfit": {
+        "highProfit": 0,
+        "mediumProfit": 0,
+        "lowProfit": 1,
+        "loss": 5
+      },
+      "byTime": {}
+    }
+  },
+  "timestamp": "2026-02-25T03:43:57.943Z"
+}
